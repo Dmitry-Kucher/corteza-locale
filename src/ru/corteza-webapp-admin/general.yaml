@@ -1,0 +1,68 @@
+label:
+  add: Добавить
+  general:
+    yes: Да
+    no: Нет
+  template:
+    single: Шаблон
+    plural: Шаблоны
+  user:
+    single: Пользователь
+    plural: Пользователи
+  role:
+    single: Роль
+    plural: Роли
+  application:
+    single: Приложение
+    plural: Приложения
+  auth_client:
+    single: Клиент авторизации
+    plural: Клиенты авторизации
+  queue:
+    single: Очередь сообщений
+    plural: Очереди сообщений
+  route:
+    single: Маршрут
+    plural: Маршруты
+  connection:
+    single: Подключение к базе данных
+    plural: Подключения к базе данных
+  sensitivity_level:
+    single: Уровень конфиденциальности
+    plural: Уровни конфиденциальности
+  session:
+    single: Сессия
+    plural: Сессии
+  workflow:
+    single: Workflow
+    plural: Workflows
+  plus-add: + Добавить
+  clear: Очистить
+  all: Все
+  none: Нет
+  now: Сейчас
+  today: Сегодня
+  routes: Маршруты
+  requests: Запросы
+  refresh: Обновить
+  loadMore: Загрузить еще
+  loading: Загрузка
+  saveAndClose: Сохранить и закрыть
+  cancel: Отмена
+  submit: Отправить
+  delete: Удалить
+  undelete: Восстановить
+  fileTypeNotAllowed: Данный тип файла не поддерживается
+editor:
+  unsavedChanges:  Не сохраненные изменения будут потеряны. Вы действительно хотите покинуть страницу?
+resourceList:
+  pagination:
+    recordsPerPage: На странице
+themes:
+  labels:
+    light: Светлая
+    dark: Темная
+extendSession:
+  labels:
+    extend: Продлить сессию
+    warning: Вы будете выведены из системы через {{ countdownTime }} секунд

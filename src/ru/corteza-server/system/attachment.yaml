@@ -1,10 +1,9 @@
----
 errors:
-  failedToExtractMimeType: не удалось определить MIME-тип
-  failedToProcessImage: не удалось обработать изображение
-  failedToStoreFile: не удалось сохранить файл
-  invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания вложений
-  notAllowedToCreateEmptyAttachment: нет прав для создания пустых вложений
-  notAllowedToListAttachments: нет прав для просмотра вложений
-  notFound: вложение не найдено
+  failedToExtractMimeType: Не удалось определить MIME-тип
+  failedToProcessImage: Не удалось обработать изображение
+  failedToStoreFile: Не удалось сохранить файл
+  invalidID: Некорректный ID
+  notAllowedToCreate: Нет прав на создание вложений
+  notAllowedToCreateEmptyAttachment: Нет прав на создание пустого вложения
+  notAllowedToListAttachments: Нет прав на просмотр вложений
+  notFound: Вложение не найдено

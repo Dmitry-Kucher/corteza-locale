@@ -1,7 +1,6 @@
----
 list:
   columns:
     events: Срабатывает на событиях
-    label: Метка
-    name: Название
+    label: Ярлык
+    name: Имя
   title: Автоматизация Compose

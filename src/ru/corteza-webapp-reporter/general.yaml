@@ -1,6 +1,50 @@
----
 label:
-  add: + Добавить
+  add: Добавить
+  and: И
+  all: Все
+  ascending: По возрастанию
   back: Назад
+  clear: Очистить
+  cancel: Отмена
   delete: Удалить
+  descending: По убыванию
+  loading: Загрузка
+  name: Имя
+  none: Нет
+  now: Сейчас
+  ok: Ок
+  or: Или
+  openLinkInNewTab: Открыть ссылку в новой вкладке
   save: Сохранить
+  saveAndClose: Сохранить и закрыть
+  clone: Сохранить как копию
+  today: Сегодня
+  urlPlaceholder: https://example.tld
+  default: По умолчанию
+  report:
+    single: Отчёт
+    plural: Отчёты
+
+resourceList:
+  notFound: Не найдено
+  noItems: Нет данных для отображения
+  pagination:
+    next: Далее
+    prev: Назад
+    showing: '{{from}} - {{to}} из {{count}} {{data}}'
+    single_one: 'Один {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: На странице
+  clone: Клонировать
+
+themes:
+  labels:
+    light: Light
+    dark: Dark
+
+cloneSuffix: copy
+
+extendSession:
+  labels:
+    extend: Extend Session
+    warning: You will be logged out in {{ countdownTime }} seconds

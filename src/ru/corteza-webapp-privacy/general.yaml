@@ -1,0 +1,33 @@
+label:
+  back: Назад
+  all: Все
+  privacy_request:
+    single: Запрос на конфиденциальность
+    plural: Запросы на конфиденциальность
+  sensitive_module:
+    single: Чувствительный модуль
+    plural: Чувствительные модули
+
+resourceList:
+  loading: Загрузка
+  noItems: Нет элементов
+  notFound: Не найдено
+  search:
+    placeholder: Введите для поиска
+  pagination:
+    next: Далее
+    prev: Назад
+    showing: '{{from}} - {{to}} из {{count}} {{data}}'
+    single_one: 'Один {{data}}'
+    single_plural: '{{count}} {{data}}'
+    recordsPerPage: На странице
+
+themes:
+  labels:
+    light: Светлая
+    dark: Тёмная
+
+extendSession:
+  labels:
+    extend: Продлить сессию
+    warning: Вы будете выведены из системы через {{ countdownTime }} секунд

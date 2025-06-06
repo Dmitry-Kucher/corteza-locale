@@ -1,38 +1,46 @@
----
 dashboard: Дашборд
+
 system:
   group: Система
   items:
     users: Пользователи
     actionlog: Журнал действий
-    apigw: API шлюз
+    apigw: Интеграционный шлюз
     applications: Приложения
     authclients: Клиенты авторизации
-    permissions: Разрешения
+    connections: Подключения
+    code-snippets: Фрагменты кода
+    sensitivityLevel: Уровни конфиденциальности
+    permissions: Права
     queues: Очереди сообщений
     roles: Роли
-    settings: Настройки
+    settings: Настройки авторизации
+    email: Настройки email
     stats: Статистика
     templates: Шаблоны
+
 compose:
   group: Compose
   items:
     automation: Автоматизация
-    permissions: Разрешения
+    permissions: Права
     settings: Настройки
+
 automation:
   group: Автоматизация
   items:
-    permissions: Разрешения
+    permissions: Права
     scripts: Скрипты Corredor
     sessions: Сессии
-    workflows: Рабочие процессы
+    workflows: Workflows
+
 federation:
   group: Федерация
   items:
     nodes: Узлы
-    permissions: Разрешения
+    permissions: Права
+
 ui:
-  group: Пользовательский интерфейс
+  group: User interface
   items:
-    settings: Настройки
+    settings: Settings

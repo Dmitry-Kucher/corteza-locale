@@ -1,13 +1,12 @@
----
 errors:
   cannotRenderPartial: невозможно отобразить частичные шаблоны
-  invalidHandle: неверный идентификатор
+  invalidHandle: неверный псевдоним
   invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания шаблонов
-  notAllowedToDelete: нет прав для удаления этого шаблона
-  notAllowedToRead: нет прав для просмотра этого шаблона
-  notAllowedToRender: нет прав для отображения этого шаблона
-  notAllowedToSearch: нет прав для поиска или просмотра шаблонов
-  notAllowedToUndelete: нет прав для восстановления этого шаблона
-  notAllowedToUpdate: нет прав для изменения этого шаблона
+  notAllowedToCreate: нет прав создавать шаблоны
+  notAllowedToDelete: нет прав удалять этот шаблон
+  notAllowedToRead: нет прав просматривать этот шаблон
+  notAllowedToRender: нет прав отображать этот шаблон
+  notAllowedToSearch: нет прав искать или просматривать шаблоны
+  notAllowedToUndelete: нет прав восстанавливать этот шаблон
+  notAllowedToUpdate: нет прав обновлять этот шаблон
   notFound: шаблон не найден

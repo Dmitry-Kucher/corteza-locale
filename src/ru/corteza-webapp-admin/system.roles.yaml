@@ -1,26 +1,34 @@
----
 editor:
   info:
     archive: Архивировать
     archivedAt: Архивировано
     createdAt: Создано
+    createdBy: Создал
     delete: Удалить
     deletedAt: Удалено
     handle: Идентификатор
-    name: Имя роли
+    placeholder-handle: идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+    invalid-handle-characters: Должно быть не менее 2 символов. Допустимы только буквы, цифры, подчёркивания и точки. Должно заканчиваться буквой или цифрой
+    name: Имя роли *
     title: Основная информация
     unarchive: Разархивировать
     undelete: Восстановить
     updatedAt: Обновлено
+    description: Описание
+    context:
+      label: Контекстная роль
+      expression-label: Выражение
+      resource-types-label: Тип ресурса
+
   members:
     add: Добавить
     count: Участников ({{count}})
     remove: Удалить
-    searchUsers: Поиск пользователей
+    searchUsers: Найти пользователей
     title: Участники роли
     unnamed: Безымянный пользователь
-  new: Новый
-  permissions: Разрешения
+  new: Новая роль
+  permissions: Права
   title:
     create: Создать роль
     edit: Редактировать роль
@@ -28,9 +36,18 @@ list:
   columns:
     actions: ""
     createdAt: Создано
-    enabled: Включено
+    enabled: Включён
     handle: Идентификатор
     name: Имя
+    state: Состояние
+  delete: Удалить
+  undelete: Восстановить
+  archive: Архивировать
+  unarchive: Разархивировать
+  rows:
+    filters:
+      archived: Архивировано
+      deleted: Удалено
   filterForm:
     archived:
       label: архивированные роли
@@ -43,12 +60,12 @@ list:
     inclusive:
       label: Включая
     query:
-      label: Фильтр списка ролей
+      label: Фильтровать список ролей
       placeholder: Фильтровать роли по имени
   loading: Загрузка ролей
-  new: Новый
+  new: Новая роль
   numFound: '{{count}} роль найдена'
-  numFound_plural: '{{count}} ролей найдено'
-  permissions: Разрешения
+  numFound_plural: '{{count}} роли найдены'
+  permissions: Права
   title: Роли
   yaml: YAML

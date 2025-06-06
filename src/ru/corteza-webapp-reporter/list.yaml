@@ -1,4 +1,16 @@
----
-searchPlaceholder: Введите для поиска отчётов
+permissions: Права
+report:
+  builder: Конструктор отчётов
+  edit: Редактировать
+  list: Список отчётов
+  new: Новый отчёт
+  delete: Удалить
+searchPlaceholder: Введите текст для поиска отчётов
 title: Отчёты
+tooltip:
+  permissions: Права отчёта
 untitledTitle: Безымянный отчёт
+columns:
+  name: Имя
+  handle: Идентификатор
+  changedAt: Последнее изменение

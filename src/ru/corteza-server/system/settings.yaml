@@ -1,0 +1,8 @@
+errors:
+  notAllowedToRead: нет прав просматривать этот параметр
+  notAllowedToManage: нет прав управлять этим параметром
+  invalidPasswordMinLength: минимальная длина пароля должна быть не менее 8 символов
+  invalidPasswordMinUpperCase: минимальное количество заглавных букв не может быть отрицательным
+  invalidPasswordMinLowerCase: минимальное количество строчных букв не может быть отрицательным
+  invalidPasswordMinNumCount: минимальное количество цифр не может быть отрицательным
+  invalidPasswordMinSpecialCharCount: минимальное количество специальных символов не может быть отрицательным

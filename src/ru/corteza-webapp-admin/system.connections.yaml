@@ -1,0 +1,113 @@
+primary:
+  title: Основная база данных
+  name: Имя
+  handle: Идентификатор
+  location: Расположение
+  ownership: Владелец
+  sensitivity-level: Уровень конфиденциальности
+
+list:
+  title: Список подключений к базе данных
+  add-button: Новое подключение
+  loading: Загрузка подключений
+  filterForm:
+    deleted:
+      label: удалённые подключения
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    inclusive:
+      label: Включая
+  columns:
+    name: Имя
+    location: Расположение
+    ownership: Владелец
+    createdAt: Создано
+    actions: ''
+  delete: Удалить
+  undelete: Восстановить
+
+editor:
+  title:
+    edit: Редактировать подключение
+    create: Новое подключение
+  basic:
+    title: Основные настройки
+    form:
+      name:
+        label: Имя *
+        placeholder: Data lake
+        description: ''
+      handle:
+        label: Идентификатор
+        placeholder: simplified_connection_name
+        description:
+        invalid-characters: Должно быть не менее 2 символов. Может содержать только буквы, цифры, подчеркивания и точки. Должно заканчиваться буквой или цифрой
+      location-name:
+        label: Название расположения
+        placeholder: Название места, где хранятся данные
+        description: Название города, страны, континента и т. д.
+      location-geometry:
+        label: Координаты расположения
+        description: Координаты места, где хранятся данные
+        placeholder:
+      ownership:
+        label: Владелец
+        placeholder: ACME ltd.
+        description: Название компании или человека, владеющего данными
+      sensitivity-level:
+        label: Наивысший допустимый уровень конфиденциальности
+        placeholder: Выберите уровень конфиденциальности
+        description: Наивысший допустимый уровень конфиденциальности для хранимых данных (установленный на полях модуля, использующего это подключение)
+
+  properties:
+    title: Свойства подключения и базы данных
+    form:
+      data-at-rest-encryption:
+        checkbox:
+          label: Включено шифрование данных при хранении
+        notes:
+          label: Примечания к шифрованию
+          description: Внутренние примечания к шифрованию данных при хранении (шифрование диска)
+      data-at-rest-protection:
+        checkbox:
+          label: Предоставлена защита данных при хранении
+        notes:
+          label: Примечания к защите данных при хранении
+          description: Внутренние примечания к защите данных при хранении (физическая защита)
+      data-at-transit-encryption:
+        checkbox:
+          label: Включено шифрование данных при передаче
+        notes:
+          label: Примечания к шифрованию данных при передаче (шифрование сети)
+          description: Внутренние примечания к шифрованию данных при передаче (шифрование сети)
+      data-restoration:
+        checkbox:
+          label: Реализована резервное копирование и восстановление данных при хранении
+        notes:
+          label: Примечания к восстановлению данных
+          description: Внутренние примечания к восстановлению данных
+
+  dal:
+    title: Конфигурация слоя доступа к данным и параметры подключения
+    form:
+      model-ident:
+        label: Идентификатор таблицы или контейнера по умолчанию
+        placeholder: compose_record
+        description: |
+          Идентификатор может содержать плейсхолдеры, такие как {{module}} (заменяется на идентификатор модуля) и/или {{namespace}} (заменяется на идентификатор пространства имен).
+          Когда он установлен, он используется в качестве значения по умолчанию для модулей без настроенного идентификатора.
+
+      type:
+        label: Тип подключения и параметра
+        placeholder: corteza::dal:connection:dsn
+        description: Тип подключения и параметра, например corteza::dal:connection:dsn
+
+      params:
+        label: Параметры подключения
+        placeholder: postgres://user:pass@host:port/dbname
+        description: 'Параметры подключения, например: {"dsn": "postgres://user:pass@host:port/dbname"}'
+
+    connectivity-issues: Проблемы подключения
+    no-access-warning: Нет разрешений на управление конфигурацией слоя доступа к данным и параметрами подключения для этого подключения

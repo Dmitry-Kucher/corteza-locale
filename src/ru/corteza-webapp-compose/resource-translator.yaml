@@ -1,0 +1,29 @@
+translator:
+  save-changes: Сохранить
+  add-language: Добавить язык
+  missing-translation: Отсутствует перевод
+
+resources:
+  chart:
+    title: Диаграмма "{{ handle }}"
+    tooltip: Переводы диаграммы
+  namespace:
+    title: Пространство имён "{{ handle }}"
+    tooltip: Переводы пространства имён
+  module:
+    title: Модуль "{{ handle }}"
+    tooltip: Переводы модуля
+    field:
+      title: Поле модуля "{{ name }}"
+      tooltip: Переводы поля
+  page:
+    title: Страница "{{ handle }}"
+    tooltip: Переводы страницы
+    block:
+      title: "Блок страницы #{{ blockID }}"
+      tooltip: Переводы блока
+    layout:
+      title: Макет страницы "{{ handle }}"
+  page-layout:
+    title: Макет страницы "{{ handle }}"
+    tooltip: Переводы макета страницы

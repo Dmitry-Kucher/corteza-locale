@@ -1,0 +1,37 @@
+'basic-controls':
+  action:
+    deselect: Снять выделение
+    pan: Перемещение
+    select: Выделить
+    'select-multiple': Множественный выбор
+    'zoom-in/out': Увеличить/уменьшить
+  shortcut:
+    'left-click':
+      background: ЛКМ по фону
+      drag: ЛКМ + перетаскивание
+      label: ЛКМ
+    'mouse-wheel': Колёсико мыши
+    'right-click-drag': ПКМ + перетаскивание
+'basic-controls-label': Основные элементы управления
+'keyboard-shortcuts':
+  action:
+    'add-selection': Добавить к выбору
+    copy: Копировать
+    cut: Вырезать
+    'delete-selected-elements': Удалить выбранное
+    nudge: Сдвиг
+    paste: Вставить
+    redo: Повторить
+    save: Сохранить
+    'hide-guides': Скрыть направляющие
+    'show-help': Показать справку
+    'reset-view-to-start-point': Сбросить вид к началу
+    'select-all': Выделить всё
+    undo: Отменить
+  shortcut:
+    'adjust-distance': для регулировки расстояния
+    'arrow-keys': Стрелки — использовать
+    hold: Удерживать
+    'left-mouse-button': левая кнопка мыши
+'keyboard-shortcuts-label': Клавиатурные сокращения
+'mac-users': Если используете клавиатуру MAC, замените Ctrl на CMD

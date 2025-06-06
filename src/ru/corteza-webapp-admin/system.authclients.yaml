@@ -1,25 +1,27 @@
----
 editor:
   info:
     add: Добавить
     api: Разрешить клиенту доступ к API Corteza от имени пользователя
     choose-date: Выберите дату
     createdAt: Создано
+    createdBy: Создал
     delete: Удалить
     deletedAt: Удалено
     enabled:
-      disabledFootnote: Невозможно отключить клиента по умолчанию
-      label: Включено
+      disabledFootnote: Невозможно отключить клиент по умолчанию
+      label: Включён
     expiresAt:
-      description: Если не задано, клиент не имеет срока действия
-      label: Действителен до
+      description: Если не указано, клиент не имеет срока действия
+      label: Истекает
     grant:
       authorization_code: Используется для аутентификации пользователей (grant type = authorization_code)
       client_credentials: Используется для аутентификации машин (grant type = client_credentials)
     handle:
       disabledFootnote: Невозможно изменить идентификатор клиента по умолчанию
       label: Идентификатор
-    name: Имя
+      placeholder-handle: идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+      invalid-handle-characters: Должно быть не менее 2 символов. Допустимы только буквы, цифры, подчёркивания и точки. Должно заканчиваться буквой или цифрой
+    name: Имя *
     no-time: Время не выбрано
     profile: Разрешить клиенту доступ к профилю пользователя
     redirectURI: URI перенаправления
@@ -27,34 +29,43 @@ editor:
     secret: Секрет
     security:
       prohibitedRoles:
-        description: Роли из этого списка будут удалены из контекста безопасности при авторизации клиента
+        description: Роли из этого списка будут удалены из контекста безопасности при авторизации пользователя
         label: Запрещённые роли
       forcedRoles:
-        description: Роли из этого списка всегда будут добавлены в контекст безопасности при авторизации клиента
+        description: Роли из этого списка всегда будут добавлены в контекст безопасности при авторизации пользователя
         label: Принудительные роли
       impersonateUser:
-        description: При аутентификации по client credentials действовать от имени указанного пользователя
-        label: Имя пользователя для имитации
+        description: При аутентификации через client credentials действовать от имени выбранного пользователя
+        placeholder: Выберите пользователя
+        label: Имя пользователя для подмены
       permittedRoles:
-        description: Только эти роли будут добавлены в контекст безопасности при авторизации клиента
+        description: Только роли из этого списка будут добавлены в контекст безопасности при авторизации пользователя
         label: Разрешённые роли
     title: Основная информация
+    tooltip:
+      regenerate-secret: Сгенерировать секрет
+      reset-value: Сбросить значение
+      show-client-secret: Показать секрет клиента
+      hide-client-secret: Скрыть секрет клиента
+      copy-access-token: Копировать токен доступа
+      copy-cURL: Копировать cURL
     trusted:
-      description: Если клиент доверенный, пользователи не увидят шаг авторизации
+      description: Когда клиент доверенный, пользователи не видят шаг авторизации
       label: Доверенный
     undelete: Восстановить
     unnamed: Безымянная роль
     updatedAt: Обновлено
     uri: URI
     validFrom:
-      description: Если не задано, клиент действителен до истечения срока
-      label: Действует с
-    generateCurl: Сгенерировать cURL
-    hideCurl: Скрыть cURL
-    cUrl: Сгенерированный cURL
-    testCurl: Тест авторизации
-  new: Новый
-  permissions: Разрешения
+      description: Если не указано, клиент действителен до истечения срока
+      label: Действителен с
+    cUrl: Пример cURL
+    accessToken: Токен доступа
+    generateAccessToken: Сгенерировать токен доступа
+    discovery: Разрешить клиенту доступ к API Corteza Discovery от имени пользователя
+    openid: Разрешить клиенту использовать OIDC и проверять идентичность пользователя
+  new: Новый клиент аутентификации
+  permissions: Права доступа
   title:
     create: Создать клиента
     edit: Редактировать клиента
@@ -62,10 +73,14 @@ list:
   columns:
     actions: ""
     createdAt: Создано
-    enabled: Включено
+    enabled: Включён
     handle: Идентификатор
     meta:
       name: Имя
+    state: Состояние
+  rows:
+    filters:
+      deleted: Удалено
   filterForm:
     deleted:
       label: удалённые клиенты
@@ -76,12 +91,14 @@ list:
     inclusive:
       label: Включая
     query:
-      label: Фильтр списка клиентов
+      label: Фильтровать список клиентов
       placeholder: Фильтровать клиентов
   loading: Загрузка клиентов
-  new: Новый
+  new: Новый клиент аутентификации
   numFound: '{{count}} клиентов найдено'
   numFound_plural: '{{count}} клиентов найдено'
-  permissions: Разрешения
+  permissions: Права доступа
   title: Клиенты аутентификации
   yaml: YAML
+  delete: Удалить
+  undelete: Восстановить

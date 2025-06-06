@@ -1,20 +1,152 @@
----
+page-layout:
+  layouts: Макеты
+  title: Заголовок *
+  handle: Идентификатор
+  add: Добавить макет
+  configure: 'Настроить макет — "{{title}}"'
+  visibility: Видимость
+  general: Общие
+  useTitle: Использовать заголовок макета
+  tooltip:
+    title: Использовать заголовок макета вместо заголовка страницы по умолчанию. Переменные {{0}}, {{1}}, {{2}} и {{3}} будут подставлены (если доступны)
+    configure: Настроить макет
+    builder: Открыть макет в редакторе
+    performance:
+      condition: Использование условий видимости влияет на производительность
+  condition:
+    label: Условие
+    placeholder: Когда макет будет показан
+    description:
+      record-page: "Можно использовать {{0}}, {{1}}, {{2}}, {{3}} в выражении, например: {{4}} или {{5}}"
+      non-record-page: "Можно использовать {{0}}, {{1}} в выражении, например: {{2}} или {{3}}"
+  roles:
+    label: Роли
+    placeholder: Выберите роли, которым будет виден макет
+  recordToolbar:
+    label: Панель инструментов записи
+    buttons:
+      label: Кнопки
+      showBack: Показывать кнопку "Назад"
+      showDelete: Показывать кнопку "Удалить"
+      showClone: Показывать кнопку "Сохранить как копию"
+      showNew: Показывать кнопку "Добавить"
+      showEdit: Показывать кнопку "Редактировать"
+      showSave: Показывать кнопку "Сохранить"
+    actions:
+      label: Действия
+      add: Добавить действие
+      buttonLabel: Подпись
+      variant: Вариант
+      visible: Видимо
+      kind:
+        label: Тип
+        toLayout: Перенаправить на макет
+        toURL: Перенаправить на URL
+      placement:
+        label: Расположение
+        start: Начало
+        center: Центр
+        end: Конец
+      openIn:
+        label: Открыть в
+        sameTab: Той же вкладке
+        newTab: Новой вкладке
+      toLayout:
+        label: Перенаправить на макет
+        placeholder: Макет не выбран
+      toURL:
+        label: Перенаправить на URL
+        placeholder: URL не указан
+
+block:
+  general:
+    label:
+      cancel: Отмена
+      noHandle: Нет идентификатора
+      pageBuilder: Редактор страниц
+      saveAndClose: Сохранить и закрыть
+    placeholder:
+      handle: Уникальный идентификатор (a - z, 0 - 9, подчеркивание, дефис)
+      sample: Пример
+    title: Добавить новый блок
+    invalid-handle-characters: Должно быть не менее 2 символов. Может содержать только буквы, цифры, подчеркивания и точки. Должно заканчиваться буквой или цифрой
+changeBlock: Изменить существующий блок
+referencedBlock: Этот блок используется в других макетах
+copyOf: "Копия {{title}}"
 build:
   addBlock: Добавить блок
-  selectBlockFootnote: Некоторые типы могут быть отключены для страниц, не являющихся записями
   selectBlockTitle: Выберите тип нового блока
-createLabel: Создать страницу
+  saveAsCopy:
+    ref: С ссылками
+    noRef: Без ссылок
 edit:
   create: Создать страницу
   edit: Редактировать страницу
+  otherOptions: Другие варианты
   pageDescription: Описание страницы
-  visible: Видимость страницы
+  visible: Видима ли страница
+  notifications:
+    enabled: Показывать уведомления о сохранении записи
+icon:
+  configure: Настроить иконку страницы
+  noIcon: Нет иконки
+  page: Иконка страницы
+  upload: Загрузить иконку
+  list: Загруженные иконки
+  delete: Удалить выбранную иконку
+url:
+  label: Или добавить URL к иконке
 import: 'Импортировать страницу(ы):'
-instructions: Перетащите страницы, чтобы изменить порядок и иерархию.
+instructions: Перетащите страницы, чтобы изменить порядок и иерархию
 invalid: Недопустимая конфигурация
-newPlaceholder: Заголовок страницы
-noBlock: Блок еще не добавлен
+label:
+  title: Заголовок *
+  cancel: Отмена
+  description: Описание
+  handle: Идентификатор
+  pageBuilder: Редактор страниц
+  permissions: Права доступа
+  saveAndClose: Сохранить и закрыть
+  delete: Удалить блок
+  createPage: Создать страницу
+placeholder:
+  title: Заголовок страницы (например, "Клиенты")
+loading: Загрузка
+moduleEdit: Редактировать модуль
+navigation:
+  page: Страницы
+  viewPage: Просмотреть страницу
+noBlock: Нет добавленных блоков
+noPages: Нет страниц
 notVisible: Скрыто
+pageMoveFailed: Не удалось переместить эту страницу
+reordered: Страница переупорядочена
+showSubPages: Развернуть подстраницы в боковой панели
+customTitle: Использовать пользовательский заголовок
 title: Список страниц
-view: Просмотр
+tooltip:
+  view: Просмотреть страницу
+  edit:
+    page: Редактировать страницу
+    block: Редактировать блок
+  copy:
+    block: Копировать блок
+  clone:
+    block: Клонировать блок
+  delete:
+    block: Удалить блок
+  preview-link: Ссылка для预览
+  saveAsCopy: Cannot duplicate record page
+view: Просмотреть
 visible: Видимо
+delete:
+  rebase: Обновить родителя подстраниц
+  cascade: Удалить подстраницы
+public:
+  record:
+    create:
+      title: Создание записи для модуля "{{name}}"
+    edit:
+      title: Редактирование записи для модуля "{{name}}"
+    view:
+      title: Просмотр записи для модуля "{{name}}"

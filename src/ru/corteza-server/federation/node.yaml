@@ -1,11 +1,10 @@
----
 errors:
-  notAllowedToCreate: нет прав для создания узлов
-  notAllowedToManage: нет прав для управления этим узлом
-  notAllowedToPair: нет прав для связывания этого узла
-  notAllowedToSearch: нет прав для поиска или просмотра узлов
+  notAllowedToCreate: нет прав создавать узлы
+  notAllowedToManage: нет прав управлять этим узлом
+  notAllowedToPair: нет прав связывать этот узел
+  notAllowedToSearch: нет прав искать или просматривать узлы
   notFound: узел не существует
-  pairingTokenInvalid: неверный токен связывания
-  pairingURIInvalid: 'неверный URI связывания: {err}'
+  pairingTokenInvalid: недопустимый токен связывания
+  pairingURIInvalid: 'недопустимый URI связывания: {err}'
   pairingURISourceIDInvalid: URI связывания без ID исходного узла
-  pairingURITokenInvalid: URI связывания с неверным токеном
+  pairingURITokenInvalid: URI связывания с недопустимым токеном

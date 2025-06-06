@@ -1,0 +1,69 @@
+clear: Очистить
+description: Описание
+enabled: Включено
+enable: Включить
+disable: Отключить
+error: Ошибка
+error-expression: Сообщение об ошибке (выражение)
+export: Экспортировать
+general: Общие
+handle: Идентификатор
+import:
+  json: Импортировать JSON
+  label: Импорт
+  reassign-run-as: "ПРИМЕЧАНИЕ: свойство 'Выполнять как' не будет импортировано и должно быть назначено повторно"
+  upload-files: Перетащите или выберите файлы для загрузки...
+label:
+  all: Все
+  label: Метка
+loading: Загрузка
+name: Имя
+new-workflow: Новый рабочий процесс
+none: Нет
+now: Сейчас
+offset: Смещение
+offset-expression: Смещение (выражение)
+permissions: Права
+searchPlaceholder: Введите текст для поиска рабочих процессов...
+subworkflow: Вложенный процесс
+subworkflows: Вложенные процессы
+deleted: Удалено
+disabled: Отключено
+without: Без
+only: Только
+including: Включая
+workflow-list: Список рабочих процессов
+workflow:
+  single: Рабочий процесс
+  plural: Рабочие процессы
+save: Сохранить
+today: Сегодня
+cancel: Отмена
+resourceList:
+  notFound: Не найдено
+  noItems: Нет элементов для отображения
+  pagination:
+    next: Далее
+    prev: Предыдущий
+    showing: '{{from}} - {{to}} из {{count}} {{data}}'
+    single_one: 'Один {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: На странице
+
+tooltip:
+  permissions: Права рабочего процесса
+columns:
+  name: Имя
+  enabled: Включено
+  steps: Шаги
+  changedAt: Последнее изменение
+
+themes:
+  labels:
+    light: Светлый
+    dark: Тёмный
+
+extendSession:
+  labels:
+    extend: Продлить сеанс
+    warning: Вы будете выведены из системы через {{ countdownTime }} секунд

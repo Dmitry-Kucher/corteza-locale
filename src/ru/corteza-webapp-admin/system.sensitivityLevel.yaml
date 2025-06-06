@@ -1,0 +1,45 @@
+editor:
+  new: Новый уровень конфиденциальности
+  title:
+    create: Создать уровень конфиденциальности
+    edit: Редактировать уровень конфиденциальности
+  info:
+    title: Основная информация
+    handle:
+      label: Идентификатор
+      placeholder: идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+      invalid-characters: Должно быть не менее 2 символов. Допустимы только буквы, цифры, подчёркивания и точки. Должно заканчиваться буквой или цифрой
+    name: Имя *
+    description: Описание
+    level: Уровень {{level}}
+    createdAt: Создано
+    createdBy: Создал
+    delete: Удалить
+    deletedAt: Удалено
+    undelete: Восстановить
+    updatedAt: Обновлено
+
+list:
+  title: Уровни конфиденциальности
+  loading: Загрузка уровней конфиденциальности
+  new: Новый уровень конфиденциальности
+  columns:
+    actions: ''
+    'meta.name': Имя
+    level: Уровень
+    createdAt: Создано
+    state: Состояние
+  delete: Удалить
+  undelete: Восстановить
+  rows:
+    filters:
+      deleted: Удалено
+  filterForm:
+    deleted:
+      label: удалённые уровни конфиденциальности
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    inclusive:
+      label: Включая

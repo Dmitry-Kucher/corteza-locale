@@ -1,4 +1,3 @@
----
 template:
   title: Авторизация
   form:
@@ -6,10 +5,10 @@ template:
     question-for-client: хочет выполнять действия на этом сервере Corteza от вашего имени.
     buttons:
       allow: Разрешить
-      deny: Отклонить
+      deny: Запретить
   links:
-    mistake: Если это ошибка, пожалуйста, <a href="{{link}}">выйдите</a>.
+    mistake: Если это ошибка, пожалуйста, <a data-test-id="link-logout" href="{{link}}">выйдите из системы</a>.
   errors:
-    invalid-user: Нельзя продолжить с неавторизованной почтой, посетите <a href="{{link}}">ваш профиль</a> и решите проблему.
+    invalid-user: Нельзя продолжить с неподтверждённой почтой, перейдите в <a data-test-id="link-redirect-to-profile" href="{{link}}">ваш профиль</a> и решите проблему.
 alerts:
-  denied: невозможно авторизовать {{client}}, нет разрешений.
+  denied: 'Не удалось авторизовать {{client}}: недостаточно прав'

@@ -1,15 +1,14 @@
----
 automation:
   add: Добавить скрипт
   edit:
-    asyncHelp: Не ждать результатов и игнорировать ошибки. Несовместимо с критическим флагом.
-    asyncLabel: Запускать этот скрипт асинхронно
+    asyncHelp: Не ждать результата и игнорировать ошибки. Несовместимо с флагом критичности.
+    asyncLabel: Запустить этот скрипт асинхронно
     codeTabLabel: Код
-    criticalHelp: Ждать выполнения этого скрипта. В случае ошибок прервать выполнение других скриптов и before* триггера
-    criticalLabel: Критический скрипт
+    criticalHelp: Ждать выполнения скрипта. В случае ошибки прервать выполнение других скриптов и before* триггера
+    criticalLabel: Критичный скрипт
     delete: Удалить скрипт
     enabledHelp: Отключённые скрипты будут игнорироваться
-    enabledLabel: Включено
+    enabledLabel: Включён
     mailAutomationTriggers:
       addMatcher: Добавить условие
       addTrigger: Добавить триггер
@@ -22,7 +21,7 @@ automation:
           bcc: BCC
           cc: CC
           from: Отправитель
-          placeholder: Поле заголовка письма
+          placeholder: Заголовок письма
           replyTo: Ответить
           subject: Тема
           to: Кому
@@ -34,35 +33,35 @@ automation:
           regex: Регулярное выражение
           suffix-ci: Совпадение по суффиксу
           user: Существующий пользователь
-      tabLabel: Почтовые триггеры
-    nameLabel: Название
-    namePlaceholder: Название скрипта автоматизации
-    runAsCurrentUser: Запускать от имени "{{ user }}"
+      tabLabel: Триггеры почты
+    nameLabel: Имя
+    namePlaceholder: Имя скрипта автоматизации
+    runAsCurrentUser: Запустить как "{{ user }}"
     runAsHelp: Исполнитель скрипта
     scheduledTriggers:
-      tabLabel: По расписанию
-    securityLabel: Безопасность
-    settingsTabLabel: Настройки
-    timeoutHelp: Сколько времени ждать до прерывания скрипта? Значение в миллисекундах (1000мс = 1с). По умолчанию (0) — 2с, максимум — 30с. Уточните у администратора точные значения и ограничения.
-    timeoutLabel: Таймаут выполнения скрипта
+      tabLabel: Scheduled
+    securityLabel: Security
+    settingsTabLabel: Settings
+    timeoutHelp: How much time do we wait before aborting the script? Value in milliseconds (1000ms = 1s). It defaults (when 0) to 2s with 30s as maximum. Consult with your administrator for exact numbers and limitations.
+    timeoutLabel: Script execution timeout
     timeoutPlaceholder: "1500"
-    title: Скрипт автоматизации
-    userPickerPlaceholder: Выберите пользователя
-  import: Импортировать скрипт(ы) автоматизации
+    title: Automation script
+    userPickerPlaceholder: Select user
+  import: Import automation script(s)
   list:
     column:
       label:
-        async: Асинхр.
-        critical: Критический
-        enabled: Включено
+        async: Асинхронно
+        critical: Критичный
+        enabled: Включён
         runAs: Запускать как
         runInUA: В браузере
     unnamed: (Безымянный скрипт)
-  manage: Управление скриптами автоматизации ({{count}})
-  manage-id-permissions: Управлять разрешениями для этого скрипта
-  manage-wc-permissions: Управлять разрешениями для всех скриптов
+  manage: Управлять скриптами автоматизации ({{count}})
+  manage-id-permissions: Управлять правами для этого скрипта
+  manage-wc-permissions: Управлять правами для всех скриптов
   newLabel: Создать новый скрипт
-  newPlaceholder: Название скрипта
+  newPlaceholder: Имя скрипта
   testing:
     load: Загрузить
     parametersHeadline: 'Параметры и данные:'
@@ -72,17 +71,25 @@ automation:
     warning: ""
   title: Список скриптов автоматизации
 general:
+  resource-list:
+    no-items: Нет совпадений по вашему запросу
   notFound: 'Не найдено'
+  loading: Загрузка
   label:
     "no": "Нет"
     submit: Отправить
     "yes": "Да"
+    selectOption: "Пожалуйста, выберите вариант"
   logout: Выйти
   noAccess: У вас нет прав для доступа к панели администратора
   pagination:
     next: Далее
-    prev: Назад
+    prev: Предыдущая
+    showing: '{{from}} - {{to}} из {{count}} {{data}}'
+    single_one: 'Один {{data}}'
+    single_other: '{{count}} {{data}}'
 navigation:
+  appMenu: Меню
   adminPanel: Панель администратора
   automation: Автоматизация
   chart: Диаграммы
@@ -100,173 +107,11 @@ navigation:
   publicPages: Публичные страницы
   userSettings:
     changePassword: Сменить пароль
-    loggedInAs: Вход выполнен как {{user}}
+    loggedInAs: Вы вошли как {{user}}
     logout: Выйти
     profile: Профиль
-permission:
-  automationWorkflow:
-    all: все рабочие процессы
-    operations:
-      delete:
-        description: 'По умолчанию: запретить'
-        specific: Удалить этот рабочий процесс
-        title: Удалить любой рабочий процесс
-      execute:
-        description: 'По умолчанию: запретить'
-        specific: Выполнить этот рабочий процесс
-        title: Выполнить любой рабочий процесс
-      read:
-        description: 'По умолчанию: запретить'
-        specific: Читать этот рабочий процесс
-        title: Читать любой рабочий процесс
-      sessionsManage:
-        description: 'По умолчанию: запретить'
-        specific: Управлять сессиями для этого процесса
-        title: Управлять всеми сессиями
-      triggersManage:
-        description: 'По умолчанию: запретить'
-        specific: Управлять триггерами для этого процесса
-        title: Управлять всеми триггерами
-      undelete:
-        description: 'По умолчанию: запретить'
-        specific: Восстановить этот рабочий процесс
-        title: Восстановить любой рабочий процесс
-      update:
-        description: 'По умолчанию: запретить'
-        specific: Обновить этот рабочий процесс
-        title: Обновить любой рабочий процесс
-    specific: рабочий процесс "{{target}}"
-  base:
-    compose: Compose
-    system: Система
-  resetBack: Сбросить к "{{current}}"
-  saveChanges: Сохранить изменения
-  setFor: Установить разрешения для {{target}}
-  systemApplication:
-    all: все приложения
-    operations:
-      delete:
-        description: 'По умолчанию: запретить'
-        specific: Удалить {{target}}
-        title: Удалить любое приложение
-      read:
-        description: 'По умолчанию: запретить'
-        specific: Читать {{target}}
-        title: Читать любое приложение
-      update:
-        description: 'По умолчанию: запретить'
-        specific: Обновить {{target}}
-        title: Обновить любое приложение
-    specific: приложение "{{target}}"
-  systemApigwRoute:
-    all: все маршруты
-    operations:
-      delete:
-        description: 'По умолчанию: запретить'
-        specific: Удалить {{target}}
-        title: Удалить любой маршрут
-      read:
-        description: 'По умолчанию: запретить'
-        specific: Читать {{target}}
-        title: Читать любой маршрут
-      update:
-        description: 'По умолчанию: запретить'
-        specific: Обновить {{target}}
-        title: Обновить любой маршрут
-    specific: маршрут "{{target}}"
-  systemAuthClient:
-    all: все auth-клиенты
-    operations:
-      authorize:
-        description: 'Пользователь может авторизовать (использовать) этот клиент. По умолчанию: запретить'
-        specific: Авторизовать клиента "{{target}}"
-        title: Авторизовать любой клиент
-      delete:
-        description: 'По умолчанию: запретить'
-        specific: Удалить клиента "{{target}}"
-        title: Удалить любой клиент
-      read:
-        description: 'По умолчанию: запретить'
-        specific: Читать клиента "{{target}}"
-        title: Читать любой клиент
-      update:
-        description: 'По умолчанию: запретить'
-        specific: Обновить клиента "{{target}}"
-        title: Обновить любой клиент
-    specific: auth-клиент "{{target}}"
-  systemRole:
-    all: все роли
-    operations:
-      delete:
-        description: 'По умолчанию: запретить'
-        specific: Удалить {{target}}
-        title: Удалить любую роль
-      membersManage:
-        description: 'По умолчанию: запретить'
-        specific: Управлять участниками для {{target}}
-        title: Управлять участниками для любой роли
-      read:
-        description: 'По умолчанию: запретить'
-        specific: Читать {{target}}
-        title: Читать любую роль
-      update:
-        description: 'По умолчанию: запретить'
-        specific: Обновить {{target}}
-        title: Обновить любую роль
-    specific: роль "{{target}}"
-  systemTemplate:
-    all: все шаблоны
-    operations:
-      delete:
-        description: 'По умолчанию: запретить'
-        specific: Удалить {{target}}
-        title: Удалить любой шаблон
-      read:
-        description: 'По умолчанию: запретить'
-        specific: Читать {{target}}
-        title: Читать любой шаблон
-      render:
-        description: 'По умолчанию: запретить'
-        specific: Отрисовать {{target}}
-        title: Отрисовать любой шаблон
-      update:
-        description: 'По умолчанию: запретить'
-        specific: Обновить {{target}}
-        title: Обновить любой шаблон
-    specific: шаблон "{{target}}"
-  systemUser:
-    all: все пользователи
-    operations:
-      delete:
-        description: 'По умолчанию: запретить'
-        specific: Удалить {{target}}
-        title: Удалить любого пользователя
-      emailUnmask:
-        description: 'По умолчанию: запретить'
-        specific: Показать электронную почту для {{target}}
-        title: Показать электронную почту для любого пользователя
-      impersonate:
-        description: 'По умолчанию: запретить'
-        specific: Выдать себя за этого пользователя {{target}}
-        title: Выдать себя за любого пользователя
-      nameUnmask:
-        description: 'По умолчанию: запретить'
-        specific: Показать имя для {{target}}
-        title: Показать имя для любого пользователя
-      read:
-        description: 'По умолчанию: запретить'
-        specific: Читать {{target}}
-        title: Читать любого пользователя
-      suspend:
-        description: 'По умолчанию: запретить'
-        specific: Заблокировать {{target}}
-        title: Заблокировать любого пользователя
-      unsuspend:
-        description: 'По умолчанию: запретить'
-        specific: Разблокировать {{target}}
-        title: Разблокировать любого пользователя
-      update:
-        description: 'По умолчанию: запретить'
-        specific: Обновить {{target}}
-        title: Обновить любого пользователя
-    specific: пользователь "{{target}}"
+picker:
+  role:
+    placeholder: Начните вводить для поиска ролей
+  member:
+    placeholder: Начните вводить для поиска пользователей

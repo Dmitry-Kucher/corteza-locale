@@ -1,16 +1,15 @@
----
 errors:
-  handleNotUnique: идентификатор роли не уникален
-  invalidHandle: неверный идентификатор
-  invalidID: неверный ID
-  nameNotUnique: имя роли не уникально
-  notAllowedToArchive: нет прав для архивирования этой роли
-  notAllowedToCreate: нет прав для создания ролей
-  notAllowedToDelete: нет прав для удаления этой роли
-  notAllowedToManageMembers: нет прав для управления участниками роли
-  notAllowedToRead: нет прав для просмотра этой роли
-  notAllowedToSearch: нет прав для поиска или просмотра ролей
-  notAllowedToUnarchive: нет прав для разархивирования этой роли
-  notAllowedToUndelete: нет прав для восстановления этой роли
-  notAllowedToUpdate: нет прав для изменения этой роли
-  notFound: роль не найдена
+  handleNotUnique: Указанный идентификатор роли уже используется
+  invalidHandle: Некорректный идентификатор
+  invalidID: Некорректный ID
+  nameNotUnique: Имя роли уже используется
+  notAllowedToArchive: Нет прав на архивирование этой роли
+  notAllowedToCreate: Нет прав на создание ролей
+  notAllowedToDelete: Нет прав на удаление этой роли
+  notAllowedToManageMembers: Нет прав на управление участниками роли
+  notAllowedToRead: Нет прав на просмотр этой роли
+  notAllowedToSearch: Нет прав на поиск или просмотр ролей
+  notAllowedToUnarchive: Нет прав на разархивирование этой роли
+  notAllowedToUndelete: Нет прав на восстановление этой роли
+  notAllowedToUpdate: Нет прав на изменение этой роли
+  notFound: Роль не найдена

@@ -1,0 +1,63 @@
+ui:
+  save: Сохранить изменения
+  cancel: Отмена
+  set-for: Установить права для {{target}}
+  loading: Загрузка прав
+  label: Права
+
+  notification:
+    save:
+      success: Права сохранены
+      failed: Не удалось сохранить права
+
+  edit:
+    label: Роли пользователя
+    description: Выберите роль для назначения прав
+
+  evaluate:
+    description: Оценить применённые права
+
+  add:
+    label: Добавить
+    title: Оценить права
+    save: Сохранить и закрыть
+    role:
+      label: Роли
+      placeholder: Выберите роль(и)
+    user:
+      label: Пользователи
+      placeholder: Найти или выбрать пользователя
+
+  tooltip:
+    unknown-context:
+      user: Нельзя оценить права для пользователя с контекстной ролью на неуказанном ресурсе
+      role: Нельзя оценить права для контекстной роли на неуказанном ресурсе
+
+  access:
+    allow: Разрешить
+    inherit: Наследовать
+    deny: Запретить
+
+resources:
+  system:
+    report:
+      all: все отчеты
+      specific: отчет "{{target}}"
+      tooltip: Права отчета
+      operations:
+        delete:
+          description: ""
+          specific: Удалить отчет "{{target}}"
+          title: Удалить любой отчет
+        read:
+          description: ""
+          specific: Читать отчет "{{target}}"
+          title: Читать любой отчет
+        run:
+          description: ""
+          specific: Запустить отчет "{{target}}"
+          title: Запустить любой отчет
+        update:
+          description: ""
+          specific: Обновить отчет "{{target}}"
+          title: Обновить любой отчет

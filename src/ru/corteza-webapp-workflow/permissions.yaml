@@ -1,0 +1,75 @@
+ui:
+  save: Сохранить изменения
+  cancel: Отмена
+  set-for: Установить права для {{target}}
+  loading: Загрузка прав
+  label: Права
+
+  notification:
+    save:
+      success: Права сохранены
+      failed: Не удалось сохранить права
+
+  edit:
+    label: Роли пользователя
+    description: Выберите роль для назначения прав
+
+  evaluate:
+    description: Оценить применённые права
+
+  add:
+    label: Добавить
+    title: Оценить права
+    save: Сохранить и закрыть
+    role:
+      label: Роли
+      placeholder: Выберите роль(и)
+    user:
+      label: Пользователи
+      placeholder: Найти или выбрать пользователя
+
+  tooltip:
+    unknown-context:
+      user: Нельзя оценить права для пользователя с контекстной ролью на неуказанном ресурсе
+      role: Нельзя оценить права для контекстной роли на неуказанном ресурсе
+
+  access:
+    allow: Разрешить
+    inherit: Наследовать
+    deny: Запретить
+
+resources:
+  automation:
+    workflow:
+      all: все workflow
+      specific: workflow "{{target}}"
+      tooltip: Права workflow
+      operations:
+        delete:
+          description: 'Default: deny'
+          specific: Удалить этот workflow
+          title: Удалить любой workflow
+        execute:
+          description: 'Default: deny'
+          specific: Выполнить этот workflow
+          title: Выполнить любой workflow
+        read:
+          description: 'Default: deny'
+          specific: Читать этот workflow
+          title: Читать любой workflow
+        sessions.manage:
+          description: 'Default: deny'
+          specific: Управлять сессиями для этого workflow
+          title: Управлять всеми сессиями
+        triggers.manage:
+          description: 'Default: deny'
+          specific: Управлять триггерами для этого workflow
+          title: Управлять всеми триггерами
+        undelete:
+          description: 'Default: deny'
+          specific: Восстановить этот workflow
+          title: Восстановить любой workflow
+        update:
+          description: 'Default: deny'
+          specific: Обновить этот workflow
+          title: Обновить любой workflow

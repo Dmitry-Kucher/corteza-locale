@@ -1,13 +1,13 @@
----
 errors:
-  alreadyExists: маршрут с этим endpoint уже существует
-  existsEndpoint: маршрут с этим endpoint уже существует
-  invalidEndpoint: неверный endpoint
-  invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания маршрута
-  notAllowedToDelete: нет прав для удаления этого маршрута
-  notAllowedToExec: нет прав для выполнения этого маршрута
-  notAllowedToRead: нет прав для просмотра этого маршрута
-  notAllowedToUndelete: нет прав для восстановления этого маршрута
-  notAllowedToUpdate: нет прав для изменения этого маршрута
-  notFound: маршрут не найден
+  alreadyExists: Маршрут с таким endpoint уже существует
+  existsEndpoint: Маршрут с этим endpoint уже существует
+  invalidEndpoint: Некорректная конечная точка
+  invalidID: Некорректный ID
+  notAllowedToCreate: Нет прав на создание маршрута
+  notAllowedToDelete: Нет прав на удаление этого маршрута
+  notAllowedToExec: Нет прав на выполнение этого маршрута
+  notAllowedToRead: Нет прав на просмотр этого маршрута
+  notAllowedToUndelete: Нет прав на восстановление этого маршрута
+  notAllowedToUpdate: Нет прав на изменение этого маршрута
+  notAllowedToSearch: Нет прав на просмотр или поиск маршрутов
+  notFound: Маршрут не найден

@@ -1,26 +1,25 @@
----
 errors:
   credentialsLinkedToInvalidUser: учётные данные {credentials.kind} связаны с отключённым или удалённым пользователем {user}
-  disabledMFAWithEmailOTP: многофакторная аутентификация по Email OTP отключена
+  disabledMFAWithEmailOTP: многофакторная аутентификация по email OTP отключена
   disabledMFAWithTOTP: многофакторная аутентификация по TOTP отключена
   enforcedMFAWithEmailOTP: OTP по email обязательно и не может быть отключено
   enforcedMFAWithTOTP: TOTP обязательно и не может быть отключено
   externalDisabledByConfig: внешняя аутентификация (через внешнего провайдера) отключена
-  failedUnconfirmedEmail: требуется подтверждённый email для входа
-  internalLoginDisabledByConfig: вход по имени пользователя/паролю отключён
-  internalSignupDisabledByConfig: регистрация по имени пользователя/паролю отключена
-  invalidCredentials: неверная комбинация имени пользователя и пароля
-  invalidEmailFormat: неверный email
+  failedUnconfirmedEmail: для входа требуется подтверждённый email
+  internalLoginDisabledByConfig: внутренний вход (логин/пароль) отключён
+  internalSignupDisabledByConfig: внутренняя регистрация (логин/пароль) отключена
+  invalidCredentials: неверная комбинация логина и пароля
+  invalidEmailFormat: некорректный email
   invalidEmailOTP: неверный код
-  invalidHandle: неверный идентификатор
+  invalidHandle: некорректный идентификатор
   invalidTOTP: неверный код
   invalidToken: неверный токен
-  notAllowedToConfigureTOTP: нет прав для настройки TOTP
-  notAllowedToImpersonate: нет прав для входа от имени этого пользователя
-  notAllowedToRemoveTOTP: нет прав для удаления TOTP
-  passwodResetFailedOldPasswordCheckFailed: не удалось изменить пароль, старый пароль не совпадает
-  passwordChangeFailedForUnknownUser: не удалось изменить пароль для неизвестного пользователя
-  passwordNotSecure: указанный пароль ненадёжен; используйте более длинный пароль со спецсимволами
+  notAllowedToConfigureTOTP: нет прав на настройку TOTP
+  notAllowedToImpersonate: нет прав на вход от имени этого пользователя
+  notAllowedToRemoveTOTP: нет прав на удаление TOTP
+  passwodResetFailedOldPasswordCheckFailed: не удалось сменить пароль, старый пароль не совпадает
+  passwordChangeFailedForUnknownUser: не удалось сменить пароль для неизвестного пользователя
+  passwordNotSecure: указанный пароль небезопасен; используйте более длинный пароль с дополнительными символами
   passwordResetDisabledByConfig: сброс пароля отключён
   profileWithoutValidEmail: внешний провайдер вернул профиль без корректного email
   unconfiguredTOTP: TOTP не настроен

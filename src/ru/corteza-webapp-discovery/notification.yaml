@@ -1,0 +1,6 @@
+general:
+  error: Ошибка
+  success: Успешно
+  warning: Предупреждение
+search:
+  failed: Ошибка поиска

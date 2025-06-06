@@ -1,18 +1,19 @@
----
 errors:
-  handleNotUnique: идентификатор не уникален
-  invalidHandle: неверный идентификатор
+  handleNotUnique: псевдоним не уникален
+  invalidHandle: неверный псевдоним
   invalidID: неверный ID
   invalidNamespaceID: неверный или отсутствует ID пространства
   nameNotUnique: имя не уникально
+  fieldNameReserved: имя поля зарезервировано
   namespaceNotFound: пространство не существует
-  notAllowedToCreate: нет прав для создания модулей
-  notAllowedToDelete: нет прав для удаления этого модуля
-  notAllowedToListModules: нет прав для просмотра модулей
-  notAllowedToRead: нет прав для просмотра этого модуля
-  notAllowedToReadNamespace: нет прав для просмотра этого пространства
-  notAllowedToSearch: нет прав для поиска или просмотра модулей
-  notAllowedToUndelete: нет прав для восстановления этого модуля
-  notAllowedToUpdate: нет прав для изменения этого модуля
+  notAllowedToCreate: нет прав создавать модули
+  notAllowedToDelete: нет прав удалять этот модуль
+  notAllowedToListModules: нет прав просматривать модули
+  notAllowedToRead: нет прав просматривать этот модуль
+  notAllowedToReadNamespace: нет прав просматривать это пространство
+  notAllowedToSearch: нет прав искать или просматривать модули
+  notAllowedToUndelete: нет прав восстанавливать этот модуль
+  notAllowedToUpdate: нет прав обновлять этот модуль
   notFound: модуль не существует
   staleData: устаревшие данные
+  dedupConfigurationInvalidMissingConstraint: отсутствуют ограничения в настройке дедупликации

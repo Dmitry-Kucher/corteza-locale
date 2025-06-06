@@ -1,8 +1,7 @@
----
 template:
-  authorize-client: Завершить авторизацию для
+  authorize-client: Завершить авторизацию
   class:
     your-profile: Ваш профиль
     security: Безопасность
-    login-session: Сеансы входа
+    login-session: Сессии входа
     authorized-clients: Авторизованные клиенты

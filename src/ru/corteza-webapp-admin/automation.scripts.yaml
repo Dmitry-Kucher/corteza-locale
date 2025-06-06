@@ -1,9 +1,9 @@
----
 list:
   columns:
+    name: Имя
     updatedAt: Последнее обновление
   filter:
-    absoluteTime: Показать абсолютное время
+    absoluteTime: Показывать абсолютное время
     incScriptsWithErrors: Ошибки ({{ count }})
     incScriptsWithIterator: Итератор ({{ count }})
     incScriptsWithSecurity: Безопасность ({{ count }})
@@ -13,5 +13,5 @@ list:
     iterator: Итератор
     security: Безопасность
     triggers: Триггеры
-  labelMissing: <метка отсутствует>
+  labelMissing: <ярлык отсутствует>
   title: Скрипты Corredor

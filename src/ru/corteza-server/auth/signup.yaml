@@ -1,10 +1,9 @@
----
 template:
   title: Регистрация
   form:
     email:
-      label: Эл. почта
-      placeholder: email@domain.ltd
+      label: Электронная почта
+      placeholder: email@domain.tld
     password:
       label: Пароль
       placeholder: Пароль
@@ -16,9 +15,10 @@ template:
       placeholder: Краткое имя, никнейм или псевдоним
     button:
       sign-up: Зарегистрироваться
-  log-in: Уже есть аккаунт? <a href="{{link}}">Войти</a>
+  log-in: Уже есть аккаунт? <a data-test-id="link-login" href="{{link}}">Войти</a>
+
 alerts:
-  signup-successful: Регистрация прошла успешно.
-  email-confirmed-logged-in: Адрес электронной почты подтверждён, вы вошли в систему.
-  invalid-expired-token: Недействительный или истёкший токен подтверждения email, пожалуйста, отправьте запрос повторно.
+  signup-successful: Регистрация успешна
+  email-confirmed-logged-in: Электронная почта подтверждена, вы вошли в систему.
+  invalid-expired-token: Недействительный или истёкший токен подтверждения почты, пожалуйста, отправьте запрос повторно.
   signup-disabled: Регистрация отключена

@@ -1,13 +1,14 @@
----
 errors:
-  invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания auth-клиентов
-  notAllowedToDelete: нет прав для удаления этого auth-клиента
-  notAllowedToRead: нет прав для просмотра этого auth-клиента
-  notAllowedToSearch: нет прав для поиска или просмотра auth-клиентов
-  notAllowedToUndelete: нет прав для восстановления этого auth-клиента
-  notAllowedToUpdate: нет прав для изменения этого auth-клиента
-  notFound: auth-клиент не найден
-  unableToChangeDefaultClientHandle: невозможно изменить идентификатор клиента по умолчанию
-  unableToDeleteDefaultClient: невозможно удалить клиента по умолчанию
-  unableToDisableDefaultClient: невозможно отключить клиента по умолчанию
+  invalidID: Некорректный ID
+  notAllowedToCreate: Нет прав на создание клиентов авторизации
+  notAllowedToDelete: Нет прав на удаление этого клиента авторизации
+  notAllowedToRead: Нет прав на просмотр этого клиента авторизации
+  notAllowedToSearch: Нет прав на поиск или просмотр клиентов авторизации
+  notAllowedToUndelete: Нет прав на восстановление этого клиента авторизации
+  notAllowedToUpdate: Нет прав на изменение этого клиента авторизации
+  notFound: Клиент авторизации не найден
+  unableToChangeDefaultClientHandle: Невозможно изменить идентификатор клиента по умолчанию
+  unableToDeleteDefaultClient: Невозможно удалить клиента по умолчанию
+  unableToDisableDefaultClient: Невозможно отключить клиента по умолчанию
+  unknownGrantType: Неизвестный тип разрешения
+  unknownScope: Неизвестная область

@@ -1,12 +1,14 @@
-ru:
-  clickToRetry: Нажмите, чтобы повторить
+general:
+  label:
+    attachmentFileInfo: '(Размер файла: {{0}}, загружено {{1}})'
+    download: Скачать
+  tooltip:
+    dragAndDrop: Перетащите для изменения порядка
+pdf:
+  clickToRetry: Кликните для повторной попытки
   downloadForAll: Скачайте, чтобы увидеть все страницы
-  empty: Нет данных для предпросмотра
-  error: Ошибка предпросмотра
   firstPagePreview: Предпросмотр первой страницы
-  loading: Загрузка предпросмотра...
-  noData: Нет данных для отображения
-  noPages: Этот документ пуст
-  notConfigured: Не настроено для предпросмотра
-  pageLoadFailed: Загрузка страницы не удалась
-  pageLoading: '$t(preview.pdf.loading)'
+  loading: Загрузка
+  noPages: Документ пуст
+  pageLoadFailed: Не удалось загрузить страницу
+  pageLoading: Загрузка

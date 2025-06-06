@@ -1,0 +1,12 @@
+discovery: Discovery
+help:
+  documentation: Документация
+  feedback: Отправить отзыв
+  forum: Помощь
+  version: 'Версия:'
+appMenu: Меню
+userSettings:
+  changePassword: Сменить пароль
+  loggedInAs: Вошли как {{user}}
+  logout: Выйти
+  profile: Профиль

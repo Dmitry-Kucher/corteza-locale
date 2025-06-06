@@ -1,12 +1,12 @@
----
 editor:
   info:
     completedAt: Завершено
     createdAt: Создано
-    createdByUserID: Создал - ID
-    createdByUserName: Создал - Имя
+    createdBy: Создал — ID
+    createdByUserName: Создал — Имя
     delete: Удалить
     deletedAt: Удалено
+    suspendedAt: Приостановлено
     error: Ошибка
     eventType: Тип события
     id: ID
@@ -14,38 +14,43 @@ editor:
     status: Статус
     title: Основная информация
     workflowID: WorkflowID
+    openWorkflow: Открыть workflow
+    cancel: Отменить сессию
   title: Сессия
 list:
   columns:
     actions: ""
-    createdAt: Создано
+    createdAt: Дата создания
     eventType: Тип события
     sessionID: SessionID
+    state: Состояние
     status: Статус
     workflowID: WorkflowID
   filterForm:
     all:
       label: Все
     completed:
-      label: Завершённые
+      label: Завершено
     excluded:
       label: Без
     exclusive:
       label: Только
     failed:
-      label: Ошибочные
+      label: Ошибка
     inProgress:
       label: завершённые сессии
     inclusive:
       label: Включая
     prompted:
-      label: Запрошенные
+      label: Запрошено
     sessions:
       label: сессии
     started:
-      label: Начато
+      label: Запущено
     suspended:
-      label: Приостановленные
+      label: Приостановлено
+    canceled:
+      label: Отменено
   loading: Загрузка сессий
   numFound: '{{count}} сессия найдена'
   numFound_plural: '{{count}} сессий найдено'

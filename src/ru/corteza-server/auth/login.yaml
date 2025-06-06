@@ -1,10 +1,9 @@
----
 template:
-  title: Вход
+  title: Войдите, чтобы продолжить
   form:
     email:
-      label: Эл. почта
-      placeholder: email@domain.ltd
+      label: Электронная почта
+      placeholder: email@domain.tld
     password:
       label: Пароль
       placeholder: пароль
@@ -14,9 +13,10 @@ template:
       continue: Продолжить
   links:
     request-password-reset: Забыли пароль?
-    signup: Создать новый аккаунт
+    signup: Создать аккаунт
     external:
       login-with: Войти через {{idp}}
+
 alerts:
-  logged-in: Вы успешно вошли в систему.
+  logged-in: Вы вошли в систему
   local-disabled: Локальные аккаунты отключены

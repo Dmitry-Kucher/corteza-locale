@@ -1,22 +1,21 @@
----
 editor:
   content:
     editor:
       unsupported: Неподдерживаемый редактор
     partial: Частичный шаблон
     preview:
-      html: Просмотр HTML
-      pdf: Просмотр PDF
-      title: Просмотр результата
+      html: Предпросмотр HTML
+      pdf: Предпросмотр PDF
+      title: Предпросмотр результата
     title: Содержимое шаблона
     toolbox:
       partials: Части
       samples:
-        defaultHTML: Стандартный HTML
+        defaultHTML: HTML по умолчанию
         label: Примеры
       snippets:
         funcCall: Вызов функции
-        interpolate: Вставить значение
+        interpolate: Интерполяция значения
         iterator: Итерация по набору
         label: Сниппеты
       title: Панель инструментов
@@ -25,20 +24,23 @@ editor:
       text_html: HTML
       text_plain: Обычный текст
     createdAt: Создано
+    createdBy: Создал
     delete: Удалить
     deletedAt: Удалено
     handle: Идентификатор
+    placeholder-handle: идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+    invalid-handle-characters: Должно быть не менее 2 символов. Допустимы только буквы, цифры, подчёркивания и точки. Должно заканчиваться буквой или цифрой
     meta:
       description: Описание
-      short: Краткое имя
+      short: Краткое имя *
     partial: Частичный шаблон
-    partialDescription: Частичные шаблоны могут использоваться внутри других шаблонов, таких как шапки и подвал. Частичные шаблоны не могут использоваться самостоятельно.
+    partialDescription: Частичные шаблоны могут использоваться внутри других шаблонов (например, в шапках и подвалах). Частичные шаблоны не могут использоваться самостоятельно.
     title: Основная информация
     type: Тип шаблона
     undelete: Восстановить
     updatedAt: Обновлено
-  new: Новый
-  permissions: Разрешения
+  new: Новый шаблон
+  permissions: Права доступа
   title:
     create: Создать шаблон
     edit: Редактировать шаблон
@@ -50,22 +52,29 @@ list:
     language: Язык
     meta:
       short: Краткое имя
+    state: Состояние
+  delete: Удалить
+  undelete: Восстановить
+  export: Экспорт
+  rows:
+    filters:
+      deleted: Удалено
   filterForm:
     deleted:
-      label: удалённые шаблоны
+      label: удаленные шаблоны
     excluded:
       label: Без
     exclusive:
       label: Только
     handle:
       label: Фильтр списка шаблонов
-      placeholder: Фильтровать шаблоны по идентификатору
+      placeholder: Фильтр шаблонов по идентификатору
     inclusive:
       label: Включая
   loading: Загрузка шаблонов
-  new: Новый
+  new: Новый шаблон
   numFound: '{{count}} шаблон найден'
-  numFound_plural: '{{count}} шаблонов найдено'
-  permissions: Разрешения
+  numFound_plural: '{{count}} шаблоны найдены'
+  permissions: Права доступа
   title: Шаблоны
   yaml: YAML

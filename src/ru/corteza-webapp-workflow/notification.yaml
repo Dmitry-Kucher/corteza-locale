@@ -1,0 +1,51 @@
+'configure-triggers': Убедитесь, что все шаги-триггеры настроены правильно
+'confirm-unsaved-changes': У вас есть несохранённые изменения, действительно выйти?
+error: " - ОШИБКА: "
+'event-type-not-found': Тип события не найден
+'event-type-fetch-failed': Не удалось получить типы событий
+'failed-fetch-functions': Не удалось получить функции
+'failed-fetch-triggers': Не удалось получить триггеры
+'failed-fetch-workflow': Не удалось получить рабочий процесс
+'failed-fetch-workflows': Не удалось получить рабочие процессы
+'failed-load-file': Не удалось загрузить файл
+'failed-save': Не удалось сохранить
+'failed-test': Не удалось выполнить тест
+'fetch-types-failed': Не удалось получить типы
+general:
+  error: Ошибка
+  success: Успешно
+  warning: Предупреждение
+  info: Информация
+list:
+  load:
+    error: Не удалось получить рабочие процессы
+  enable:
+    success: Рабочий процесс включён
+    failed: Не удалось включить рабочий процесс
+  disable:
+    success: Рабочий процесс отключён
+    failed: Не удалось отключить рабочий процесс
+import:
+  'failed-import': Не удалось импортировать
+  'imported-workflows': Рабочие процессы импортированы
+  'skipped-workflows': Пропущенные процессы
+'imported-workflow': Рабочий процесс импортирован
+'import-failed': Ошибка импорта
+'initial-scope-load-failed': Не удалось загрузить начальную область
+'resolve-issues': Исправьте ошибки для тестирования процесса
+'save-workflow': Сначала сохраните процесс для тестирования
+'started-test': Тестирование процесса начато
+'test-completed': Тест завершён
+'test-in-progress': Тест в процессе
+'trace-unavailable': Трассировка недоступна
+'trigger-paths-changed': Пути триггеров изменены
+'workflow-test-completed': Тестирование процесса завершено
+update:
+  success: Рабочий процесс обновлён
+  failed: Не удалось обновить рабочий процесс
+delete:
+  success: Рабочий процесс удалён
+  failed: Не удалось удалить рабочий процесс
+undelete:
+  success: Рабочий процесс восстановлен
+  failed: Не удалось восстановить рабочий процесс

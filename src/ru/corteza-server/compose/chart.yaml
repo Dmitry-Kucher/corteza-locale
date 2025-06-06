@@ -1,17 +1,16 @@
----
 errors:
-  handleNotUnique: идентификатор не уникален
-  invalidHandle: неверный идентификатор
+  handleNotUnique: псевдоним не уникален
+  invalidHandle: неверный псевдоним
   invalidID: неверный ID
   invalidNamespaceID: неверный или отсутствует ID пространства
   moduleNotFound: модуль не существует
   namespaceNotFound: пространство не существует
-  notAllowedToCreate: нет прав для создания диаграмм
-  notAllowedToDelete: нет прав для удаления этой диаграммы
-  notAllowedToRead: нет прав для просмотра этой диаграммы
-  notAllowedToReadNamespace: нет прав для просмотра этого пространства
-  notAllowedToSearch: нет прав для поиска или просмотра диаграмм
-  notAllowedToUndelete: нет прав для восстановления этой диаграммы
-  notAllowedToUpdate: нет прав для изменения этой диаграммы
+  notAllowedToCreate: нет прав создавать диаграммы
+  notAllowedToDelete: нет прав удалять эту диаграмму
+  notAllowedToRead: нет прав просматривать эту диаграмму
+  notAllowedToReadNamespace: нет прав просматривать это пространство
+  notAllowedToSearch: нет прав искать или просматривать диаграммы
+  notAllowedToUndelete: нет прав восстанавливать эту диаграмму
+  notAllowedToUpdate: нет прав обновлять эту диаграмму
   notFound: диаграмма не существует
   staleData: устаревшие данные

@@ -1,3 +1,2 @@
----
 errors:
-  notAllowedToReadStatistics: нет прав для просмотра статистики
+  notAllowedToReadStatistics: Нет прав на просмотр статистики

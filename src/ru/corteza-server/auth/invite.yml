@@ -1,0 +1,14 @@
+template:
+  title: Принять приглашение
+  form:
+    email:
+      label: Эл. почта
+      placeholder: email@domain.tld
+    new-password:
+      label: Пароль
+      placeholder: password
+    buttons:
+      password: Установить пароль
+alert:
+  invalid-expired-invite-token: Недействительный или просроченный токен приглашения пользователя, пожалуйста, запросите сброс пароля.
+  success: Пароль успешно обновлён

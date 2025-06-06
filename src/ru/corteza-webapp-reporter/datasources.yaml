@@ -1,0 +1,24 @@
+
+add: Добавить
+aggregate: Агрегация
+compose-records: Записи Compose
+datasource-name: 'Имя источника данных...'
+expression: Выражение
+group-by: Группировать по
+label: Метка
+module: Модуль
+name-required: Имя *
+name: Имя
+namespace: Пространство имён
+new:
+  label: Новая метка
+  name: Новое имя
+none: Нет
+prefilter: Предфильтр
+primary:
+  column: Основной столбец
+  source: Основной источник
+secondary:
+  column: Вторичный столбец
+  source: Вторичный источник
+source: Источник

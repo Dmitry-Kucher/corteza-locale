@@ -1,17 +1,12 @@
----
-namespaceList: Список пространств имен
-noPages: Нет страниц
-pickNamespace: Выберите пространство имен
-searchPlaceholder: Поиск страниц...
-
-menu:
-  dashboard: Дашборд
-  modules: Модули
-  pages: Страницы
-  charts: Диаграммы
-  records: Записи
-  settings: Настройки
-  help: Помощь
-  notifications: Уведомления
-  profile: Профиль
-  logout: Выйти
+adminPanel: Панель администратора
+chart: Диаграммы
+manageNamespaces: Управление пространствами имён
+module: Модули
+noResults: Нет результатов
+page: Страницы
+pickNamespace: Выберите пространство имён
+publicPages: Публичные страницы
+editNamespace: Редактировать пространство имён
+searchPlaceholder:
+  admin: Поиск ресурсов...
+  public: Поиск страниц...

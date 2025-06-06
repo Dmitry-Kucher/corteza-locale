@@ -1,21 +1,30 @@
----
 adminPanel: Панель администратора
 automation: Автоматизация
 chart: Диаграммы
-configuration: Конфигурация
+configuration: Настройки
 help:
   documentation: Документация
   feedback: Отправить отзыв
   forum: Помощь
   version: 'Версия:'
 module: Модули
-more: Еще
+more: Ещё
 namespace: Пространства имён
-noPageTitle: Нет названия страницы
+noPageTitle: Нет заголовка страницы
 page: Страницы
 publicPages: Публичные страницы
+appMenu: Меню
 userSettings:
   changePassword: Сменить пароль
-  loggedInAs: Вы вошли как {{user}}
+  loggedInAs: Вошли как {{user}}
   logout: Выйти
   profile: Профиль
+themes:
+  labels:
+    light: Светлая
+    dark: Тёмная
+
+extendSession:
+  labels:
+    extend: Продлить сессию
+    warning: Вы будете выведены из системы через {{ countdownTime }} секунд

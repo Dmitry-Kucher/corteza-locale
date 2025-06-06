@@ -1,0 +1,140 @@
+chart:
+  configurator:
+    begin-axis-at-zero: Всегда начинать шкалу оси с нуля
+    chart-title: Заголовок диаграммы
+    color-scheme: Цветовая схема
+    data: Данные
+    data-columns: Столбцы данных
+    default: По умолчанию
+    default-value: Значение по умолчанию
+    general: Общие
+    label-column: Столбец меток
+    logarithmic-scale: Логарифмическая шкала
+    position-description: Значения можно задавать в пикселях (20) или процентах (20%)
+    none: Нет
+    place-axis-on-right-side: Разместить ось справа
+    skip-missing-values: Пропускать отсутствующие значения
+    step-size: Шаг
+    animation:
+      enabled: Анимация включена
+    metrics:
+      label: Метрики
+      field: Поле
+      stack:
+        label: Стек
+        description: Метрики с одинаковым значением будут складываться
+      label-field:
+        label: Метка
+    time:
+      label: Время
+      unit:
+        label: Единица времени
+        types:
+          date: Дата
+          month: Месяц
+          quarter: Квартал
+          week: Неделя
+          year: Год
+    type: Тип
+    types:
+      bar: Столбчатая
+      doughnut: Кольцевая
+      funnel: Воронка
+      line: Линейная
+      pie: Круговая
+    value:
+      max: Максимальное значение
+      min: Минимальное значение
+    x-axis:
+      name: Ось X
+      label: Метка оси
+      type: Тип оси
+      labelRotation:
+        label: Поворот меток
+    y-axis:
+      name: Ось Y
+      label: Метка оси
+      labelPosition:
+        label: Позиция метки
+        top: Сверху
+        center: По центру
+        bottom: Снизу
+      labelRotation:
+        label: Поворот меток
+    legend:
+      name: Легенда
+      hide: Скрыть легенду
+      scrollable: Прокручиваемая
+      orientation:
+        label: Ориентация
+        horizontal: Горизонтальная
+        vertical: Вертикальная
+      align:
+        label: Выравнивание
+        left: По левому краю
+        right: По правому краю
+        center: По центру
+      position:
+        description: Значения можно задавать в пикселях (20) или процентах (20%)
+        default: Позиция по умолчанию
+        top: Сверху
+        right: Справа
+        bottom: Снизу
+        left: Слева
+    tooltips:
+      name: Подсказки
+      show:
+        always: Всегда показывать метки
+    offset:
+      name: Смещение
+      default: Смещение по умолчанию
+      top: Сверху
+      right: Справа
+      bottom: Снизу
+      left: Слева
+metric:
+  configurator:
+    color:
+      background: Цвет фона
+      text: Цвет текста
+      picker: Выберите цвет
+    format: Формат
+    label-column: Столбец меток
+    none: Нет
+    prefix: Префикс
+    suffix: Сuffix
+table:
+  configurator:
+    general: Общие
+    data: Данные
+    columns: Столбцы
+    dark: Тёмный
+    head-variant: Вариант заголовка
+    joined-datasource-handling: Обработка объединённых источников данных
+    light: Светлый
+    none: Нет
+    table:
+      options:
+        bordered: С рамкой
+        borderless: Без рамки
+        dark: Тёмный
+        fixed: Фиксированный
+        hover: Hover
+        label: Параметры таблицы
+        no-collapse: Без сжатия
+        responsive: Адаптивный
+        small: Маленький
+        striped: С полосами
+      variant: Вариант таблицы
+      variants:
+        danger: Опасный
+        dark: Тёмный
+        info: Информация
+        light: Светлый
+        primary: Основной
+        secondary: Второстепенный
+        success: Успех
+        warning: Предупреждение
+  view:
+    next: Далее
+    previous: Предыдущий

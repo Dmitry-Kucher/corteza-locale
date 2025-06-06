@@ -1,17 +1,17 @@
----
 editor:
   info:
     createdAt: Создано
+    createdBy: Создал
     delete: Удалить
     deletedAt: Удалено
-    enabled: Включено
+    enabled: Включён
     id: ID
-    name: Имя
+    name: Имя *
     title: Основная информация
     undelete: Восстановить
     updatedAt: Обновлено
-  new: Новый
-  permissions: Разрешения
+  new: Новое приложение
+  permissions: Права
   title:
     create: Создать приложение
     edit: Редактировать приложение
@@ -21,14 +21,15 @@ editor:
       label: Конфигурация
     listed: В списке
     logo:
-      description: Логотип, используемый в селекторе приложений
       label: Логотип
-      placeholder: Выберите логотип или перетащите его сюда...
+      description: Логотип, используемый в селекторе приложений
+      placeholder: Выберите логотип или перетащите сюда...
+      reset: Сбросить
     name:
       description: Имя, используемое в селекторе приложений
       label: Имя
     pinned: Закреплено
-    title: Селектор приложений Unify
+    title: Селектор приложений
     url:
       description: URL приложения
       label: URL
@@ -36,11 +37,17 @@ list:
   columns:
     actions: ""
     createdAt: Создано
-    enabled: Включено
+    enabled: Включён
     name: Имя
+    appListName: Имя в селекторе приложений
+    state: Состояние
+  export: Экспорт
+  rows:
+    filters:
+      deleted: Удалено
   filterForm:
     deleted:
-      label: удалённые приложения
+      label: удаленные приложения
     excluded:
       label: Без
     exclusive:
@@ -49,11 +56,13 @@ list:
       label: Включая
     query:
       label: Фильтр списка приложений
-      placeholder: Фильтровать приложения по имени
+      placeholder: Фильтр приложений по имени
   loading: Загрузка приложений
-  new: Новый
+  new: Новое приложение
   numFound: '{{count}} приложение найдено'
   numFound_plural: '{{count}} приложений найдено'
-  permissions: Разрешения
+  permissions: Права
   title: Приложения
   yaml: YAML
+  delete: Удалить
+  undelete: Восстановить

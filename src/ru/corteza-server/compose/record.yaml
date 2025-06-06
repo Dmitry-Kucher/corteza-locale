@@ -1,4 +1,3 @@
----
 errors:
   fieldNotFound: поле {field} не найдено
   importSessionAlreadActive: сессия импорта уже активна
@@ -6,20 +5,21 @@ errors:
   invalidModuleID: неверный или отсутствует ID модуля
   invalidNamespaceID: неверный или отсутствует ID пространства
   invalidReferenceFormat: неверный формат ссылки
-  invalidValueStructure: более одного значения для однополейного поля {field}
+  invalidValueStructure: более одного значения для однополного поля {field}
   moduleNotFoundModule: модуль не найден
   namespaceNotFound: пространство не найдено
-  notAllowedToChangeFieldValue: нет прав для изменения значения поля {field}
-  notAllowedToCreate: нет прав для создания записей
-  notAllowedToDelete: нет прав для удаления этой записи
-  notAllowedToListRecords: нет прав для просмотра записей
-  notAllowedToRead: нет прав для просмотра этой записи
-  notAllowedToReadModule: нет прав для просмотра модуля
-  notAllowedToReadNamespace: нет прав для просмотра этого пространства
-  notAllowedToSearch: нет прав для поиска или просмотра записей
-  notAllowedToUndelete: нет прав для восстановления этой записи
-  notAllowedToUpdate: нет прав для изменения этой записи
+  notAllowedToChangeFieldValue: нет прав изменять значение поля {field}
+  notAllowedToCreate: нет прав создавать записи
+  notAllowedToDelete: нет прав удалять эту запись
+  notAllowedToListRecords: нет прав просматривать записи
+  notAllowedToRead: нет прав просматривать эту запись
+  notAllowedToReadModule: нет прав просматривать модуль
+  notAllowedToReadNamespace: нет прав просматривать это пространство
+  notAllowedToSearch: нет прав искать или просматривать записи
+  notAllowedToUndelete: нет прав восстанавливать эту запись
+  notAllowedToUpdate: нет прав обновлять эту запись
   notFound: запись не найдена
   staleData: устаревшие данные
   unknownBulkOperation: неизвестная массовая операция {bulkOperation}
   valueInput: неверный ввод значения записи
+  maxRecordsReached: достигнуто максимальное количество записей для пространства

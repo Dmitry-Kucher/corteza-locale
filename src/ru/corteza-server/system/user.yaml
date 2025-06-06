@@ -1,21 +1,20 @@
----
 errors:
-  emailNotUnique: email не уникален
-  handleNotUnique: идентификатор не уникален
-  invalidEmail: Некорректный email! {{resource}}
-  invalidHandle: неверный идентификатор
-  invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания пользователей
-  notAllowedToCreateSystem: нет прав для создания системных пользователей
-  notAllowedToDelete: нет прав для удаления этого пользователя
-  notAllowedToListUsers: нет прав для просмотра пользователей
-  notAllowedToRead: нет прав для просмотра этого пользователя
-  notAllowedToSearch: нет прав для поиска или просмотра пользователей
-  notAllowedToSuspend: нет прав для приостановки этого пользователя
-  notAllowedToUndelete: нет прав для восстановления этого пользователя
-  notAllowedToUnsuspend: нет прав для восстановления этого пользователя
-  notAllowedToUpdate: нет прав для изменения этого пользователя
-  notAllowedToUpdateSystem: нет прав для изменения системных пользователей
-  notFound: пользователь не найден
-  passwordNotSecure: указанный пароль ненадёжен; используйте более длинный пароль со спецсимволами
-  usernameNotUnique: имя пользователя не уникально
+  emailNotUnique: Такой email уже используется
+  handleNotUnique: Такой идентификатор уже используется
+  invalidEmail: Некорректный email
+  invalidHandle: Некорректный идентификатор
+  invalidID: Некорректный ID
+  notAllowedToCreate: Нет прав на создание пользователей
+  notAllowedToCreateSystem: Нет прав на создание системных пользователей
+  notAllowedToDelete: Нет прав на удаление этого пользователя
+  notAllowedToListUsers: Нет прав на просмотр пользователей
+  notAllowedToRead: Нет прав на просмотр этого пользователя
+  notAllowedToSearch: Нет прав на просмотр или поиск пользователей
+  notAllowedToSuspend: Нет прав на блокировку этого пользователя
+  notAllowedToUndelete: Нет прав на восстановление этого пользователя
+  notAllowedToUnsuspend: Нет прав на разблокировку этого пользователя
+  notAllowedToUpdate: Нет прав на изменение этого пользователя
+  notAllowedToUpdateSystem: Нет прав на изменение системных пользователей
+  notFound: Пользователь не найден
+  passwordNotSecure: Указанный пароль небезопасен; используйте более длинный пароль с дополнительными символами
+  usernameNotUnique: Такое имя пользователя уже используется

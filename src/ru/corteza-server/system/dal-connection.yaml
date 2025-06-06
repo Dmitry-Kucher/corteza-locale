@@ -1,0 +1,13 @@
+errors:
+  notFound: Подключение не найдено
+  invalidID: Некорректный ID
+  invalidEndpoint: Некорректная конечная точка
+  existsEndpoint: Подключение с этим DNS уже существует
+  alreadyExists: Подключение с таким DNS уже существует
+  notAllowedToCreate: Нет прав на создание подключения
+  notAllowedToRead: Нет прав на просмотр этого подключения
+  notAllowedToSearch: Нет прав на просмотр или поиск подключений
+  notAllowedToUpdate: Нет прав на изменение этого подключения
+  notAllowedToDelete: Нет прав на удаление этого подключения
+  notAllowedToUndelete: Нет прав на восстановление этого подключения
+  notAllowedToExec: Нет прав на выполнение этого подключения

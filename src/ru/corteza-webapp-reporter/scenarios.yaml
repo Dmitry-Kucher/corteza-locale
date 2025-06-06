@@ -1,0 +1,5 @@
+datasource: Источник данных
+label: Метка
+none: Нет
+prefilter: Предфильтр
+scenario-name: 'Имя сценария...'

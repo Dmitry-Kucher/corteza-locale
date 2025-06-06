@@ -1,0 +1,18 @@
+notification:
+  search-error: Не удалось получить результаты поиска
+input-placeholder: Введите текст для поиска
+card: 
+  button-text: Показать ещё
+  type: Тип
+  handle: Идентификатор
+  namespace: Пространство имён
+  module: Модуль
+  user: Пользователь
+  email: Email
+  record: Запись
+  fields: Поля
+tooltip:
+  map: Показать/скрыть карту
+range: Показано {{actual}} из {{all}} результатов
+discovering: Поиск...
+no-results: Нет результатов

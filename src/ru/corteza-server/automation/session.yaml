@@ -1,9 +1,8 @@
----
 errors:
   invalidID: неверный ID
-  notAllowedToDelete: нет прав для удаления этой сессии
-  notAllowedToManage: нет прав для управления рабочим процессом сессии
-  notAllowedToRead: нет прав для просмотра этой сессии
-  notAllowedToSearch: нет прав для поиска или просмотра сессий
+  notAllowedToDelete: нет прав удалять эту сессию
+  notAllowedToManage: нет прав управлять workflow сессии
+  notAllowedToRead: нет прав просматривать эту сессию
+  notAllowedToSearch: нет прав искать или просматривать сессии
   notFound: сессия не найдена
   staleData: устаревшие данные

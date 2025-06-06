@@ -1,104 +1,189 @@
----
 automation:
   scriptFailed: Не удалось выполнить автоматизацию
 chart:
-  createFailed: Не удалось создать график
-  deleteFailed: Не удалось удалить этот график
-  deleted: График удален
+  created: Диаграмма создана
+  createFailed: Не удалось создать диаграмму
+  deleteFailed: Не удалось удалить диаграмму
+  deleted: Диаграмма удалена
   invalidConfig:
-    missingDimensionsField: Поле размеров не определено
-    missingDimensionsModifier: Модификатор размеров не определён
-    missingMetricsAggregate: Агрегат метрик не определён
-    missingMetricsField: Поле метрик не определено
-    missingMetricsType: Тип графика метрик не определён
-    missingModuleID: Модуль не определён
-    missingReports: Отчеты не определены
-  loadFailed: Не удалось загрузить график
-  optionsBuildFailed: Не удалось построить параметры графика
-  saveFailed: Не удалось сохранить этот график
-  saved: График сохранен
+    missingDimensionsField: Не указано поле измерения
+    missingDimensionsModifier: Не выбран модификатор измерения
+    missingDimensionsSteps: Не заданы шаги измерения
+    missingMetricsAggregate: Не выбран агрегатор метрик
+    missingMetricsField: Не указано поле метрик
+    missingMetricsType: Не выбран тип диаграммы метрик
+    missingModuleID: Модуль не выбран
+    missingReports: Не указаны отчёты
+  loadFailed: Не удалось загрузить диаграмму
+  optionsBuildFailed: Не удалось построить опции диаграммы
+  updateFailed: Не удалось обновить диаграмму
+  updated: Диаграмма обновлена
   unsupportedRenderer: Неподдерживаемый рендерер
+  colorScheme:
+    fetch:
+      failed: Не удалось получить пользовательские цветовые схемы
+    create:
+      success: Цветовая схема создана
+      failed: Не удалось создать цветовую схему
+    update:
+      success: Цветовая схема обновлена
+      failed: Не удалось обновить цветовую схему
+    delete:
+      success: Цветовая схема удалена
+      failed: Не удалось удалить цветовую схему
 color:
   RGBA:
-    invalid: Недопустимый формат цвета RGBA
+    invalid: Некорректный формат цвета RGBA
 field:
-  missingRequired: Отсутствует значение обязательного поля
-  unknownFieldKind: 'Ошибка: Неизвестный тип поля "{{kind}}", не найден компонент отображения.'
-  unsupportedKind: Неподдерживаемый тип поля {{kind}}
+  missingRequired: Не заполнено обязательное поле
+  unknownFieldKind: 'Ошибка: Неизвестный тип поля "{{kind}}", компонент просмотра не найден.'
+  unsupportedKind: Тип поля {{kind}} не поддерживается
 field-datetime:
-  valueNotFuture: Прошедшее значение в поле только будущего
-  valueNotPast: Будущее значение в поле только прошлого
+  valueNotFuture: Значение в прошлом для поля только будущего
+  valueNotPast: Значение в будущем для поля только прошлого
+  geolocationErrors:
+    permissionDenied: Пользователь запретил доступ к геолокации
+    positionUnavailable: Информация о местоположении недоступна
+    timeout: Запрос местоположения пользователя timed out
+    unknownError: Произошла неизвестная ошибка
+    notSupported: Геолокация не поддерживается этим браузером
+    errorOccurred: Произошла ошибка при получении местоположения пользователя
+    locationSearchFailed: Поиск местоположения не удался
 general:
-  composeAccessNotAllowed: Доступ к Compose не разрешен
+  composeAccessNotAllowed: Доступ к Compose запрещен
   error: Ошибка
   success: Успех
   warning: Предупреждение
-import:
-  failed: Импорт не удался
-  readingError: Ошибка чтения файла
-  successful: Импорт успешен
-  typeMissmatch: 'Ошибка импорта: попытка импортировать объект типа "{{type1}}" в список объектов типа "{{type2}}"'
+  info: Уведомление
+  import:
+    failed: Импорт не удался
+    readingError: Ошибка чтения файла
+    successful: Импорт успешен
+    typeMissmatch: 'Ошибка импорта: попытка импортировать объект типа "{{type1}}" в список объектов типа "{{type2}}"'
+list:
+  load:
+    error: Не удалось загрузить список ресурсов
 module:
+  created: Модуль создан
   createFailed: Не удалось создать модуль
-  deleteFailed: Не удалось удалить этот модуль
+  deleteFailed: Не удалось удалить модуль
   deleted: Модуль удален
-  saveFailed: Не удалось сохранить этот модуль
+  loadFailed: Не удалось загрузить модуль
+  saveFailed: Не удалось сохранить модуль
   saved: Модуль сохранен
+  columns:
+    saved: Колонки сохранены
+    saveFailed: Не удалось сохранить колонки
+  recordPage:
+    createFailed: Не удалось создать страницу модуля записи
+  schemaAlterations:
+    load:
+      error: Не удалось получить изменения
+    resolve:
+      success: Изменения разрешены
+      error: Не удалось разрешить изменения
+    dismiss:
+      success: Изменение отклонено
+      error: Не удалось отклонить изменение
 namespace:
   application:
     createFailed: Не удалось создать приложение пространства имен
     fetchFailed: Не удалось получить приложение пространства имен
     saveFailed: Не удалось сохранить приложение пространства имен
-  assetUploadFailed: Не удалось загрузить вложенные ресурсы
+  assetUploadFailed: Не удалось загрузить вложенные активы
   createFailed: Не удалось создать пространство имен
-  deleteFailed: Не удалось удалить это пространство имен
+  deleted: Пространство имен удалено
+  deleteFailed: Не удалось удалить пространство имен
   disabled: Пространство имен отключено - перенаправление
-  saveFailed: Не удалось сохранить это пространство имен
+  saveFailed: Не удалось сохранить пространство имен
   saved: Пространство имен сохранено
+  cloned: Пространство имен клонировано
+  cloneFailed: Не удалось клонировать пространство имен
+  imported: Пространство имен импортировано
+  importFailed: Пространство имен не удалось импортировать
+  loadFailed: Не удалось загрузить пространство имен
 page:
+  block:
+    calendar:
+      eventFetchFailed: Не удалось получить список событий
+  notFound: Страница не найдена
   createFailed: Не удалось создать страницу
-  deleteFailed: Не удалось удалить эту страницу
-  loadFailed: Не удалось загрузить дерево страниц
-  noPages: Нет страниц
-  pageMoveFailed: Не удалось переместить эту страницу
-  reordered: Страница переупорядочена
-  saveFailed: Не удалось сохранить эту страницу
-  saveFailedRequired: Не удалось сохранить эту страницу, все обязательные поля модуля должны присутствовать
+  cloneFailed: Не удалось клонировать страницу
+  deleteFailed: Не удалось удалить страницу
+  iconFetchFailed: Не удалось получить список иконок
+  iconDeleteFailed:  Не удалось удалить выбранную иконку
+  iconDeleteSuccess: Иконка удалена
+  loadFailed: Не удалось загрузить страницу
+  listFailed: Не удалось загрузить список страниц
+  noPages: Страницы не найдены
+  saveFailed: Не удалось сохранить страницу
+  saveFailedRequired: Не удалось сохранить страницу, все обязательные поля модуля должны быть заполнены
   saved: Страница сохранена
+  deleted: Страница удалена
+  copySuccess: Блок скопирован успешно
+  cloneSuccess: Блок клонирован в конец страницы
+  pasteSuccess: Блок вставлен в конец страницы
+  duplicateFailed: Не удалось дублировать блок
+  blockWaiting: Есть блок страницы, ожидающий
+  copyFailed: Не удалось скопировать блок страницы {{reason}}
+  invalidBlock: Не является допустимым блоком страницы
+  page-layout:
+    notFound:
+      edit: Не найдена страница макета
+      view: Не найдена страница макета
+    save:
+      success: Макет сохранен
+      failed: Не удалось сохранить макет
+    clone:
+      success: Макет клонирован и выбран
+      failed: Не удалось клонировать макет
+    delete:
+      success: Макет удален
+      failed: Не удалось удалить макет
 record:
   createFailed: Не удалось создать запись
+  createSuccess: Запись создана
+  updateFailed: Не удалось обновить запись
+  updateSuccess: Запись обновлена
   deleteFailed: Не удалось удалить запись
+  deleteSuccess: Запись удалена
+  restoreFailed: Не удалось восстановить запись
+  restoreSuccess: Запись восстановлена
   deleteBulkFailed: Не удалось удалить выбранные записи
-  deleteBulkSuccess: Успешно удалены выбранные записи
-  invalidOwnerVar: Нельзя использовать переменную ${ownerID} в нестраничных записях
-  invalidRecordVar: Нельзя использовать переменную ${record...} в нестраничных записях
+  deleteBulkRecordUpdateFailed: Не удалось обновить выбранные записи
+  deleteBulkSuccess: Удалены выбранные записи
+  bulkRecordUpdateSuccess: Обновлены выбранные записи
+  restoreBulkFailed: Не удалось восстановить выбранные записи
+  restoreBulkSuccess: Восстановлены выбранные записи
+  invalidOwnerVar: Нельзя использовать переменную ${ownerID} в непages записей
+  invalidRecordVar: Нельзя использовать переменную ${record...} в непages записей
   listLoadFailed: Не удалось загрузить список записей
   loadFailed: Не удалось загрузить запись
-  moduleMismatch: Модуль несовместим, несоответствие модуля
+  countFailed: Не удалось получить количество доступных записей
+  moduleMismatch: Модуль не совместим, несоответствие модуля
   moduleNotDefined: Модуль записи не определен
   moduleOrPageNotSet: 'Ошибка блока RecordList: модуль или страница не заданы'
-  unexpectedInput: Непредвиденный ввод для свойства values, должно быть массивом с парами объектов name-value
+  unexpectedInput: Непредвиденный ввод для свойства values, должно быть массивом с парами name-value
   unexpectedValue: Непредвиденное значение для модуля записи ({{type}})
-  updateFailed: Не удалось обновить запись
   validationErrors: проверьте сообщения об ошибках в форме
-list:
-  empty: Нет уведомлений
-  markAllRead: Отметить все как прочитанные
-  markRead: Отметить как прочитанное
-  markUnread: Отметить как непрочитанное
-  notifications: Уведомления
-  unread: Непрочитанные
-  viewAll: Смотреть все
-item:
-  dismiss: Отклонить
-  open: Открыть
-  snooze: Отложить
-  view: Просмотреть
-settings:
-  channels: Каналы уведомлений
-  email: Email
-  inApp: В приложении
-  label: Настройки уведомлений
-  save: Сохранить настройки
-  sms: SMS
-  webPush: Push-уведомления
+  validationWarnings: проверьте сообщения предупреждения в форме
+  staleDataRefresh: Запись устарела, все несохраненные изменения будут потеряны. Хотите обновить данные сейчас?
+  fieldConditions:
+    failed: Не удалось оценить условные поля блока записи
+record-list:
+  corrupted-filter: Фильтр поврежден
+  corrupted-configured-fields: Поврежденные настроенные поля
+  incorrect-filter-structure: Неправильная структура фильтра {{filterID}}
+report:
+  listFetchFailed: Не удалось получить отчеты
+  fetchFailed: Не удалось получить отчет
+  runFailed: Не удалось запустить отчет
+translations:
+  saved: Переводы сохранены
+  saveFailed: Не удалось сохранить переводы
+connection:
+  read-failed: Не удалось прочитать соединение
+sensitivity-level:
+  fetch-failed: Не удалось получить уровни чувствительности
+evaluate:
+  failed: Не удалось оценить выражение

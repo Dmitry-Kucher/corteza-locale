@@ -1,26 +1,45 @@
----
 editor:
+  external-auth-providers:
+    label: Метка
+    title: Управление внешними провайдерами аутентификации
+    type: Тип
   info:
-    confirmEmail: Подтвердить адрес электронной почты
+    confirmEmail: Подтвердить email
+    id: ID
     createdAt: Создано
+    createdBy: Создал
     delete: Удалить
     deletedAt: Удалено
-    email: Email
+    email: Email *
     handle: Идентификатор
+    placeholder-handle: идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+    invalid-handle-characters: Должно быть не менее 2 символов. Допустимы только буквы, цифры, подчёркивания и точки. Должно заканчиваться буквой или цифрой
     name: Полное имя
-    revokeAllSession: Отозвать все активные сессии
+    revokeAllSession: Завершить все активные сессии
     suspend: Заблокировать
     suspendedAt: Заблокирован
     title: Основная информация
     undelete: Восстановить
     unsuspend: Разблокировать
     updatedAt: Обновлено
+  avatar:
+    title: Аватар профиля
+    preview:
+      label: Аватар
+      title: Аватар
+    initial:
+      color: Цвет текста
+      backgroundColor: Цвет фона
+    uploader:
+      instructions: Загрузить аватар
+      uploading: Загрузка аватара пользователя
+    colorPicker: Выберите цвет
   mfa:
     TOTP:
       disabled:
-        text: У пользователя не настроена защита TOTP.
+        text: Пользователь не настроил защиту через TOTP
       enabled:
-        text: У пользователя настроена защита TOTP через мобильное приложение.
+        text: Пользователь настроил защиту через TOTP мобильное приложение
       remove:
         label: Удалить
     emailOTP:
@@ -28,32 +47,27 @@ editor:
         label: Отключить
       disabled:
         text: |-
-          Email OTP защита отключена для этого пользователя.
-          Письмо с кодом безопасности при каждом входе отправляться не будет.
+          Защита через Email OTP отключена для этого пользователя
+          Email с кодом безопасности при каждом входе не будет отправлен
       enable:
         label: Включить
       enabled:
         text: |-
-          Email OTP защита включена для этого пользователя.
-          Пользователь будет получать письмо с кодом безопасности при каждом входе.
+          Защита через Email OTP включена для этого пользователя
+          Пользователь будет получать email с кодом безопасности при каждом входе
     title: Многофакторная аутентификация
-  new: Новый
-  notifications:
-    membershipOK: Членство успешно обновлено
-    passwordOK: Пароль успешно изменён
-    title: Пользователь обновлён
-    userInfoOK: Информация о пользователе успешно обновлена
+  new: Новый пользователь
   password:
-    confirm: Подтвердите пароль
+    confirm: Подтвердить пароль
     length: Пароль должен быть не менее {{length}} символов!
-    missmatch: Пароли должны совпадать!
+    missmatch: Пароли должны совпадать
     new: Новый пароль
     title: Пароль
     removePassword: Удалить пароль
-  permissions: Разрешения
+  permissions: Права доступа
   roles:
     add: Добавить
-    count: ролей
+    count: роли
     remove: Удалить
     title: Членство в ролях
     unnamed: Безымянная роль
@@ -68,9 +82,20 @@ list:
     enabled: Включено
     handle: Идентификатор
     name: Имя
+    state: Состояние
+  suspend: Заблокировать
+  unsuspend: Разблокировать
+  delete: Удалить
+  undelete: Восстановить
+  revokeActiveSession: Завершить сессию
+  export: Экспорт
+  rows:
+    filters:
+      deleted: Удалено
+      suspended: Заблокировано
   filterForm:
     deleted:
-      label: удалённые пользователи
+      label: удаленные пользователи
     excluded:
       label: Без
     exclusive:
@@ -78,15 +103,15 @@ list:
     inclusive:
       label: Включая
     query:
-      label: Фильтр списка пользователей
-      placeholder: Фильтровать пользователей по имени
+      label: Фильтр пользователей
+      placeholder: Фильтр пользователей по имени, email
     suspended:
       label: заблокированные пользователи
   loading: Загрузка пользователей
-  new: Новый
+  new: Новый пользователь
   numFound: '{{count}} пользователь найден'
   numFound_plural: '{{count}} пользователей найдено'
-  permissions: Разрешения
+  permissions: Права доступа
   title: Пользователи
   yaml: YAML
 export:

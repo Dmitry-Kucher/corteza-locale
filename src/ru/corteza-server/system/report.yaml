@@ -1,12 +1,12 @@
----
 errors:
+  invalidConfiguration: Недопустимая конфигурация отчёта
   invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания отчётов
-  notAllowedToDelete: нет прав для удаления этого отчёта
-  notAllowedToListReports: нет прав для просмотра отчётов
-  notAllowedToRead: нет прав для просмотра этого отчёта
-  notAllowedToRun: нет прав для запуска этого отчёта
-  notAllowedToSearch: нет прав для поиска или просмотра отчётов
-  notAllowedToUndelete: нет прав для восстановления этого отчёта
-  notAllowedToUpdate: нет прав для изменения этого отчёта
+  notAllowedToCreate: нет прав создавать отчёты
+  notAllowedToDelete: нет прав удалять этот отчёт
+  notAllowedToListReports: нет прав просматривать отчёты
+  notAllowedToRead: нет прав просматривать этот отчёт
+  notAllowedToRun: нет прав запускать этот отчёт
+  notAllowedToSearch: нет прав искать или просматривать отчёты
+  notAllowedToUndelete: нет прав восстанавливать этот отчёт
+  notAllowedToUpdate: нет прав обновлять этот отчёт
   notFound: отчёт не найден

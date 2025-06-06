@@ -1,0 +1,121 @@
+break:
+  label: Прервать
+  short: Прервать
+  tooltip: Остановить выполнение итератора и продолжить процесс
+content:
+  label: Контент
+  short: Контент
+  tooltip: Блок для текстовых аннотаций
+  configurator:
+    ok: Ок
+    urlPlaceholder: https://example.tld
+continue:
+  label: Продолжить
+  short: Продолжить
+  tooltip: Остановить текущую итерацию и перейти к следующей
+debug:
+  label: Отладка
+  short: Отладка
+  tooltip: Логирует текущую область процесса в серверные логи. Если отладка процесса включена
+delay:
+  label: Задержка
+  short: Задержка
+  tooltip: Задерживает выполнение процесса
+error:
+  label: Ошибка
+  short: Ошибка
+  tooltip: Вызывает ошибку и останавливает выполнение процесса, также предотвращает сохранение записей, вызванных триггером before
+error-handler:
+  label: Обработчик ошибок
+  short: Обработчик ошибок
+  tooltip: Продолжить выполнение процесса с этого шага, если возникла ошибка
+expressions:
+  configurator:
+    add-expression: + Добавить выражение
+    expression: Выражение
+    expression-placeholder: Выражение...
+    target: Цель
+  label: Выражения
+  short: Выражения
+  tooltip: Определить и изменить переменные области
+function:
+  configurator:
+    arguments: Аргументы
+    constant: Константа
+    expression: Выражение
+    name: Имя
+    option-select: Выберите опцию
+    result: Результат
+    results: Результаты
+    target: Цель
+    add-result: + Добавить результат
+    search-workflow: Поиск процесса
+    select-function: Выбрать функцию
+    type: Тип
+    type*: Тип*
+  label: Функция
+  short: Функция
+  tooltip: Выполнить выбранную предопределённую функцию
+exec-workflow:
+  label: Выполнить процесс
+  short: Процесс
+  tooltip: Выполнить процесс и сопоставить переменные его области с текущей
+gatewayExclusive:
+  label: Шлюз (Исключающий)
+  short: Шлюз
+  tooltip: Выполнение процесса продолжается по первому подходящему условию
+gatewayInclusive:
+  label: Шлюз (Включающий)
+  short: Шлюз
+  tooltip: Выполнение процесса продолжается по всем подходящим условиям
+gatewayParallel:
+  label: Шлюз (Разделение/Объединение)
+  short: Шлюз
+  tooltip: Разделяет выполнение процесса на два параллельных пути или объединяет несколько путей в один
+gateway:
+  configurator:
+    condition: Условие
+    two-paths: Шлюз должен быть источником как минимум двух путей
+iterator:
+  label: Итератор
+  short: Итератор
+  tooltip: Итерировать по элементам
+prompt:
+  label: Вопрос
+  short: Вопрос
+  tooltip: Запрашивает пользователя и ожидает ввода
+swimlane:
+  label: Полоса
+  short: Полоса
+  tooltip: Визуально группировать шаги
+termination:
+  label: Завершение
+  short: Завершение
+  tooltip: Завершить выполнение процесса
+trigger:
+  configurator:
+    add: + Добавить
+    add-constraints: + Добавить ограничения
+    constraints: Ограничения
+    event*: Событие*
+    failed-fetch-event-types: Не удалось получить типы событий
+    initial-scope: Начальная область
+    equal: Равно
+    not-equal: Не равно
+    like: Как
+    not-like: Не как
+    operator: Оператор
+    resource:  Ресурс
+    resource*:  Ресурс*
+    select-constraint-type: Выберите тип ограничения
+    select-operator: Выберите оператор
+    select-event-type: Выберите тип события
+    select-resource-type: Выберите тип ресурса
+  label: Триггер
+  short: Триггер
+  tooltip: Запустить выполнение процесса на основе конфигурации
+tooltip:
+  configure-step: Настроить шаг
+path:
+  label: Путь
+  short: Путь

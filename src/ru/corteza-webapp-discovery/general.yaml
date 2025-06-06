@@ -1,0 +1,17 @@
+federated: Федеративный
+no-values: Нет значений
+label:
+  all: Все
+resourceList:
+  pagination:
+    recordsPerPage: На странице
+
+themes:
+  labels:
+    light: Светлая
+    dark: Тёмная
+
+extendSession:
+  labels:
+    extend: Продлить сессию
+    warning: Вы будете выведены из системы через {{ countdownTime }} секунд

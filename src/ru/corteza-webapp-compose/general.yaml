@@ -1,88 +1,128 @@
----
 label:
+  app-name:
+    public: Пространства имён
+    private: Пространства имён — Админ
   actions: Действия
-  active: Активен
+  active: Активно
   add: Добавить
+  add-with-plus: + Добавить
   addNew: Добавить новое
   addValue: Добавить новое значение
+  ascending: По возрастанию
   attachmentFileInfo: '(Размер файла: {{0}}, загружено {{1}})'
   attributes: Атрибуты
   back: Назад
   backWithoutSave: Назад (без сохранения изменений)
+  block: Блок
   browse: Просмотр
   buttons: Кнопки
   cancel: Отмена
+  clear: Очистить
   clone: Клонировать
   close: Закрыть
   create: Создать
   delete: Удалить
+  default: По умолчанию
+  restore: Восстановить
+  descending: По убыванию
   description: Описание
   download: Скачать
-  dropFiles: Кликните или перетащите файлы сюда для загрузки
+  dropFiles: Кликните или перетащите файлы для загрузки
   edit: Редактировать
   enabled: Включено
   export: Экспорт
   fileTypeNotAllowed: Тип файла не разрешён
-  uploadError: 'Ошибка загрузки файла: "{{message}}"'
   general: Общие
   handle: Идентификатор
   here: здесь
+  home: Главная
   import: Импорт
+  all: Все
   importPlaceholder: Загрузите файлы для импорта
-  label: Подпись
   loading: Загрузка
   makeDefault: Сделать по умолчанию
   moduleName: Имя модуля
-  multi: Множественное значение
+  multi: Множественный
   name: Имя
   next: Далее
-  "no": "Нет"
+  no: Нет
   noHandle: Нет идентификатора
   none: Нет
-  ok: Ок
-  openBookmarks: Открыть закладки
-  pageBuilder: Конструктор страниц
+  now: Сейчас
+  ok: ОК
+  page: Страница
+  pageLayout: Разметка страницы
+  pageBuilder: Построитель страниц
   permissions: Права доступа
   private: Приватный
+  privacy: Конфиденциальность
   processing: Обработка...
+  record: Запись
   recordPage: Страница записи
+  field: Поле
   remove: Удалить
   removeDefault: Удалить по умолчанию
-  required: Обязательно
+  required: Обязательный
+  reset: Сбросить
+  sensitive: Чувствительный
   save: Сохранить
   saveAndClose: Сохранить и закрыть
-  search: Поиск
+  saveAsCopy: Сохранить как копию
   status: Статус
   timeHour: '{{t}}ч'
   timeMinute: '{{t}}мин'
+  today: Сегодня
   title: Заголовок
   type: Тип
-  updatedAt: '$t(field.system.updatedAt)'
+  updatedAt: Обновлено
+  uploadError: 'Ошибка загрузки файла: "{{message}}"'
   uploading: Загрузка
+  unsavedChanges: Несохранённые изменения
   urlPlaceholder: https://example.tld
   validation: Валидация
-  value: Значение
   view: Просмотр
-  welcome: Добро пожаловать!
-  "yes": "Да"
+  yes: Да
+  chart:
+    single: Диаграмма
+    plural: Диаграммы
+  namespace:
+    single: Пространство имён
+    plural: Пространства имён
+  module:
+    single: Модуль
+    plural: Модули
+navigation:
+  chart: Диаграммы
+  namespace: Пространства имён
+  module: Модули
+  page: Страницы
+  pageLayout: Разметка страниц
 placeholder:
-  handle: идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+  handle: идентификатор (a - z, 0 - 9, подчеркивание, дефис)
   sample: Пример
 reminder:
-  add: Добавить новое напоминание
-  dismiss: Отклонить
+  add: Добавить напоминание
+  dismiss: Отменить
+  dismissed: Отменено
+  dismissedAt: Отменено в
+  undismiss: Не отменять
+  delete: Удалить напоминание
+  recordPageLink: Просмотр записи
   edit:
-    assigneeLabel: Назначить
+    label: Редактировать напоминание
+    assigneeLabel: Исполнитель
     assigneePlaceholder: Я (по умолчанию)
-    notesLabel: Заметки
-    notesPlaceholder: Заметки
-    remindAtLabel: Уведомить меня
+    notesLabel: Примечания
+    notesPlaceholder: Примечания
+    remindAtLabel: Напомнить мне в
     remindAtNone: Никогда
     titleLabel: Заголовок
     titlePlaceholder: Заголовок
   listLabel: Напоминания
-  routesTo: 'Содержит ссылку на:'
-  snooze: Отложить
+  routesTo: Метка для ссылки на страницу
+  snooze:
+    label: Отложить
+    count: Отложить ({{count}})
 tooltip:
   dragAndDrop: Перетащите для изменения порядка
 fieldKinds:
@@ -107,17 +147,58 @@ fieldKinds:
   User:
     label: Выбор пользователя
   Geometry:
-    label: Геометрия
+    label: Местоположение
 field:
   selectAll: Выбрать все
-  unselectAll: Снять выбор со всех
+  tooltip:
+    permissions: Права доступа к полю
+  unselectAll: Снять выбор всех
   kind:
     user:
       suggestionPlaceholder: Начните вводить для поиска пользователей по электронной почте или имени
-notification:
-  composeAccessNotAllowed: Нет доступа к Compose
-  import:
-    failed: Импорт не удался
-    readingError: Ошибка чтения файла
-    successful: Импорт успешен
-    typeMissmatch: 'Ошибка импорта: попытка импортировать объект типа "{{type1}}" в список объектов типа "{{type2}}"'
+resourceList:
+  notFound: Не найдено
+  noItems: Нет элементов для отображения
+  pagination:
+    next: Далее
+    prev: Предыдущий
+    showing: '{{from}} - {{to}} из {{count}} {{data}}'
+    single_one: 'Один {{data}}'
+    single_other: '{{count}} {{data}}'
+    recordsPerPage: На странице
+recordNavigation:
+  next: Следующая запись
+  prev: Предыдущая запись
+variants:
+  primary: Основной
+  secondary: Второстепенный
+  light: Светлый
+  dark: Тёмный
+  info: Информация
+  success: Успех
+  danger: Опасность
+  warning: Предупреждение
+editor:
+  unsavedChanges:  Несохранённые изменения будут потеряны. Вы хотите покинуть страницу?
+webcam:
+  title: Веб-камера
+  tooltip: Открыть веб-камеру для захвата фото
+  buttons:
+    cancel: Отмена
+    capture: Захватить фото
+    confirm: Загрузить фото
+  errors:
+    camera: Не удалось получить доступ к камере. Пожалуйста, убедитесь, что вы предоставили разрешение на доступ к камере.
+
+record:
+  unsavedChanges:  Несохранённые изменения будут потеряны. Вы хотите закрыть запись?
+
+themes:
+  labels:
+    light: Светлый
+    dark: Тёмный
+
+extendSession:
+  labels:
+    extend: Продлить сеанс
+    warning: Вы будете выведены из системы через {{ countdownTime }} секунд

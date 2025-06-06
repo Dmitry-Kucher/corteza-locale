@@ -1,0 +1,14 @@
+title: Фильтр
+
+types:
+  title: Типы
+  namespace: Пространство имён
+  module: Модуль
+  user: Пользователь
+  record: Запись
+
+aggregation-groups:
+  modules: Модули
+  namespaces: Пространства имён
+
+reset: Сбросить

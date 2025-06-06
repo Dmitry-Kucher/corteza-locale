@@ -1,29 +1,72 @@
----
 colorLabel: '{{count}} цветов'
-colorScheme: Цветовая схема
+colorScheme:
+  label: Цветовая схема
+  placeholder: Выберите цветовую схему
+  pickAColor: Выберите цвет
+  custom:
+    add: Добавить цветовую схему
+    edit: Редактировать цветовую схему
+    modal:
+      name:
+        label: Название
+      colors:
+        label: Цвета
+configure:
+  reportsLabel: Отчёты
+general:
+  label:
+    title: Подпись
+    add: Добавить
+    count: Количество
+    permissions: Права
+  value: Значение
+  placeholder:
+    name: Название (например, "Продажи по месяцам")
+    handle: Уникальный идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+    invalid-handle-characters: Должно быть не менее 2 символов. Допустимы только буквы, цифры, подчёркивания и точки. Должно заканчиваться буквой или цифрой
 edit:
+  animation:
+    label: Анимация
+    enabled: Анимация включена
   dimension:
-    calculateLabelCount: Рассчитать, сколько подписей может быть показано
+    calculateLabelCount: Рассчитать, сколько подписей можно отобразить
     defaultValueFootnote: Использовать это значение для отсутствующих значений измерения
     defaultValueLabel: Значение по умолчанию
-    fieldLabel: Поле
+    fieldLabel: Поле *
     fieldPlaceholder: Выберите поле измерения
     function:
-      date: ДАТА
-      label: Функция
-      month: МЕСЯЦ
-      none: (без группировки / корзин)
       placeholder: Выберите модификатор измерения (размер корзины)
-      quarter: КВАРТАЛ
-      week: НЕДЕЛЯ
-      year: ГОД
+      none: Без группировки
+      auto: Автоматически
+      date: Дата
+      label: Функция
+      month: Месяц
+      quarter: Квартал
+      week: Неделя
+      year: Год
     gaugeSteps: Шаги
-    label: Измерения (дата/время и списки)
-    skipMissingValues: Пропускать отсутствующие значения
+    label: Измерения
+    skipMissingValues: Пропустить отсутствующие значения
+    timeLabels: Метки времени
+    options:
+      label: Параметры
+    optionsPicker:
+      searchPlaceholder: Введите текст для поиска среди доступных вариантов
+      availableItems: Доступные варианты
+      selectAllItems: Выберите все
+      selectedItems: Выбранные варианты
+      unselectAllItems: Снять выбор со всех
+      noItemsFound: Варианты не найдены
+    rotate:
+      label: Поворот меток
+      description: Метки можно поворачивать от -90 до 90 градусов.
   filter:
     customize: Настроить фильтр
-    label: Фильтры
-    noFilter: (без фильтра)
+    label: Фильтр
+    preset: Предустановленные фильтры
+    footnote: Поддерживается упрощенный синтаксис условий SQL (WHERE ...). Переменные типа {{0}}, {{1}}, {{2}} и {{3}} оцениваются (при наличии)
+    placeholder: поле1 = 1 И поле2 = 232
+    noFilter: Выберите фильтр
     recordsCreatedLastMonth: Записи, созданные в прошлом месяце
     recordsCreatedLastQuarter: Записи, созданные в прошлом квартале
     recordsCreatedLastYear: Записи, созданные в прошлом году
@@ -32,66 +75,186 @@ edit:
     recordsCreatedThisYear: Записи, созданные в этом году
   loadData: Загрузить данные
   metric:
+    title: Метрики
     add: Добавить метрику
-    fieldLabel: Поле
+    fieldLabel: Поле *
     fieldPlaceholder: Выберите поле метрики
-    fillArea: Закрашивать область под линией
-    fixTooltips: Всегда показывать подсказки
+    fillArea: Заполнить область под линией
+    fixTooltips: Всегда показывать метки
+    options:
+      label: Параметры
     function:
-      avg: СРЕДНЕЕ
+      avg: AVG
       label: Функция
-      max: МАКС
-      min: МИН
-      placeholder: Выберите функцию агрегации метрики
+      max: MAX
+      min: MIN
+      placeholder: Выберите агрегатную функцию метрики
       std: STD
-      sum: СУММА
+      sum: SUM
     fx:
-      description: n — текущее значение набора данных, m — предыдущее значение
+      description: n - текущее значение набора данных, m - предыдущее значение набора данных
       label: Функция постобработки
+    stack:
+      label: Стек
+      description: Метрики с одинаковым значением будут chồngаны
+    lineStyle:
+      label: Стиль линии
+      default: По умолчанию
+      smooth: Сглаженная
+      step: Шаговая
+    angle:
+      start: Начальный угол
+      end: Конечный угол
+    rose: Роза
+    radar:
+      shape:
+        label: Форма радара
+        polygon: Многоугольник
+        circle: Круг
     gaugeColor: Цвет
     label: Метрика
-    labelColor: Цвет подписи
-    labelLabel: Подпись
+    labelColor: Цвет метки
+    labelLabel: Метка
     labelPlaceholder: Всего
+    symbol:
+      label: Символ
+      circle: Круг
+      triangle: Треугольник
+      diamond: Ромб
+      pin: Метка
+      arrow: Стрелка
+      rect: Прямоугольник
+      roundRect: Закруглённый прямоугольник
     legend:
       bottom: Внизу
       left: Слева
-      positionPlaceholder: Положение легенды
+      positionPlaceholder: Позиция легенды
       right: Справа
-      top: Вверху
+      top: Сверху
     lineTension:
-      curvy: Большие кривые
-      label: Напряжение линии
-      medium: Средние кривые
-      placeholder: Напряжение линии
-      slight: Малые кривые
-      straight: Прямые линии
+      curvy: Большая кривизна
+      label: Натяжение линии
+      medium: Средняя кривизна
+      placeholder: Натяжение линии
+      slight: Малая кривизна
+      straight: Прямая линия
     output:
-      bar: Столбчатая диаграмма
-      doughnut: Кольцевая диаграмма
-      label: Тип вывода
-      line: Линейная диаграмма
-      pie: Круговая диаграмма
+      bar: Столбчатая
+      doughnut: Кольцевая
+      label: Тип диаграммы *
+      line: Линейная
+      pie: Круговая
+      scatter: Разбросанная
       placeholder: Выберите тип вывода метрики
-    relative: Показывать относительное значение
+    relative: Показать относительное значение
     relativePrecision: 'Точность:'
-    title: Метрики (числовые поля)
-  modulePick: Выберите модуль
-  title: Конструктор диаграмм
+    cumulative: Кумулятивная
+  module:
+    label: Модуль *
+    placeholder: Выберите модуль
+    title: Источник данных
+  title: Построитель диаграмм
   unconfiguredReport: Не настроенный отчёт
   yAxis:
     axisOnRight: Разместить ось справа
-    axisScaleFromZero: Всегда начинать ось с нуля
+    axisScaleFromZero: Всегда начинать шкалу оси с нуля
     label: Ось Y
-    labelLabel: Подпись оси
-    labelPlaceholder: Подпись оси
+    options:
+      label: Параметры
+    rotate:
+      label: Поворот меток
+      description: Метки можно поворачивать от -90 до 90 градусов.
+    labelLabel: Метка оси
+    labelPosition:
+      label: Позиция метки
+      top: Начало
+      center: Центр
+      bottom: Конец
+    horizontal:
+      label: Горизонтальная
     logarithmicScale: Логарифмическая шкала
     maxLabel: Максимальное значение
     maxPlaceholder: Максимальное значение
     minLabel: Минимальное значение
     minPlaceholder: Минимальное значение
+  additionalConfig:
+    legend:
+      label: Легенда
+      show: Показать легенду
+      orientation:
+        label: Ориентация
+        horizontal: Горизонтальная
+        vertical: Вертикальная
+      align:
+        label: Выравнивание
+        left: Слева
+        right: Справа
+        center: По центру
+      scrollable: Прокручиваемая
+      position:
+        customize: Позиция по умолчанию
+        top: Сверху
+        right: Справа
+        bottom: Снизу
+        left: Слева
+      valueRange: Значения можно задавать в пикселях 20 или в процентах 20%
+    tooltip:
+      label: Подсказка
+      labelNextToChart: Показывать метки рядом с диаграммой
+      formatting:
+        label: Пользовательское форматирование
+        description: '{a} - метка метрики, {b} - значение измерения, {c} - значение метрики, {d} - процентное значение метрики'
+        placeholder: '{a}<br />{b} : {c} ({d}%)'
+        disclaimer: Добавление значения в поле форматирования отключит поля форматирования чисел, префикса и суффикса и наоборот
+    offset:
+      label: Смещение
+      default: Смещение по умолчанию
+      position:
+        top: Сверху
+        right: Справа
+        bottom: Снизу
+        left: Слева
+      valueRange: Значения можно задавать в пикселях 20 или в процентах 20%
+  toolbox:
+    label: Инструменты
+    saveAsImage:
+      label: Показать кнопку "Сохранить как изображение"
+    timeline:
+      label: Шкала времени
+      options:
+        none: Нет
+        x: Ось X
+        y: Ось Y
+        xy: Обе
+  formatting:
+    format:
+      label: Формат
+      placeholder: '0.00'
+    prefix:
+      label: Префикс
+      placeholder: '#'
+    suffix:
+      label: Суффикс
+      placeholder: $
+    presetFormats:
+      label: Формат
+      options:
+        custom: Пользовательский
+        accounting: Формат учета
+      description:
+        custom: ''
+        accounting: Отрицательные числа преобразуются в положительные и добавляются в скобки, а значение 0 заменяется на дефис
 import: 'Импортировать диаграмму(ы):'
 newLabel: 'Создать новую диаграмму:'
-newPlaceholder: Название диаграммы
-searchPlaceholder: Введите текст для поиска диаграмм в этом пространстве
+name: Название диаграммы *
+handle: Идентификатор
+generalSettings: Основные настройки
+notification:
+  loadFailed: Не удалось загрузить диаграмму
+  saveFailed: Не удалось сохранить эту диаграмму
+  saved: Диаграмма сохранена
+  deleteFailed: Не удалось удалить эту диаграмму
+  deleted: Диаграмма удалена
+searchPlaceholder: Введите текст для поиска среди всех диаграмм в этом пространстве имен
 title: Список диаграмм
+undefined: не определено

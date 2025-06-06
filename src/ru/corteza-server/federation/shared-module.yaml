@@ -1,11 +1,10 @@
----
 errors:
   federationSyncStructureChanged: структура модуля изменена
   invalidID: неверный ID
   nodeNotFound: узел не существует
-  notAllowedToCreate: нет прав для создания модулей
-  notAllowedToManage: нет прав для управления этим модулем
-  notAllowedToMap: нет прав для сопоставления этого модуля
+  notAllowedToCreate: нет прав создавать модули
+  notAllowedToManage: нет прав управлять этим модулем
+  notAllowedToMap: нет прав сопоставлять этот модуль
   notFound: модуль не существует
   notUnique: узел не уникален
   staleData: устаревшие данные

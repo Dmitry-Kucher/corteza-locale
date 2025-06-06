@@ -1,10 +1,11 @@
----
 errors:
-  invalidID: неверный ID
-  invalidRoute: неверный маршрут
-  notAllowedToCreate: нет прав для создания фильтра
-  notAllowedToDelete: нет прав для удаления этого фильтра
-  notAllowedToRead: нет прав для просмотра этого фильтра
-  notAllowedToUndelete: нет прав для восстановления этого фильтра
-  notAllowedToUpdate: нет прав для изменения этого фильтра
-  notFound: фильтр не найден
+  asyncRouteTooManyProcessers: Для этого асинхронного маршрута процессор уже существует
+  asyncRouteTooManyAfterFilters: Для этого асинхронного маршрута нельзя добавить дополнительные фильтры
+  invalidID: Некорректный ID
+  invalidRoute: Некорректный маршрут
+  notAllowedToCreate: Нет прав на создание фильтра
+  notAllowedToDelete: Нет прав на удаление этого фильтра
+  notAllowedToRead: Нет прав на просмотр этого фильтра
+  notAllowedToUndelete: Нет прав на восстановление этого фильтра
+  notAllowedToUpdate: Нет прав на изменение этого фильтра
+  notFound: Фильтр не найден

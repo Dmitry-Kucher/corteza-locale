@@ -1,4 +1,3 @@
----
 applications:
   applications: Приложение(я)
   deleted: Удалено
@@ -12,8 +11,9 @@ roles:
   total: Всего
 title: Дашборд
 users:
-  deleted: Удалён
-  suspended: Заблокирован
+  created: Созданные пользователи
+  deleted: Удалено
+  suspended: Заблокировано
   title: Активные пользователи
   total: Всего
   users: Пользователь(и)

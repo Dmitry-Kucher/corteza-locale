@@ -1,4 +1,3 @@
----
 list:
   columns:
     action: Действие
@@ -8,30 +7,32 @@ list:
     resource: Ресурс
     severity: Важность
     timestamp: Время
+  loading: Загрузка действий
   details:
-    id: 'ID'
-    header: 'Детали'
-    timestamp: 'Время'
-    requestOrigin: 'Источник запроса'
-    requestID: 'ID запроса'
-    actorIPAddr: 'IP пользователя'
-    actor: 'Пользователь'
-    actorID: 'ID пользователя'
-    severity: 'Важность'
-    resource: 'Ресурс'
-    action: 'Действие'
-    headerAdditional: 'Дополнительная информация'
-    description: 'Описание'
-    error: 'Ошибка'
+    id: ID
+    header: Детали
+    timestamp: Время
+    requestOrigin: Источник запроса
+    requestID: ID запроса
+    actorIPAddr: IP пользователя
+    actor: Пользователь
+    actorID: ID пользователя
+    severity: Важность
+    resource: Ресурс
+    action: Действие
+    headerAdditional: Дополнительная информация
+    description: Описание
+    error: Ошибка
+    meta: Метаданные
   severity:
-    emergency: 'Авария'
-    alert: 'Тревога'
-    critical: 'Критично'
-    error: 'Ошибка'
-    warning: 'Предупреждение'
-    notice: 'Уведомление'
-    info: 'Инфо'
-    debug: 'Отладка'
+    emergency: Чрезвычайно
+    alert: Тревога
+    critical: Критично
+    error: Ошибка
+    warning: Предупреждение
+    notice: Уведомление
+    info: Инфо
+    debug: Отладка
   filter:
     action: Действие
     actor: ID пользователя
@@ -40,7 +41,7 @@ list:
     no-time: Время не выбрано
     resource: Ресурс
     search: Поиск
-    to: По
+    to: До
     today: Сегодня
   loadOlder: Загрузить более старые действия
   title: Журнал действий

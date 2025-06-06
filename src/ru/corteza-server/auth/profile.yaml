@@ -1,11 +1,10 @@
----
 template:
   title: Ваш профиль
   form:
     email:
-      label: Эл. почта
-      placeholder: email@domain.ltd
-      resend-confirmation-link: Почта не подтверждена, <a href="{{link}}?resend">отправить ссылку повторно.</a>
+      label: Электронная почта
+      placeholder: email@domain.tld
+      resend-confirmation-link: Электронная почта не подтверждена, <a data-test-id="link-resend-confirmation" href="{{link}}?resend">отправить ссылку повторно.</a>
     name:
       label: Полное имя
       placeholder: Ваше полное имя
@@ -17,7 +16,7 @@ template:
       delete: Удалить
       upload: Загрузить аватар
     avatar-initial:
-      label: Инициалы на аватаре
+      label: Инициалы для аватара
       color: Цвет текста аватара
       background-color: Цвет фона аватара
     preferred-language:

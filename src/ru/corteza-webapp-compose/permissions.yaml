@@ -1,0 +1,255 @@
+ui:
+  save: Сохранить изменения
+  cancel: Отмена
+  set-for: Установить права для {{target}}
+  loading: Загрузка прав
+  label: Права
+
+  notification:
+    save:
+      success: Права сохранены
+      failed: Не удалось сохранить права
+
+  edit:
+    label: Роли пользователей
+    description: Выберите роль для настройки прав
+
+  evaluate:
+    label: Проверить
+    description: Проверить применяемые права
+
+  add:
+    label: Добавить
+    title: Проверить права
+    save: Сохранить и закрыть
+    role:
+      label: Роли
+      placeholder: Выберите роль(и)
+    user:
+      label: Пользователи
+      placeholder: Найдите или выберите пользователя
+
+  tooltip:
+    unknown-context:
+      user: Нельзя проверить права пользователя с контекстной ролью для неспецифичного ресурса
+      role: Нельзя проверить права контекстной роли для неспецифичного ресурса
+
+  access:
+    allow: Разрешить
+    inherit: Наследовать
+    deny: Запретить
+
+resources:
+  compose:
+    namespace:
+      all: все пространства имен
+      specific: пространство имен "{{target}}"
+      tooltip: Права пространства имен
+      operations:
+        read:
+          description: ""
+          specific: Читать пространство имен "{{target}}"
+          title: Читать любое пространство имен
+        update:
+          description: ""
+          specific: Обновлять пространство имен "{{target}}"
+          title: Обновлять любое пространство имен
+        delete:
+          description: ""
+          specific: Удалять пространство имен "{{target}}"
+          title: Удалять любое пространство имен
+        manage:
+          description: Разрешить доступ к административным страницам пространства имен
+          specific: Управлять пространством имен "{{target}}"
+          title: Управлять любым пространством имен
+        export:
+          description: ""
+          specific: Экспортировать пространство имен "{{target}}"
+          title: Экспортировать любое пространство имен
+        module.create:
+          description: ""
+          specific: Создавать модули в пространстве имен "{{target}}"
+          title: Создавать модули в любом пространстве имен
+        modules.export:
+          description: ""
+          specific: Экспортировать модули в пространстве имен "{{target}}"
+          title: Экспортировать модули в любом пространстве имен
+        modules.search:
+          description: ""
+          specific: Список и поиск модулей в пространстве имен "{{target}}"
+          title: Список и поиск модулей в любом пространстве имен
+        page.create:
+          description: ""
+          specific: Создавать страницы в пространстве имен "{{target}}"
+          title: Создавать страницы в любом пространстве имен
+        pages.search:
+          description: ""
+          specific: Список и поиск страниц в пространстве имен "{{target}}"
+          title: Список и поиск страниц в любом пространстве имен
+        pages.export:
+          description: ""
+          specific: Экспортировать страницы в пространстве имен "{{target}}"
+          title: Экспортировать страницы в любом пространстве имен
+        chart.create:
+          description: ""
+          specific: Создавать диаграммы в пространстве имен "{{target}}"
+          title: Создавать диаграммы в любом пространстве имен
+        charts.search:
+          description: ""
+          specific: Список и поиск диаграмм в пространстве имен "{{target}}"
+          title: Список и поиск диаграмм в любом пространстве имен
+        charts.export:
+          description: ""
+          specific: Экспортировать диаграммы в пространстве имен "{{target}}"
+          title: Экспортировать диаграммы в любом пространстве имен
+
+    chart:
+      all: все диаграммы
+      specific: диаграмма "{{target}}"
+      tooltip: Права диаграммы
+      operations:
+        delete:
+          description: 'По умолчанию: запретить'
+          specific: Удалять диаграмму "{{target}}"
+          title: Удалять любую диаграмму
+        read:
+          description: 'По умолчанию: запретить'
+          specific: Читать диаграмму "{{target}}"
+          title: Читать любую диаграмму
+        update:
+          description: 'По умолчанию: запретить'
+          specific: Обновлять диаграмму "{{target}}"
+          title: Обновлять любую диаграмму
+
+    module:
+      all: все модули
+      specific: модуль "{{target}}"
+      tooltip: Права модуля
+      operations:
+        delete:
+          description: 'По умолчанию: запретить'
+          specific: Удалять модуль "{{target}}"
+          title: Удалять любой модуль
+        read:
+          description: 'По умолчанию: запретить'
+          specific: Читать модуль "{{target}}"
+          title: Читать любой модуль
+        record.create:
+          description: 'По умолчанию: запретить'
+          specific: Создавать записи модуля "{{target}}"
+          title: Создавать записи любого модуля
+        records.search:
+          description: 'По умолчанию: запретить'
+          specific: Список и поиск записей модуля "{{target}}"
+          title: Список и поиск записей любого модуля
+        update:
+          description: 'По умолчанию: запретить'
+          specific: Обновлять модуль "{{target}}"
+          title: Обновлять любой модуль
+        'owned-record.create':
+          description: 'По умолчанию: запретить'
+          specific: Управлять владельцем при создании записи модуля "{{target}}"
+          title: Управлять владельцем при создании записи любого модуля
+          all-specific: Управлять владельцем при создании записи модуля "{{ target }}"
+
+    module-field:
+      all: все поля модулей
+      specific: поле "{{target}}"
+      all-specific: все поля модулей модуля "{{ target }}"
+      tooltip: Права поля модуля
+      operations:
+        record.value.read:
+          description: 'По умолчанию: запретить'
+          specific: 'Читать поля записей "{{target}}" '
+          title: Читать поля записей любого модуля
+          all-specific: Читать поля записей модуля "{{ target }}"
+        record.value.update:
+          description: 'По умолчанию: запретить'
+          specific: 'Обновлять поля записей "{{target}}"'
+          title: Обновлять поля записей любого модуля
+          all-specific: Обновлять поля записей модуля "{{ target }}"
+
+    page:
+      all: все страницы
+      specific: страница "{{target}}"
+      tooltip: Права страницы
+      operations:
+        delete:
+          description: 'По умолчанию: запретить'
+          specific: Удалять страницу "{{target}}"
+          title: Удалять любую страницу
+        read:
+          description: 'По умолчанию: запретить'
+          specific: Читать страницу "{{target}}"
+          title: Читать любую страницу
+        update:
+          description: 'По умолчанию: запретить'
+          specific: Обновлять страницу "{{target}}"
+          title: Обновлять любую страницу
+        page-layout.create:
+          description: 'По умолчанию: запретить'
+          specific: Создавать макеты страниц для страницы "{{target}}"
+          title: Создавать макеты страниц
+        page-layouts.search:
+          description: 'По умолчанию: запретить'
+          specific: Список макетов страниц для страницы "{{target}}"
+          title: Список макетов страниц
+
+    page-layout:
+      all: все макеты страниц
+      specific: макет страницы "{{target}}"
+      tooltip: Права макета страницы
+      all-specific: все макеты страниц страницы "{{ target }}"
+      operations:
+        read:
+          description: 'По умолчанию: запретить'
+          specific: Читать макет страницы "{{target}}"
+          title: Читать любой макет страницы
+          all-specific: Читать макеты страниц страницы "{{ target }}"
+        update:
+          description: 'По умолчанию: запретить'
+          specific: Обновлять макет страницы "{{target}}"
+          title: Обновлять любой макет страницы
+          all-specific: Обновлять макеты страниц страницы "{{ target }}"
+        delete:
+          description: 'По умолчанию: запретить'
+          specific: Удалять макет страницы "{{target}}"
+          title: Удалять любой макет страницы
+          all-specific: Удалять макеты страниц страницы "{{ target }}"
+
+    record:
+      all: все записи
+      specific: запись "{{target}}"
+      all-specific: все записи модуля "{{ target }}"
+      tooltip: Права записи
+      operations:
+        delete:
+          description: 'По умолчанию: запретить'
+          specific: Удалять запись "{{target}}"
+          title: Удалять записи любого модуля
+          all-specific: Удалять записи модуля "{{ target }}"
+        undelete:
+          description: 'По умолчанию: запретить'
+          specific: Восстанавливать запись "{{target}}"
+          title: Восстанавливать записи любого модуля
+          all-specific: Восстанавливать записи модуля "{{ target }}"
+        read:
+          description: 'По умолчанию: запретить'
+          specific: Читать запись "{{target}}"
+          title: Читать записи любого модуля
+          all-specific: Читать записи модуля "{{ target }}"
+        update:
+          description: 'По умолчанию: запретить'
+          specific: Обновлять запись "{{target}}"
+          title: Обновлять записи любого модуля
+          all-specific: Обновлять записи модуля "{{ target }}"
+        'owner.manage':
+          description: 'По умолчанию: запретить'
+          specific: Управлять владельцем записи "{{target}}"
+          title: Управлять владельцами записей любого модуля
+          all-specific: Управлять владельцами записей модуля "{{ target }}"
+        'revisions.search':
+          description: 'По умолчанию: запретить'
+          specific: Доступ к ревизиям записи "{{target}}"
+          title: Доступ к ревизиям записей
+          all-specific: Доступ к ревизиям записей

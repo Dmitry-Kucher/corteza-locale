@@ -1,69 +1,181 @@
----
+title: Интеграционный шлюз
 list:
-  title: 'API шлюз'
-  new: 'Новый'
-  permissions: 'Разрешения'
-  yaml: 'YAML'
-  loading: 'Загрузка маршрутов'
+  export: Экспорт
+  title: Маршруты
+  new: Новый маршрут
+  permissions: Права
+  profiler: Профилировщик
+  yaml: YAML
+  loading: Загрузка маршрутов
   numFound: '{{count}} маршрут найден'
   numFound_plural: '{{count}} маршрутов найдено'
   filterForm:
     query:
-      label: 'Фильтр списка API шлюза'
-      placeholder: 'Фильтровать маршруты по имени'
+      label: Фильтр маршрутов
+      placeholder: Фильтр маршрутов по имени
     excluded:
-      label: 'Без'
+      label: Без
     inclusive:
-      label: 'Включая'
+      label: Включая
     exclusive:
-      label: 'Только'
+      label: Только
     deleted:
-      label: 'Удалённые маршруты'
+      label: удалённые маршруты
+    handle:
+      placeholder: Фильтр конечных точек по пути
+  delete: Удалить
+  undelete: Восстановить
+
   columns:
-    endpoint: 'Эндпоинт'
-    createdAt: 'Создан'
-    enabled: 'Включено'
+    endpoint: Конечная точка
+    createdAt: Создано
+    enabled: Включён
+    method: Метод
     actions: ''
+    state: Состояние
+  rows:
+    filters:
+      deleted: Удалено
+
+settings:
+  title: Настройки
+  profiler:
+    label: Профилировщик
+    enabled: Включен
+    global: Включен глобально
+  proxy:
+    label: Прокси
+    follow: Пересылать запросы
+
 editor:
-  title: 'Редактировать маршрут'
-  new: 'Новый'
-  permissions: 'Разрешения'
+  title: Редактировать маршрут
+  new: Новый маршрут
+  permissions: Права
+
   info:
-    title: 'Основная информация'
-    id: 'ID'
-    endpoint: 'Эндпоинт'
-    method: 'Метод'
-    enabled: 'Включено'
-    delete: 'Удалить'
-    undelete: 'Восстановить'
-    deletedAt: 'Удалён'
-    updatedAt: 'Обновлён'
-    createdAt: 'Создан'
-    validEndpoint: 'Недопустимый формат эндпоинта'
+    title: Основная информация
+
+    id: ID
+    endpoint: Конечная точка
+    method: Метод
+    description: Описание
+    enabled: Включен
+
+    delete: Удалить
+    undelete: Восстановить
+    deletedAt: Удалено в
+
+    updatedAt: Обновлено в
+    createdAt: Создано в
+
+    createdBy: Создано пользователем
+
+    tooltip: Конечная точка должна начинаться с косой черты "/" и не может содержать специальные символы, кроме подчеркивания "_" и дефиса "-"
+    validation:
+      slash: Конечная точка должна начинаться с косой черты "/"
+      minLength: Конечная точка должна содержать хотя бы один символ
+      invalidCharacters: Конечная точка содержит недопустимые символы
+
   filters:
-    title: 'Список фильтров'
+    title: Список фильтров
+    enabled: Включен
+    disabled: Выключен
+    add: Добавить
+    addFilter: Добавить фильтр
+    addHeader: Добавить заголовок
+    params: Параметры
+    filterListEmpty: Список фильтров пуст!
+
     modal:
-      title: 'Проверка параметров запроса'
-      ok: 'Сохранить и закрыть'
-      statusActive: 'Активен'
-      statusDisabled: 'Отключён'
+      title: Проверка параметров запроса
+      ok: Сохранить и закрыть
+
     step_title:
-      prefilter: 'Префильтрация'
-      processer: 'Обработка'
-      postfilter: 'Постфильтрация'
+      prefilter: Предфильтрация
+      processer: Обработка
+      postfilter: Постфильтрация
+
     list:
-      remove: 'Удалить'
-      filters: 'Фильтры'
-      status: 'Статус'
-      actions: 'Действия'
-      active: 'Активен'
-      noFiltersMsg: 'Пожалуйста, добавьте фильтр!'
+      remove: Удалить
+      filters: Фильтры
+      status: Статус
+      actions: Действия
+      active: Активен
+      noFilters: Нет фильтров
+
     labels:
-      expr: 'Выражение'
-      location: 'Местоположение'
-      workflow: 'Рабочий процесс'
-      status: 'HTTP Статус'
-    add: 'Добавить'
-    addFilter: 'Добавить фильтр'
-    params: 'Параметры'
-    filterListEmpty: 'Список фильтров пуст!'
+      expr: Выражение
+      location: URL
+      workflow: Workflow
+      status: HTTP Статус
+      jsfunc: Функция
+      input: Входные данные
+      header: Заголовки
+      name: Имя
+      value: Значение
+
+    httpStatus:
+      none: Нет статуса
+      '300': 300 - Multiple Choices
+      '301': 301 - Moved Permanently
+      '302': 302 - Found
+      '303': 303 - See Other
+      '304': 304 - Not Modified
+      '307': 307 - Temporary Redirect
+      '308': 308 - Permanent Redirect
+
+    placeholders:
+      workflow: Выберите workflow
+
+    help:
+      expression:
+        example: Пример == "match string" && match(SecondParam, "^foo\\s.*$")
+        link: Документация
+
+profiler:
+  label: Профилировщик
+  title: Профилировщик интеграционного шлюза
+  refreshingIn: Обновление через {{seconds}}с
+  description:
+    globalEnabled: Показывать маршруты для всех входящих запросов
+    globalDisabled: Показывать только зарегистрированные маршруты с профилировщиком
+  purge:
+    all: Очистить запросы для всех маршрутов
+    this: Очистить запросы для этого маршрута
+
+  hit:
+    title: Детали запроса
+    general:
+      label: Общее
+      id: ID запроса
+      route: Маршрут запроса
+      URL: URL запроса
+      method: Метод запроса
+      statusCode: Код статуса
+      headers: Заголовки запроса
+      remoteAddress: Удаленный адрес
+      duration: Длительность
+      start: Начало
+      end: Конец
+      openRoute: Открыть маршрут
+    headers:
+      label: Заголовки
+    body:
+      label: Тело
+
+  columns:
+    actions: ''
+    path: Маршрут
+    count: Количество
+    content_length: Длина содержимого
+    http_method: Метод
+    http_status_code: Код статуса
+    size_min: Размер (мин)
+    size_max: Размер (макс)
+    size_avg: Размер (сред)
+    time_min: Время (мин)
+    time_max: Время (макс)
+    time_avg: Время (сред)
+    time_start: Начало времени
+    time_finish: Конец времени
+    time_duration: Длительность

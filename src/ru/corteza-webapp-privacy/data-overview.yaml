@@ -1,0 +1,19 @@
+title: Обзор данных
+
+data-types:
+  profile-information:
+    title: Информация профиля
+    description: Ваши контактные данные, имя, фамилия, никнейм, фото профиля
+  application-data:
+    title: Данные приложения
+    description: Ваши персональные данные, хранящиеся в Corteza
+
+application:
+  title: Данные приложения
+  connection:
+    label: Подключение
+    placeholder: Выберите подключение
+  no-data-available: Нет данных
+  private-fields: Приватные поля
+  request-correction: Запросить корректировку
+  request-deletion: Запросить удаление

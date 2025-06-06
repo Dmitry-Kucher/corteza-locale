@@ -1,4 +1,3 @@
----
 errors:
   failedToExtractMimeType: не удалось определить MIME-тип
   failedToProcessImage: не удалось обработать изображение
@@ -10,18 +9,21 @@ errors:
   invalidRecordID: неверный ID записи
   moduleNotFound: модуль не найден
   namespaceNotFound: пространство не найдено
-  notAllowedToCreate: нет прав для создания вложений
-  notAllowedToCreateEmptyAttachment: нет прав для создания пустых вложений
-  notAllowedToCreateRecords: нет прав для создания записей
-  notAllowedToListAttachments: нет прав для просмотра вложений
-  notAllowedToRead: нет прав для просмотра этого модуля
-  notAllowedToReadNamespace: нет прав для просмотра этого пространства
-  notAllowedToReadPage: нет прав для просмотра этой страницы
-  notAllowedToReadRecord: нет прав для просмотра этой записи
-  notAllowedToSearch: нет прав для поиска или просмотра модулей
-  notAllowedToUpdateNamespace: нет прав для изменения этого пространства
-  notAllowedToUpdatePage: нет прав для изменения этой страницы
-  notAllowedToUpdateRecord: нет прав для изменения этой записи
+  notAllowedToCreate: нет прав создавать вложения
+  notAllowedToCreateEmptyAttachment: нет прав создавать пустые вложения
+  notAllowedToCreateRecords: нет прав создавать записи
+  notAllowedToListAttachments: нет прав просматривать вложения
+  notAllowedToRead: нет прав просматривать этот модуль
+  notAllowedToReadNamespace: нет прав просматривать это пространство
+  notAllowedToReadPage: нет прав просматривать эту страницу
+  notAllowedToReadRecord: нет прав просматривать эту запись
+  notAllowedToSearch: нет прав искать или просматривать модули
+  notAllowedToUpdateNamespace: нет прав обновлять это пространство
+  notAllowedToUpdatePage: нет прав обновлять эту страницу
+  notAllowedToUpdateRecord: нет прав обновлять эту запись
   notFound: вложение не найдено
   pageNotFound: страница не найдена
   recordNotFound: запись не найдена
+  invalidModuleField: неверное поле модуля
+  tooLarge: загруженный файл слишком большой
+  notAllowedToUploadThisType: нет прав загружать этот тип файлов

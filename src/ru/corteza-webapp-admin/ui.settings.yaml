@@ -1,18 +1,89 @@
----
 editor:
-  title: 'Настройки пользовательского интерфейса'
-  mainLogo:
-    title: 'Основной логотип'
-    uploader:
-      instructions: 'Кликните или перетащите основной логотип сюда для загрузки'
-      uploading: 'Загрузка основного логотипа'
-  iconLogo:
-    title: 'Иконка-логотип'
-    uploader:
-      instructions: 'Кликните или перетащите иконку-логотип сюда для загрузки'
-      uploading: 'Загрузка иконки-логотипа'
-  favicon:
-    title: 'Фавикон'
-    uploader:
-      instructions: 'Кликните или перетащите файл фавикона сюда для загрузки'
-      uploading: 'Загрузка фавикона'
+  title: Настройки интерфейса пользователя
+
+  corteza-studio:
+    title: Темизация
+    colorPicker: Выберите цвет
+    sassNotInstalled: Не обнаружены бинарные файлы dart-sass. Инструкции по установке смотрите
+    installSassDocs: в документации
+    custom-css: Пользовательский CSS
+    mainLogo:
+      title: Основной логотип
+      uploader:
+        instructions: Кликните или перетащите основной логотип для загрузки
+        uploading: Загрузка основного логотипа
+    iconLogo:
+      title: Иконка-логотип
+      uploader:
+        instructions: Кликните или перетащите иконку-логотип для загрузки
+        uploading: Загрузка иконки-логотипа
+    label:
+      default: По умолчанию
+    tabs:
+      general: Общие
+      light: Светлая
+      dark: Тёмная
+    theme:
+      variables:
+        white:
+          label: Белый
+          description: Цвет фона элемента
+        black:
+          label: Чёрный
+          description: Цвет текста элемента
+        primary:
+          label: Основной
+          description: Кнопки основного действия, ссылки
+        secondary:
+          label: Второстепенный
+          description: Цвет неактивного и placeholder текста
+        success:
+          label: Успех
+          description: Цвет уведомления об успехе
+        warning:
+          label: Предупреждение
+          description: Цвет уведомления о предупреждении
+        danger:
+          label: Опасность
+          description: Цвет уведомления об ошибке
+        light:
+          label: Светлый
+          description: Кнопки второстепенного действия, заголовки таблиц
+        extra-light:
+          label: Сверхсветлый
+          description: Кнопки-иконки, границы
+        body-bg:
+          label: Фон приложения
+          description: Цвет фона приложения
+        sidebar-bg:
+          label: Фон боковой панели
+          description: Цвет фона боковой панели
+        topbar-bg:
+          label: Фон верхней панели
+          description: Цвет фона верхней панели
+
+  topbar:
+    title: Верхняя панель
+    general: Общие
+
+    app-selector:
+      hide: Скрыть селектор приложений
+    help:
+      title: Помощь
+      hide: Скрыть помощь
+      hide-forum-link: Скрыть ссылку на форум
+      hide-documentation-link: Скрыть ссылку на документацию
+      hide-feedback-link: Скрыть ссылку на обратную связь
+    profile:
+      title: Профиль
+      hide: Скрыть профиль
+      hide-profile-link: Скрыть ссылку на профиль
+      hide-change-password-link: Скрыть ссылку на изменение пароля
+      hide-theme-selector: Скрыть селектор темы
+
+    links:
+      title: Пользовательские ссылки
+      handle: Имя
+      invalid-handle-characters: Должно быть не менее 2 символов. Может содержать только буквы, цифры, подчеркивания и точки. Должно заканчиваться буквой или цифрой
+      url: URL
+      new-tab: В новой вкладке

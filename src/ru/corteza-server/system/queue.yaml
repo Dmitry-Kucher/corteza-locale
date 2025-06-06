@@ -1,14 +1,13 @@
----
 errors:
-  alreadyExists: очередь с таким именем уже существует
-  invalidConsumer: неверный consumer
-  invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания очереди
-  notAllowedToDelete: нет прав для удаления этой очереди
-  notAllowedToRead: нет прав для просмотра этой очереди
-  notAllowedToReadFrom: нет прав для чтения сообщений из этой очереди
-  notAllowedToSearch: нет прав для поиска или просмотра очередей
-  notAllowedToUndelete: нет прав для восстановления этой очереди
-  notAllowedToUpdate: нет прав для изменения этой очереди
-  notAllowedToWriteTo: нет прав для добавления сообщений в эту очередь
-  notFound: очередь не найдена
+  alreadyExists: Очередь с таким именем уже существует
+  invalidConsumer: Некорректный consumer
+  invalidID: Некорректный ID
+  notAllowedToCreate: Нет прав на создание очереди
+  notAllowedToDelete: Нет прав на удаление этой очереди
+  notAllowedToRead: Нет прав на просмотр этой очереди
+  notAllowedToReadFrom: Нет прав на чтение сообщений из этой очереди
+  notAllowedToSearch: Нет прав на поиск или просмотр очередей
+  notAllowedToUndelete: Нет прав на восстановление этой очереди
+  notAllowedToUpdate: Нет прав на изменение этой очереди
+  notAllowedToWriteTo: Нет прав на добавление сообщений в эту очередь
+  notFound: Очередь не найдена

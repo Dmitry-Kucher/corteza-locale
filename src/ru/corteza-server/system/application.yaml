@@ -1,12 +1,11 @@
----
 errors:
-  invalidID: неверный ID
-  notAllowedToCreate: нет прав для создания приложений
-  notAllowedToDelete: нет прав для удаления этого приложения
-  notAllowedToManageFlag: нет прав для управления флагами приложений
-  notAllowedToManageFlagGlobal: нет прав для управления глобальными флагами приложений
-  notAllowedToRead: нет прав для просмотра этого приложения
-  notAllowedToSearch: нет прав для поиска или просмотра приложений
-  notAllowedToUndelete: нет прав для восстановления этого приложения
-  notAllowedToUpdate: нет прав для изменения этого приложения
-  notFound: приложение не найдено
+  invalidID: Некорректный ID
+  notAllowedToCreate: Нет прав на создание приложений
+  notAllowedToDelete: Нет прав на удаление этого приложения
+  notAllowedToManageFlag: Нет прав на управление флагами приложения
+  notAllowedToManageFlagGlobal: Нет прав на управление глобальными флагами приложений
+  notAllowedToRead: Нет прав на просмотр этого приложения
+  notAllowedToSearch: Нет прав на поиск или просмотр приложений
+  notAllowedToUndelete: Нет прав на восстановление этого приложения
+  notAllowedToUpdate: Нет прав на изменение этого приложения
+  notFound: Приложение не найдено

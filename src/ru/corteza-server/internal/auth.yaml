@@ -1,4 +1,3 @@
----
 errors:
   unauthorized: неавторизовано
-  unauthorizedScope: неавторизованный доступ
+  unauthorizedScope: неавторизованная область

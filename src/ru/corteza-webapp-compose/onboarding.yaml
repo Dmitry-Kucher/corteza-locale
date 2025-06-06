@@ -1,30 +1,28 @@
----
 message:
-  noPages: Кажется, в этом пространстве имён ещё нет видимых страниц.
-  notifyAdministrator: Сообщите системному администратору.
-  startBuilding: Следуйте этим шагам, чтобы начать создание
+  noPages: Похоже, в этом пространстве имён ещё нет видимых страниц
+  notifyAdministrator: Сообщите вашему системному администратору
+  startBuilding: Следуйте этим шагам для начала работы
+label:
+  pageBuilder: Построитель страниц
+  welcome: Добро пожаловать!
+navigation:
+  noPageTitle: Нет заголовка страницы
+notification:
+  module:
+    createFailed: Не удалось создать модуль
+    saveFailed: Не удалось сохранить модуль
 step:
   chart:
-    create: Создать Диаграмму
-    view: Ваши Диаграммы
+    create: Создать диаграмму
+    view: Ваши диаграммы
   module:
-    create: Создать Модуль
-    view: Ваши Модули
-  optional: Этот шаг необязательный!
+    create: Создать модуль
+    view: Ваши модули
+  optional: Этот шаг необязателен!
   page:
-    create: Создать Страницу
-    view: Ваши Страницы
-welcome:
-  title: Добро пожаловать в Corteza Compose!
-  subtitle: Создавайте бизнес-приложения без кода
-  description: >-
-    Corteza Compose позволяет создавать, настраивать и автоматизировать бизнес-приложения без программирования. Начните с выбора шаблона или создайте приложение с нуля.
-  getStarted: Начать
-  skip: Пропустить
-  learnMore: Подробнее
-steps:
-  pickTemplate: Выберите шаблон
-  createNamespace: Создайте пространство имён
-  configureModule: Настройте модуль
-  buildPage: Создайте страницу
-  finish: Готово!
+    create: Создать страницу
+    view: Ваши страницы
+tooltip:
+  page-configuration:
+    edit: Редактировать страницу
+    list: Переводы страниц

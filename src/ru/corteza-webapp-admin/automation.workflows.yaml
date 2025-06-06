@@ -1,22 +1,23 @@
----
 editor:
   info:
     createdAt: Создано
+    createdBy: Создал
     delete: Удалить
     deletedAt: Удалено
-    enabled: Включено
-    handle: Идентификатор
+    enabled: Включён
+    handle: Псевдоним
+    invalid-handle-characters: Должно быть не менее 2 символов. Допустимы только буквы, цифры, подчёркивания и точки. Должно заканчиваться буквой или цифрой
     id: ID
-    name: Название
+    name: Имя *
     openBuilder: Открыть конструктор
     title: Основная информация
     undelete: Восстановить
     updatedAt: Обновлено
-  new: Новый
-  permissions: Разрешения
+  new: Новый workflow
+  permissions: Права
   title:
-    create: Создать рабочий процесс
-    edit: Редактировать рабочий процесс
+    create: Создать workflow
+    edit: Редактировать workflow
   triggers:
     and: и
     columns:
@@ -28,11 +29,19 @@ list:
   columns:
     actions: ""
     createdAt: Создано
-    enabled: Включено
-    handle: Название
+    enabled: Включён
+    handle: Псевдоним
+    name: Имя
+    state: Состояние
+  delete: Удалить
+  undelete: Восстановить
+  export: Экспорт
+  rows:
+    filters:
+      deleted: Удалено
   filterForm:
     deleted:
-      label: удалённые рабочие процессы
+      label: удаленные workflow
     excluded:
       label: Без
     exclusive:
@@ -40,12 +49,12 @@ list:
     inclusive:
       label: Включая
     query:
-      label: Фильтр списка рабочих процессов
-      placeholder: Фильтровать по названию
-  loading: Загрузка рабочих процессов
-  new: Новый
-  numFound: '{{count}} рабочий процесс найден'
-  numFound_plural: '{{count}} рабочих процессов найдено'
-  permissions: Разрешения
-  title: Рабочие процессы
+      label: Фильтр workflow
+      placeholder: Фильтр workflow по имени
+  loading: Загрузка workflow
+  new: Новый workflow
+  numFound: '{{count}} workflow найден'
+  numFound_plural: '{{count}} workflow найдено'
+  permissions: Права
+  title: Workflow
   yaml: YAML

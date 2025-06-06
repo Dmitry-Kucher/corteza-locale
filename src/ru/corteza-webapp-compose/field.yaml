@@ -1,25 +1,38 @@
----
+available-items: Доступные поля
+selected-items: Выбранные поля
 defaultFieldValue: Значение поля по умолчанию
 defaultValue: Значение по умолчанию
+required-field: Это поле обязательно для заполнения
+not-configurable: Нельзя изменить настройки, влияющие на хранение данных
 kind:
   bool:
     checkedValueLabel: Значение при выборе
-    checkedValuePlaceholder: Значение для отмеченного состояния
-    label: Флажок (Да/Нет)
+    checkedValuePlaceholder: Да
+    label: Чекбокс (Да/Нет)
     uncheckedValueLabel: Значение при снятии
-    uncheckedValuePlaceholder: Значение для неотмеченного состояния
+    uncheckedValuePlaceholder: Нет
+    toggleTypeLabel: Тип чекбокса
+    toggleType: Отображать как переключатель
   dateTime:
-    dateOnly: Только дата
-    futureValuesOnly: Только будущие значения
+    type:
+      label: Тип значения
+      options:
+        dateTime: Дата и время
+        date: Дата
+        time: Время
+    constraints:
+      label: Допустимые значения
+      options:
+        all: Все значения
+        futureValuesOnly: Только будущие значения
+        pastValuesOnly: Только прошедшие значения
     label: Дата и время
-    outputFormat: 'Формат вывода:'
+    outputFormat: Формат вывода
     outputFormatFootnote: Смотрите {{0}} для вариантов форматирования
-    pastValuesOnly: Только прошлые значения
-    relativeOutput: 'Вывод относительного значения (например: 3 дня назад)'
-    timeOnly: Только время
+    relativeOutput: 'Относительное значение (например: 3 дня назад)'
     warning:
-      futureValuesOnly: Будут сохранены только даты в будущем
-      pastValuesOnly: Будут сохранены только даты в прошлом
+      futureValuesOnly: Будут сохранены только будущие даты
+      pastValuesOnly: Будут сохранены только прошедшие даты
   email:
     label: Email
     preventToLink: Не превращать email в ссылку
@@ -29,73 +42,152 @@ kind:
       gallery: Галерея изображений
       grid: Сетка
       list: Список
-      maxSizeLabel: Максимальный размер файла
-      mimetypesFootnote: 'MIME-типы, разделённые запятыми. Пример: "text/plain,text/csv"'
-      mimetypesLabel: Разрешённые типы файлов
-      modeFootnote: Как файлы отображаются в блоках записей
+      maxSizeLabel: Максимальный размер файла (МБ)
+      mimetypesFootnote: 'Типы MIME, разделенные запятыми. Например: "text/plain,text/csv"'
+      webcam:
+        enable:
+          label: Включить захват с помощью веб-камеры
+          footnote: Использовать веб-камеру для захвата изображения и его загрузки
+      mimetypesLabel: Список разрешенных типов файлов
+      modeFootnote: Как файлы представлены в блоках страницы
       modeLabel: Режим просмотра
       showName: Скрыть имя файла
+      enableDownload: Включить скачивание
       single: Одно изображение
+      previewStyle: Стиль предпросмотра
+      height: Высота
+      width: Ширина
+      maxHeight: Максимальная высота
+      maxWidth: Максимальная ширина
+      borderRadius: Радиус угла
+      background: Цвет фона
+      colorPicker: Выберите цвет
+      margin: Отступ
+      unitType: Тип единицы измерения
+      px: пикселей
+      clickToView: Нажмите, чтобы просмотреть файл
+      description: 'Добавьте единицу измерения после значения, чтобы установить его. Например: 50px или 50%'
   number:
     exampleFormat: Формат
     exampleInput: Ввод
     exampleResult: Результат
-    examplesLabel: 'Примеры формата:'
-    formatLabel: Формат
+    examplesLabel: Примеры форматирования
+    formatLabel: Пользовательский формат
     formatPlaceholder: Формат
     label: Число
-    precisionLabel: Точность
-    precisionPlaceholder: Точность
+    liveExample: Живой пример
+    precisionLabel: Масштаб
+    precisionTooltip: Количество десятичных знаков
     prefixLabel: Префикс
     prefixPlaceholder: Префикс
-    suffixLabel: Суффикс
-    suffixPlaceholder: Суффикс
+    suffixLabel: Сuffix
+    suffixPlaceholder: Сuffix
+    displayType:
+      label: Тип отображения
+      number: Число
+      progress: Индикатор прогресса
+    progress:
+      maximumValue: Максимальное значение
+      minimumValue: Минимальное значение
+      animated: Анимированный
+      show:
+        value: Показать значение
+        relative: Показать относительное значение
+        progress: Показать прогресс
+      showRelative: Показать относительное значение
+      variants:
+        default: По умолчанию
+        danger: Опасно
+        dark: Темный
+        info: Информация
+        light: Светлый
+        primary: Основной
+        secondary: Второстепенный
+        success: Успех
+        warning: Предупреждение
+      thresholds:
+        label: Пороги
+        description: Установите, какой вариант показывать, если значение равно или больше порога
   record:
-    currentUnnamedModule: (Текущий модуль без названия)
+    currentUnnamedModule: (Текущий безымянный модуль)
     label: Запись
-    moduleLabel: Имя модуля
+    moduleLabel: Модуль
     modulePlaceholder: Выберите модуль
-    prefilterFootnote: Поддерживается упрощённый синтаксис SQL-условий (WHERE ...). Переменные вроде {{0}}, {{1}} и {{2}} будут подставлены (если доступны)
+    queryFieldsLabel: Поля запроса при поиске
+    queryFieldsPlaceholder: Если поля не выбраны, будет использоваться поле "Метка"
+    moduleField: Поле "Метка"
+    variantField: Поле "Вариант"
+    fieldFromModuleField: Поле "Метка" из связанного поля модуля
+    pickField: Выберите поле
+    suggestionPlaceholder: Начните вводить, чтобы искать записи
+    prefilterFootnote: Поддерживается упрощенный синтаксис условий WHERE. Переменные типа {{0}}, {{1}}, {{2}} и {{3}} оцениваются (при наличии)
     prefilterLabel: Предварительный фильтр записей
-    prefilterPlaceholder: field1 = 1 AND field2 = 232
-    queryFieldsLabel: Поля для поиска
-    recordFieldLabel: Метка записи из поля
-    recordFieldPlaceholder: Выберите поле
-    suggestionPlaceholder: Начните ввод для поиска записей
+    prefilterPlaceholder: поле1 = 1 И поле2 = 232
+    tooltip:
+      moduleField: Выбор поля записи повлияет на производительность
+      addRecord: Добавить запись
   select:
-    label: Список
+    allow-duplicates: Разрешить дубликаты
+    label: Выбор
     optionAdd: Добавить
-    optionLabelPlaceholder: Подпись
-    optionNotSelected: Нет выбранных опций
+    options:
+      value: Значение
+      label: Метка
+      style:
+        textColor: Цвет текста
+        backgroundColor: Цвет фона
+    optionNotSelected: Нет выбранного варианта
     optionRemove: Удалить
     optionType:
-      default: Один ввод
+      default: Однократный ввод
       each: Ввод для каждого значения
-      label: Тип ввода для нескольких значений
+      label: Тип выбора
       multiple: Множественный выбор
-    optionValuePlaceholder: Значение
-    optionsLabel: Опции для выбора
-    placeholder: Выберите опцию, кликнув здесь
+      checkbox: Группа чекбоксов
+      radio: Группа радиокнопок
+    displayType:
+      label: Отображать значение как
+      text: Текст
+      badge: Бейдж
+    optionsLabel: Варианты для выбора
+    showAsBadge: Показать как бейдж
+    placeholder: Выберите вариант, нажав здесь
   string:
     label: Строка
-    multiLine: Многострочный ввод
+    multiLine: Мультистрочный
     richText: Использовать редактор форматированного текста
   url:
+    example: 'Пример URL: https://example.com'
     label: URL
     preventToLink: Не превращать URL в ссылку
-    sshOnly: Только URL с HTTPS
-    trimHash: 'Удалить "#" из URL'
-    trimQuestionMark: Удалить "?" из URL
+    sshOnly: Разрешить только URL с SSL (https)
+    trimHash: Удалить '#' из URL
+    trimQuestionMark: Удалить '?' из URL
     trimToDomain: Удалить URL до домена
   user:
     label: Пользователь
     na: Н/Д
     presetWithCurrentUser: Установить текущего пользователя
-    suggestionPlaceholder: Начните ввод для поиска пользователей по email или имени
+    suggestionPlaceholder: Начните вводить, чтобы искать пользователей по электронной почте или имени
     roles:
       label: Роли пользователя
       placeholder: Фильтровать по ролям пользователя
-noPermission: Нет доступа для чтения значения поля
+  geometry:
+    label: Местоположение
+    latitude: Широта
+    longitude: Долгота
+    clickToPlaceMarker: Нажмите, чтобы поставить/удалить маркер
+    initialZoomAndPosition: Установить начальный масштаб и положение карты
+    prefillWithCurrentLocation: Заполнить текущим местоположением
+    hideCurrentLocationButton: Скрыть кнопку текущего местоположения
+    hideGeoSearch: Скрыть поиск местоположения
+    tooltip:
+      goToCurrentLocation: Перейти к текущему местоположению
+      useCurrentLocation: Использовать текущее местоположение
+      openMap: Открыть карту
+    geosearchInputPlaceholder: Введите адрес, место или почтовый индекс
+noPermission: Нет разрешения на чтение значения поля
+no-items-found: Не найдено ни одного элемента
 options:
   description:
     label:
@@ -104,9 +196,9 @@ options:
       view: Описание просмотра
     placeholder:
       default: Текст описания...
-      edit: Описание при редактировании поля...
-      view: Описание при просмотре поля...
-    same: Показывать одно и то же описание при просмотре и редактировании
+      edit: Описание при редактировании поля записи...
+      view: Описание при просмотре поля записи...
+    same: Показать одно и то же описание при просмотре и редактировании
   hint:
     label:
       default: Подсказка
@@ -114,34 +206,40 @@ options:
       view: Подсказка просмотра
     placeholder:
       default: Текст подсказки...
-      edit: Подсказка при редактировании поля...
-      view: Подсказка при просмотре поля...
-    same: Показывать одну и ту же подсказку при просмотре и редактировании
+      edit: Подсказка при редактировании поля записи...
+      view: Подсказка при просмотре поля записи...
+    same: Показать одну и ту же подсказку при просмотре и редактировании
   multiDelimiter:
-    comma: Разделённые запятыми
-    custom: Использовать пользовательский разделитель
-    customLabel: Или использовать пользовательский разделитель
+    comma: Разделить запятой
+    custom: Пользовательский разделитель
+    customLabel: Или используйте пользовательский разделитель
     customPlaceholder: Введите пользовательский разделитель
     label: Разделитель для нескольких значений
     newline: Каждое значение в новой строке
 sanitizers:
-  add: + Добавить
-  description: Удалить пробелы из текста или выполнить другие виды манипуляций с значением перед проверкой
+  description: Обрезать пробелы из текста или выполнить другие виды манипуляций с значением перед проверкой
   examples: Примеры
   expression:
     placeholder: trim(value)
   label: Очистка значения
 selector:
-  available: Доступные столбцы
-  footnote: Добавьте поля, перетаскивая или двойным кликом на них. Выбранные поля также можно изменить порядок
+  search: Введите текст, чтобы искать среди полей модуля
+  available: Доступные поля
   selectAll: Выберите все
-  selected: Выбранные столбцы
+  selected: Выбранные поля
   systemField: (системное поле)
   unselectAll: Снять выбор со всех
+privacy:
+  sensitivity-level:
+    label: Уровень чувствительности
+    placeholder: Выберите уровень чувствительности
+  usage-disclosure:
+    label: Раскрытие использования чувствительных полей (видно в консоли конфиденциальности данных)
 system:
   id: ID записи
+  ID: ID записи
   moduleID: ID модуля
-  namespaceID: ID пространства имён
+  namespaceID: ID пространства имен
   revision: Редакция записи
   meta: Метаданные
   recordID: ID записи
@@ -153,17 +251,34 @@ system:
   updatedAt: Обновлено
   updatedBy: Обновлено пользователем
 validators:
-  description: Набор выражений и ошибок, проверяющих корректность введённого значения.
-  disableBuiltIn: Отключить встроенные валидаторы
+  description: Набор выражений и пар ошибок, проверяющих допустимость значения ввода
+  disableBuiltIn: Отключить встроенные проверки
   error:
-    placeholder: Текст, отображаемый при истинности выражения
+    placeholder: Текст, отображаемый при истинном выражении
+    tooltip: Текст предупреждения
   expression:
-    placeholder: Выражение для проверки
-  label: Валидаторы
-  new: Новый валидатор
-  remove: Удалить валидатор
-  title: Валидаторы поля
+    placeholder: value == ""
+    tooltip: Выражение
+  label: Проверка значения
 valueExpr:
   description: Вставьте формулу или выражение, вычисляющее числовые значения или объединяющее и манипулирующее текстовыми значениями
   label: Выражение значения поля
   placeholder: ((floor(numField1) + numField2) / 10) + 0.5
+label:
+  required: Обязательное
+  multi: Мультизначное
+constraints:
+  label: Ограничения уникальных значений
+  description: Использовать ограничения уникальных значений для этого поля
+  ignoreCase: Игнорировать регистр
+  fuzzyMatch: Нечеткое совпадение
+  soundsLike: Звучит как
+  caseSensitive: Чувствительность к регистру
+  oneOf: Одно из
+  none: Нет
+  equal: Равно
+  valueModifiers: Модификаторы значения
+  multiValues: Мультизначные поля
+  totalFieldConstraintCount: Поле используется в {{total}} других ограничениях уникальных значений. Смотрите вкладку "уникальные значения" в редакторе модуля.
+  tooltip:
+    performance: Использование ограничений уникальных значений повлияет на производительность

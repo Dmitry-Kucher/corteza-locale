@@ -1,3 +1,2 @@
----
 errors:
-  notAllowedToSetPermissions: нет прав для изменения разрешений
+  notAllowedToSetPermissions: нет прав изменять разрешения

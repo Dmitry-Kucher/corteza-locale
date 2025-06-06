@@ -1,0 +1,18 @@
+editor:
+  title: Фрагменты кода
+
+  code-snippets:
+    add: Добавить фрагмент кода
+    empty: Пока нет сниппетов
+    enabled: Включён
+    table-headers:
+      name: Имя
+      enabled: Включён
+      script: Код
+    form:
+      title: Добавить фрагмент кода
+      name:
+        label: Имя
+      value:
+        label: Код
+        description: Добавьте внешний скрипт или фрагменты кода для сервисов. Скрипт должен содержать валидный тег <script> для работы.

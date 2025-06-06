@@ -1,0 +1,89 @@
+add:
+  datasource: Добавить источник данных
+  display-element: Добавить элемент отображения
+available: Доступно
+block:
+  description: Описание блока
+  save: Сохранить блок
+  title: Заголовок блока
+  configuration: Настройки блока
+datasource:
+  label: Источник данных
+  types:
+    load:
+      label: Загрузка
+      data-from-resource: Загружает данные из указанного ресурса, например, записи Compose
+    link:
+      label: Связь
+      load-datasources: Связывает два источника данных типа "Загрузка" по уникальному столбцу, например, селектор записей Compose
+    join:
+      label: Объединение
+      load-datasources: Объединяет два источника данных по уникальному столбцу, создавая единую выборку строк (в отличие от связи, где создаётся отдельный набор для каждой локальной строки)
+    aggregate:
+      label: Агрегация
+      load-datasource: Агрегирует данные из источника загрузки по значению столбца, например, подсчёт количества Аккаунтов с одинаковым статусом
+datasources:
+  label: Источники данных
+  save: Сохранить источники данных
+description: Описание
+display-elements:
+  types:
+    text: Текст
+    metric: Метрика
+    table: Таблица
+    chart: Диаграмма
+element: Элемент
+elements: Элементы
+filter-expression: Фильтр-выражение
+general: Общие
+joined-datasource-handling: Обработка объединённых источников данных
+layout: Макет
+layout-options:
+  horizontal: Горизонтально
+  vertical: Вертикально
+limit: Лимит
+no-blocks-added: Нет добавленных блоков
+or: Или
+pick-scenario: Выберите сценарий
+prefilter: Предварительный фильтр
+presort-order: Порядок предварительной сортировки
+report:
+  builder: Построитель отчётов
+  view: Просмотр отчёта
+save-button: Сохранить
+scenarios:
+  label: Сценарии
+  save: Сохранить сценарии
+title: Заголовок
+tooltip:
+  edit:
+    report: Редактировать отчёт
+    block: Редактировать блок
+  add:
+    displayElement: Добавить элемент отображения
+  delete:
+    block: Удалить блок
+  configure-scenarios: Настроить сценарии
+  unsavedChanges: Несохранённые изменения
+available-columns: Доступные столбцы
+selected-columns: Выбранные столбцы
+no-columns-found: Не найдены столбцы
+type-to-search: Введите текст для поиска среди столбцов
+selected: Выбрано
+select-all: Выбрать все
+unselect-all: Снять выбор
+value: Значение
+name: Имя
+unsaved-changes: Несохранённые изменения будут потеряны. Вы уверены, что хотите покинуть страницу?
+filter:
+  operators:
+    like: Как
+    notLike: Не как
+    contains: Содержит
+    notContains: Не содержит
+    equal: Равно
+    greaterThan: Больше чем
+    greaterThanEqualTo: Больше чем или равно
+    lessThanEqualTo: Меньше чем или равно
+    lessThan: Меньше чем
+    notEqual: Не равно

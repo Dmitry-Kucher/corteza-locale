@@ -1,18 +1,17 @@
----
 errors:
-  handleNotUnique: идентификатор не уникален
-  invalidHandle: неверный идентификатор
+  handleNotUnique: псевдоним не уникален
+  invalidHandle: неверный псевдоним
   invalidID: неверный ID
   invalidNamespaceID: неверный или отсутствует ID пространства
   moduleNotFound: модуль не существует
   namespaceNotFound: пространство не существует
-  notAllowedToCreate: нет прав для создания страниц
-  notAllowedToDelete: нет прав для удаления этой страницы
-  notAllowedToListPages: нет прав для просмотра страниц
-  notAllowedToRead: нет прав для просмотра этой страницы
-  notAllowedToReadNamespace: нет прав для просмотра этого пространства
-  notAllowedToSearch: нет прав для поиска или просмотра страниц
-  notAllowedToUndelete: нет прав для восстановления этой страницы
-  notAllowedToUpdate: нет прав для изменения этой страницы
+  notAllowedToCreate: нет прав создавать страницы
+  notAllowedToDelete: нет прав удалять эту страницу
+  notAllowedToListPages: нет прав просматривать страницы
+  notAllowedToRead: нет прав просматривать эту страницу
+  notAllowedToReadNamespace: нет прав просматривать это пространство
+  notAllowedToSearch: нет прав искать или просматривать страницы
+  notAllowedToUndelete: нет прав восстанавливать эту страницу
+  notAllowedToUpdate: нет прав обновлять эту страницу
   notFound: страница не существует
   staleData: устаревшие данные
