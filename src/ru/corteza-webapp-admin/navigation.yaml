@@ -1,0 +1,38 @@
+---
+dashboard: Дашборд
+system:
+  group: Система
+  items:
+    users: Пользователи
+    actionlog: Журнал действий
+    apigw: API шлюз
+    applications: Приложения
+    authclients: Клиенты авторизации
+    permissions: Разрешения
+    queues: Очереди сообщений
+    roles: Роли
+    settings: Настройки
+    stats: Статистика
+    templates: Шаблоны
+compose:
+  group: Compose
+  items:
+    automation: Автоматизация
+    permissions: Разрешения
+    settings: Настройки
+automation:
+  group: Автоматизация
+  items:
+    permissions: Разрешения
+    scripts: Скрипты Corredor
+    sessions: Сессии
+    workflows: Рабочие процессы
+federation:
+  group: Федерация
+  items:
+    nodes: Узлы
+    permissions: Разрешения
+ui:
+  group: Пользовательский интерфейс
+  items:
+    settings: Настройки

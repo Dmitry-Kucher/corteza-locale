@@ -1,0 +1,9 @@
+---
+errors:
+  invalidID: неверный ID
+  notAllowedToDelete: нет прав для удаления этой сессии
+  notAllowedToManage: нет прав для управления рабочим процессом сессии
+  notAllowedToRead: нет прав для просмотра этой сессии
+  notAllowedToSearch: нет прав для поиска или просмотра сессий
+  notFound: сессия не найдена
+  staleData: устаревшие данные

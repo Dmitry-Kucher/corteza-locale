@@ -1,0 +1,6 @@
+---
+errors:
+  failedToDownloadAttachment: 'не удалось скачать вложение с {attachmentURL}: {err}'
+  failedToLoadUser: не удалось загрузить пользователя для {recipient}
+  invalidReceipientFormat: неверный формат получателя ({recipient})
+  noRecipients: невозможно отправить email без получателей

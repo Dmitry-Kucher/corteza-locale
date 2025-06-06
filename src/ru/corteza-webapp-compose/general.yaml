@@ -1,0 +1,123 @@
+---
+label:
+  actions: Действия
+  active: Активен
+  add: Добавить
+  addNew: Добавить новое
+  addValue: Добавить новое значение
+  attachmentFileInfo: '(Размер файла: {{0}}, загружено {{1}})'
+  attributes: Атрибуты
+  back: Назад
+  backWithoutSave: Назад (без сохранения изменений)
+  browse: Просмотр
+  buttons: Кнопки
+  cancel: Отмена
+  clone: Клонировать
+  close: Закрыть
+  create: Создать
+  delete: Удалить
+  description: Описание
+  download: Скачать
+  dropFiles: Кликните или перетащите файлы сюда для загрузки
+  edit: Редактировать
+  enabled: Включено
+  export: Экспорт
+  fileTypeNotAllowed: Тип файла не разрешён
+  uploadError: 'Ошибка загрузки файла: "{{message}}"'
+  general: Общие
+  handle: Идентификатор
+  here: здесь
+  import: Импорт
+  importPlaceholder: Загрузите файлы для импорта
+  label: Подпись
+  loading: Загрузка
+  makeDefault: Сделать по умолчанию
+  moduleName: Имя модуля
+  multi: Множественное значение
+  name: Имя
+  next: Далее
+  "no": "Нет"
+  noHandle: Нет идентификатора
+  none: Нет
+  ok: Ок
+  openBookmarks: Открыть закладки
+  pageBuilder: Конструктор страниц
+  permissions: Права доступа
+  private: Приватный
+  processing: Обработка...
+  recordPage: Страница записи
+  remove: Удалить
+  removeDefault: Удалить по умолчанию
+  required: Обязательно
+  save: Сохранить
+  saveAndClose: Сохранить и закрыть
+  search: Поиск
+  status: Статус
+  timeHour: '{{t}}ч'
+  timeMinute: '{{t}}мин'
+  title: Заголовок
+  type: Тип
+  updatedAt: '$t(field.system.updatedAt)'
+  uploading: Загрузка
+  urlPlaceholder: https://example.tld
+  validation: Валидация
+  value: Значение
+  view: Просмотр
+  welcome: Добро пожаловать!
+  "yes": "Да"
+placeholder:
+  handle: идентификатор (a - z, 0 - 9, подчёркивание, дефис)
+  sample: Пример
+reminder:
+  add: Добавить новое напоминание
+  dismiss: Отклонить
+  edit:
+    assigneeLabel: Назначить
+    assigneePlaceholder: Я (по умолчанию)
+    notesLabel: Заметки
+    notesPlaceholder: Заметки
+    remindAtLabel: Уведомить меня
+    remindAtNone: Никогда
+    titleLabel: Заголовок
+    titlePlaceholder: Заголовок
+  listLabel: Напоминания
+  routesTo: 'Содержит ссылку на:'
+  snooze: Отложить
+tooltip:
+  dragAndDrop: Перетащите для изменения порядка
+fieldKinds:
+  Bool:
+    label: Флажок (Да/Нет)
+  DateTime:
+    label: Дата и время
+  Email:
+    label: Ввод электронной почты
+  File:
+    label: Загрузка файла
+  Number:
+    label: Ввод числа
+  Record:
+    label: Выбор записи
+  Select:
+    label: Выбор / выпадающий список
+  String:
+    label: Ввод текста (строка)
+  Url:
+    label: Ввод URL
+  User:
+    label: Выбор пользователя
+  Geometry:
+    label: Геометрия
+field:
+  selectAll: Выбрать все
+  unselectAll: Снять выбор со всех
+  kind:
+    user:
+      suggestionPlaceholder: Начните вводить для поиска пользователей по электронной почте или имени
+notification:
+  composeAccessNotAllowed: Нет доступа к Compose
+  import:
+    failed: Импорт не удался
+    readingError: Ошибка чтения файла
+    successful: Импорт успешен
+    typeMissmatch: 'Ошибка импорта: попытка импортировать объект типа "{{type1}}" в список объектов типа "{{type2}}"'

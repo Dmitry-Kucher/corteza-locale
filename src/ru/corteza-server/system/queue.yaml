@@ -1,0 +1,14 @@
+---
+errors:
+  alreadyExists: очередь с таким именем уже существует
+  invalidConsumer: неверный consumer
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания очереди
+  notAllowedToDelete: нет прав для удаления этой очереди
+  notAllowedToRead: нет прав для просмотра этой очереди
+  notAllowedToReadFrom: нет прав для чтения сообщений из этой очереди
+  notAllowedToSearch: нет прав для поиска или просмотра очередей
+  notAllowedToUndelete: нет прав для восстановления этой очереди
+  notAllowedToUpdate: нет прав для изменения этой очереди
+  notAllowedToWriteTo: нет прав для добавления сообщений в эту очередь
+  notFound: очередь не найдена

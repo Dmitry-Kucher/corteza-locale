@@ -1,0 +1,21 @@
+---
+template:
+  title: Ваш профиль
+  form:
+    email:
+      label: Эл. почта
+      placeholder: email@domain.ltd
+      resend-confirmation-link: Почта не подтверждена, <a href="{{link}}?resend">отправить ссылку повторно.</a>
+    name:
+      label: Полное имя
+      placeholder: Ваше полное имя
+    handle:
+      label: Никнейм
+      placeholder: Краткое имя, никнейм или псевдоним
+    preferred-language:
+      label: Предпочтительный язык
+    buttons:
+      submit: Обновить профиль
+alerts:
+  profile-updated: Профиль успешно обновлён.
+  profile-update-fail: Не удалось обновить профиль из-за ошибок ввода

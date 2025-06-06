@@ -1,0 +1,112 @@
+---
+editor:
+  title: Системные настройки
+  auth:
+    title: Аутентификация
+    url: URL
+    internal:
+      title: Внутренняя
+      enabled: Внутренняя аутентификация включена
+      password-reset:
+        enabled: Сброс пароля включён
+      password-constraints:
+        title: Требования к паролю
+        ignored-security: Система настроена на игнорирование требований к безопасности пароля, что небезопасно для рабочих сред. Если это рабочая среда, обратитесь к администратору для обновления конфигурации системы (переменная AUTH_PASSWORD_SECURITY в .env).
+        min-length: Минимальная длина
+        min-length-description: Должен содержать не менее 8 символов
+        min-num-count: Минимальное количество цифр
+        min-num-count-description: Пароль должен содержать указанное количество цифр (отключено, если 0)
+        min-special-count: Минимальное количество специальных символов
+        min-special-count-description: Пароль должен содержать указанное количество специальных символов (отключено, если 0)
+      signup:
+        email-confirmation-required: Требуется подтверждение email при регистрации
+        enabled: Регистрация включена
+        split-credentials-check:
+          description: 'Разделить вход на два этапа: сначала запросить email, затем на втором экране показать ввод пароля. Автоматически перенаправлять пользователя к внешнему провайдеру, если у него не установлен пароль и присутствует только один IdP.'
+          label: Включить проверку разделённых учётных данных
+    mail:
+      title: Отправитель писем аутентификации
+      from-address: Адрес отправителя
+      from-name: Имя отправителя
+      validate-email: Пожалуйста, введите корректный адрес электронной почты.
+    mfa:
+      title: Многофакторная аутентификация
+      TOTP:
+        enabled: Разрешить пользователям использовать одноразовый пароль по времени (через мобильное приложение)
+        enforced: Требовать использование одноразового пароля по времени (через мобильное приложение)
+        issuer:
+          description: Имя издателя будет отправлено в приложение-аутентификатор при его настройке.
+          label: Издатель
+      emailOTP:
+        enabled: Разрешить пользователям использовать одноразовый пароль по email
+        enforced: Требовать использование одноразового пароля по email
+        expires:
+          description: Сколько времени пароль будет действителен до истечения срока.
+          label: Действителен в течение
+  external:
+    title: Внешние провайдеры аутентификации
+    enabled: Включить внешнюю аутентификацию
+    table:
+      header:
+        provider: Провайдер
+        info: Издатель, client ID
+    standard:
+      enabled: Включено
+      clientKey: Ключ клиента
+      clientSecret: Секрет
+    oidc:
+      add: Добавить OIDC-провайдера
+      enabled: Включено
+      handle: Идентификатор
+      title: OpenID Connect
+      issuer: OIDC Издатель URL
+      issuerHint: Где найти /.well-known/openid-configuration (без /.well-known/openid-configuration части)
+      clientKey: Ключ клиента
+      clientSecret: Секрет
+      scope: Область
+      scopePlaceholder: Список поддерживаемых значений OAuth scope, использовать строку с разделителями через пробел
+    saml:
+      enabled: Включено
+      title: SAML
+      requests:
+        title: Запросы
+        sign-requests: Подписать запросы
+        sign-method: Метод подписи
+        binding: Binding
+        binding-redirect: HTTP Redirect
+        binding-post: HTTP POST
+      cert:
+        public: Публичный ключ
+        private: Приватный ключ
+      name: Имя
+      certificate: Сертификат
+      idp:
+        title: Провайдер идентификации
+        ident-handle: Поле идентификатора
+        ident-identifier: Поле идентификатора
+        ident-name: Поле имени
+        url: URL
+      desc:
+        name: Имя IdP, используемое на экране входа (Войти с помощью <имя>)
+        cert:
+          public: Содержимое будет минимизировано
+          private: Содержимое будет минимизировано
+        requests:
+          sign-requests: Подписать AuthNRequest и assertion
+          sign-method: Метод, используемый для подписи запросов
+          binding: Тип HTTP binding, используемый для AuthNRequest, по умолчанию HTTP Redirect (GET)
+        idp:
+          url: Местоположение метаданных IdP
+          ident-handle: Имя поля IdP, используемого для заполнения имени пользователя Corteza или nickname
+          ident-identifier: Имя поля IdP, используемого для заполнения и сопоставления email пользователя Corteza
+          ident-name: Имя поля IdP, используемого для заполнения полного имени пользователя Corteza
+    security:
+      prohibited-roles:
+        description: Роли из этого списка будут удалены из контекста безопасности при аутентификации с помощью этого провайдера
+        label: Запрещенные роли
+      forced-roles:
+        description: Роли из этого списка всегда будут добавлены в контекст безопасности при аутентификации с помощью этого провайдера
+        label: Принудительные роли
+      permitted-roles:
+        description: Только роли из этого списка будут добавлены в контекст безопасности при аутентификации с помощью этого провайдера
+        label: Разрешенные роли

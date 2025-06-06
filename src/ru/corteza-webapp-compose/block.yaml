@@ -1,0 +1,340 @@
+---
+automation:
+  addPlaceholderLabel: Добавить плейсхолдер (тестовая кнопка)
+  availableScriptsAndWorkflow: Доступные скрипты и процессы ({{count}})
+  badge:
+    script: скрипт
+    workflow: процесс
+  buttonLabel: Надпись
+  buttonVariant: Вариант
+  configuredButtons: Настроенные кнопки
+  dangerButton: Опасная
+  darkButton: Тёмная
+  dummyButtonLabel: Тестовая
+  editButton: Редактировать
+  editTitle:
+    script: Редактировать кнопку скрипта автоматизации
+    workflow: Редактировать кнопку рабочего процесса
+  label: Автоматизация
+  lightButton: Светлая
+  noDescription: Без описания
+  noLabel: Без подписи
+  noScript: Для этой кнопки не настроен скрипт или процесс
+  noScripts: Нет совместимых ручных скриптов для этого блока
+  primaryButton: Основная
+  removeAll: Удалить все
+  searchPlaceholder: Фильтровать скрипты по подписи, имени или описанию
+  secondaryButton: Вторичная
+  stepID: 'ID начального шага: {{stepID}}'
+  successButton: Успешно
+  warningButton: Предупреждение
+calendar:
+  addEventsSource: Добавить источник событий
+  calendarHeader: Заголовок календаря
+  feedLabel: Настроить источник событий
+  feedPlaceholder: Выберите источник событий
+  hideHeader: Скрыть заголовок календаря
+  hideNavigation: Скрыть кнопки навигации
+  hideTitle: Скрыть заголовок
+  hideToday: Скрыть кнопку "Сегодня"
+  label: Календарь
+  recordFeed:
+    colorLabel: Цвет события
+    eventAllDay: Отображать как событие на весь день
+    eventEndFieldLabel: Окончание события
+    eventEndFieldPlaceholder: (Нет поля, событие продлится 1 час)
+    eventStartFieldLabel: Начало события
+    eventStartFieldPlaceholder: (Нет поля)
+    moduleLabel: Выбрать модуль
+    modulePlaceholder: (Нет модуля)
+    noMultiFields: Мульти-поля пока не поддерживаются
+    optionLabel: Записи
+    prefilterLabel: Предварительный фильтр событий
+    prefilterPlaceholder: field1 = 1 AND field2 = 232
+    titleLabel: Заголовок
+    titlePlaceholder: (Нет поля)
+  reminderFeed:
+    colorLabel: Цвет события
+    optionLabel: Напоминания
+  today: Сегодня
+  view:
+    dayGridMonth: Месяц
+    default: Представление по умолчанию
+    enabled: Доступные представления
+    footnote: Убедитесь, что "по умолчанию" входит в список доступных
+    listMonth: Повестка
+    timeGridDay: День
+    timeGridWeek: Неделя
+  viewLabel: '$t(block.calendar.label)'
+chart:
+  add: Новый график
+  addFunnel: Воронка
+  addGauge: График-датчик
+  addGeneric: Произвольный график
+  configure:
+    label: Настроить график
+    reportLabel: Отчёт {{l}}
+    reportsLabel: Отчёты
+  display: 'График для отображения в этом блоке:'
+  edit: Редактировать график
+  label: График
+  pick: Выбрать график
+  preview:
+    chartId: Просмотр графика (ID {{0}})
+content:
+  label: Контент
+file:
+  label: Файл
+  preview:
+    label: Файловый блок
+general:
+  changeBlock: Изменить существующий блок
+  descriptionLabel: '$t(general.label.description)'
+  descriptionPlaceholder: Описание блока
+  headerStyle: Стиль заголовка блока (цвет)
+  module: Модуль
+  style:
+    danger: Опасный вариант
+    default: Тёмный вариант
+    primary: Основной вариант
+    secondary: Вторичный вариант
+    success: Успешный вариант
+    warning: Вариант предупреждения
+  title: Добавить новый блок
+  titleLabel: '$t(general.label.title)'
+  titlePlaceholder: Заголовок блока
+iframe:
+  label: IFrame
+  pickURLField: Выбрать поле с URL
+  srcDesc: Используется как запасной вариант, если указано вместе с полем записи.
+  srcFieldDesc: Доступно только на страницах записей и модулях с полем типа "url"
+  srcFieldLabel: Поле (URL) из записи для использования в iframe
+  srcLabel: URL для отображения в iframe
+metric:
+  defaultMetricLabel: Безымянная метрика
+  edit:
+    bucketLabel: Размер корзины
+    bucketPlaceholder: Выберите размер корзины
+    dateFormat: Формат даты
+    dimensionFieldLabel: Поле
+    dimensionFieldPlaceholder: Поле измерения
+    dimensionLabel: Измерение
+    filterFootnote: Поддерживается упрощённый синтаксис SQL-условий (WHERE ...). Переменные вроде {{0}}, {{1}}, {{2}} будут подставлены (если доступны)
+    filterLabel: Фильтр
+    labelLabel: Подпись
+    labelPlaceholder: Подпись
+    metricFieldLabel: Поле
+    metricFieldPlaceholder: Поле измерения
+    metricLabel: Метрика
+    moduleLabel: Модуль
+    modulePlaceholder: Выбрать модуль
+    numberFormat: Формат числа
+    operationAvg: Среднее
+    operationLabel: Операция агрегации
+    operationMax: Макс.
+    operationMin: Мин.
+    operationPlaceholder: Операция агрегации
+    operationStd: Стд.
+    operationSum: Сумма
+    prefixLabel: Префикс
+    refreshData: Обновить данные
+    suffixLabel: Суффикс
+    tabTitle: Метрика
+    transformFunctionDescription: v - текущее значение; label - подпись значения
+    transformFunctionLabel: Преобразовать значение
+  editStyle:
+    backgroundColor: Цвет фона
+    color: Цвет текста
+    fontSize: Размер шрифта в пикселях
+    labelLabel: Стиль подписи
+    valueLabel: Стиль значения
+  label: Метрика
+record:
+  confirmDelete: Вы уверены, что хотите удалить эту запись?
+  deleteRecord: Удалить запись
+  label: Запись
+  preview:
+    blockNoRecord: Этот блок не может быть отображен без записи
+    fieldsFromModule: Блок записи, отображающий поля ({{0}}) из модуля {{1}}
+    untitled: Без названия
+  recordDeleted: Эта запись была удалена
+recordList:
+  addRecord: Добавить
+  cancelSelection: Отменить выбор
+  editFields: Редактируемые поля модуля
+  export:
+    all: Экспортировать все записи
+    allow: Разрешить экспорт записей
+    csv: Экспорт в CSV
+    dateRange: Выберите диапазон дат
+    filter:
+      createdAt: Создана запись
+      custom: Пользовательский
+      lastMonth: Последний месяц
+      lastWeek: Последняя неделя
+      thisMonth: Этот месяц
+      thisWeek: Эта неделя
+      today: Сегодня
+      updatedAt: Обновлена запись
+    inRange: Установить диапазон
+    includeQuery: Фильтровать по поисковому запросу
+    json: Экспорт в JSON
+    limitations: 'Ограничение экспорта CSV: только первое значение в мульти-полях будет экспортировано'
+    query: Поисковый запрос
+    rangeBy: Установить диапазон по
+    recordCount: '{{count}} записей готовы к экспорту'
+    selectFields: Выберите поля для экспорта
+    selection: Выбранные записи
+    specifyTimezone: Экспортировать в часовой пояс
+    timezonePlaceholder: Выберите часовой пояс
+  federated: Федеративный
+  fields: Поля модуля
+  filter:
+    addField: Добавить новое поле фильтра
+    addFilter: + Добавить фильтр
+    byValue: Фильтровать записи по значению поля
+    conditions:
+      and: И
+      or: ИЛИ
+    deletedRecords: Удаленные записи
+    field: Поле фильтра
+    fieldPlaceholder: Выберите поле
+    fieldValue: Значение поля
+    fieldValuePlaceholder: Введите значение поля
+    including: Включая
+    label: Фильтр
+    note: 'Примечание: если значение поля не определено, фильтр будет искать записи, где это значение не определено.'
+    only: Только
+    operators:
+      like: Как
+      notLike: Не как
+      contains: Содержит
+      notContains: Не содержит
+      equal: Равно
+      greaterThan: Больше чем
+      lessThan: Меньше чем
+      notEqual: Не равно
+    title: Фильтр записей
+    update: Обновить фильтр
+    where: Где
+    without: Без
+  hideRecordCloneButton: Скрыть кнопку клонирования записи
+  hideRecordEditButton: Скрыть кнопку редактирования записи
+  hideRecordPermissionsButton: Скрыть кнопку прав доступа записи
+  hideRecordReminderButton: Скрыть кнопку напоминания записи
+  hideRecordViewButton: Скрыть кнопку просмотра записи
+  import:
+    dropzoneFileAdded: '{{name}} был загружен и готов к импорту ({{count}} запись)'
+    dropzoneFileAdded_plural: '{{name}} был загружен и готов к импорту ({{count}} записи)'
+    dropzoneLabel: Нажмите или перетащите файл сюда, чтобы загрузить (.csv или JSON)
+    failed: 'Что-то пошло не так во время импорта. Пожалуйста, попробуйте снова: {{failReason}}'
+    fileColumns: Столбцы файла
+    hasRequiredFileFields: Этот модуль имеет обязательные поля для загрузки файлов, которые пока не поддерживаются через импортер
+    matchFields: 'Сопоставьте импортированные столбцы с существующими:'
+    moduleFields: Поля модуля
+    onError: 'Если какая-либо запись не удалась импортировать:'
+    onErrorFail: Отменить импорт
+    onErrorSkip: Пропустить запись
+    pickModuleField: Выберите поле модуля
+    progressRatio: '{{completed}} / {{entryCount}} строк'
+    report:
+      count: Количество записей
+      detectedErrors: Обнаруженные ошибки
+      error: Ошибка
+      failedEntries: Неудачные записи
+      failedEntriesLine: Запись
+      failedEntriesLines: Записи с до (включительно)
+      failedRecords: Неудачные записи
+      finishedAt: Завершено в
+      importedRecords: Импортированные записи
+      startedAt: Начато в
+      title: Отчет об ошибке импорта записей
+      totalRecords: Всего записей
+    success: Импорт успешно завершен.
+    to: Импортировать в {{modulename}}
+    uploadFile: Загрузите файл, который вы хотите импортировать (.csv или JSON формат)
+  label: Список записей
+  moduleFootnote: Модули без {{0}} могут быть использованы в списке записей только как редактор в строке
+  pagination:
+    next: Далее
+    prev: Предыдущий
+    showing: '{{from}} - {{to}} из {{count}} записей'
+    single: Одна запись
+    single_plural: '{{count}} записи'
+  positionField:
+    footnote: Записи будут отсортированы по этому полю
+    label: Поле сортировки записей
+  preview:
+    addRecordButton: Кнопка добавления записи
+    bePaged: '{{0}} будет постранично.'
+    isDisabled: '{{0}} отключен.'
+    isEnabled: '{{0}} включен.'
+    isHidden: '{{0}} скрыт.'
+    isShown: '{{0}} показан'
+    moduleNotSelected: Блок с таблицей записей, модуль не выбран.
+    recordFromModule: 'Показываются записи из модуля {{0}} с полями: {{1}}'
+    recordsPerPage: '{{0}} записей показаны на странице.'
+    resultsCan: Результаты могут
+    resultsCant: Результаты не могут
+    resultsPrefiltered: 'Результаты предварительно отфильтрованы:'
+    searchInput: Поле поиска
+    sorting: Сортировка
+    tableHeader: Заголовок таблицы
+    usersSearchThrough: Пользователи ищут через записи.
+    usersSee: Пользователи видят {{0}}.
+    withPresortedRecords: с отсортированными ({{0}}) записями.
+  record:
+    draggable: Записи можно перетаскивать для сортировки
+    fullPageNavigation: Навигация по всей странице
+    hideAddButton: Скрыть кнопку добавления записи
+    hidePaging: Скрыть постраничную навигацию
+    inlineEditor: Редактор в строке
+    inlineEditorAllow: Разрешить редактирование записей в строке
+    inlineEditorFootnote: Только один редактор в строке с тем же модулем может быть на той же странице
+    newLabel: Новые записи
+    noPermission: Нет прав на чтение записи
+    perPage: Записей на странице
+    prefilterFootnote: Поддерживается упрощённый синтаксис SQL-условий (WHERE ...). Переменные вроде {{0}}, {{1}} и {{2}} будут подставлены (если доступны)
+    prefilterHideSearch: Скрыть поле поиска
+    prefilterLabel: Предварительный фильтр записей
+    prefilterPlaceholder: field1 = 1 AND field2 = 232
+    presortFootnote: Поддерживается упрощённый синтаксис SQL-условий (ORDER BY ...).
+    presortHideSort: Скрыть сортировку
+    presortLabel: Сортировка записей
+    presortPlaceholder: field1 DESC, field2 ASC
+    showTotalCount: Показать общее количество записей
+  recordPage: страница записи
+  refField:
+    footnote: Поле, которое связывает записи с родительской записью
+    label: Родительское поле
+  selectable: Разрешить выбор записей
+  selected: '{{count}} из {{total}} записей выбрано'
+recordOrganizer:
+  descriptionField:
+    footnote: Значение поля будет использовано как описание записи
+    label: Поле описания
+  group:
+    footnote: Значение, которое будет установлено для ключевого поля. Это не влияет на фильтрацию. Убедитесь, что указали предварительный фильтр, где это необходимо.
+    label: Ключевое значение
+  groupField:
+    footnote: Поле, значение которого будет изменено, когда запись будет перемещена в организатор записей
+    label: Ключевое поле
+  label: Организатор записей
+  labelField:
+    footnote: Значение поля будет использовано как метка записи
+    label: Поле метки
+  noRecords: Нет записей в модуле, связанном с организатором записей. Перетащите записи сюда.
+  notConfigured: Организатор записей не настроен правильно.
+  positionField:
+    footnote: Записи будут отсортированы по этому полю
+    label: Поле сортировки записей
+  preview:
+    label: 'Блок организатора записей для модуля {{0}}. Поле метки {{1}}, поле описания {{2}}. Поле установки значения: {{3}}, отсортировано по полю позиции: {{4}}.'
+    moduleNotSelected: Модуль организатора записей не выбран.
+socialFeed:
+  label: Твиттер-фид
+  noInput: Нет входных данных для отображения социального фида...
+  preview:
+    socialFeed: Твиттер-фид
+  twitterProfileField: Поле, содержащее URL профиля Twitter для записи
+  twitterProfileLabel: URL профиля Twitter для страниц списка, например (https://twitter.com/bloomberg)

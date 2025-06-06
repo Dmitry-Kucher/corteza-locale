@@ -1,0 +1,54 @@
+---
+editor:
+  info:
+    archive: Архивировать
+    archivedAt: Архивировано
+    createdAt: Создано
+    delete: Удалить
+    deletedAt: Удалено
+    handle: Идентификатор
+    name: Имя роли
+    title: Основная информация
+    unarchive: Разархивировать
+    undelete: Восстановить
+    updatedAt: Обновлено
+  members:
+    add: Добавить
+    count: Участников ({{count}})
+    remove: Удалить
+    searchUsers: Поиск пользователей
+    title: Участники роли
+    unnamed: Безымянный пользователь
+  new: Новый
+  permissions: Разрешения
+  title:
+    create: Создать роль
+    edit: Редактировать роль
+list:
+  columns:
+    actions: ""
+    createdAt: Создано
+    enabled: Включено
+    handle: Идентификатор
+    name: Имя
+  filterForm:
+    archived:
+      label: архивированные роли
+    deleted:
+      label: удалённые роли
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    inclusive:
+      label: Включая
+    query:
+      label: Фильтр списка ролей
+      placeholder: Фильтровать роли по имени
+  loading: Загрузка ролей
+  new: Новый
+  numFound: '{{count}} роль найдена'
+  numFound_plural: '{{count}} ролей найдено'
+  permissions: Разрешения
+  title: Роли
+  yaml: YAML

@@ -1,0 +1,72 @@
+---
+list:
+  rules:
+    add: Добавить роль
+    addRole: Добавить новую роль
+    chart:
+      operations:
+        delete: Удалить любую диаграмму
+        read: Просматривать любую диаграмму
+        update: Обновить любую диаграмму
+      type:
+        label: Диаграммы
+    component:
+      operations:
+        grant: Назначить разрешения на сервис Compose
+        namespaceCreate: Создать пространства
+        namespacesSearch: Просматривать и искать пространства
+        settingsManage: Управлять всеми настройками
+        settingsRead: Доступ ко всем настройкам
+      type:
+        label: Сервис Compose
+    loading: Загрузка разрешений
+    module:
+      operations:
+        delete: Удалить любой модуль
+        read: Просматривать любой модуль
+        recordCreate: Создать запись в любом модуле
+        recordsSearch: Просматривать и искать записи в любом модуле
+        update: Обновить любой модуль
+      type:
+        label: Модули
+    moduleField:
+      operations:
+        recordValueRead: Просматривать любое поле модуля
+        recordValueUpdate: Обновить любое поле модуля
+      type:
+        label: Поля модуля
+    namespace:
+      operations:
+        chartCreate: Создать диаграммы в любом пространстве
+        chartsSearch: Просматривать и искать диаграммы в любом пространстве
+        delete: Удалить любое пространство
+        manage: Управлять любым пространством
+        moduleCreate: Создать модули в любом пространстве
+        modulesSearch: Просматривать и искать модули в любом пространстве
+        pageCreate: Создать страницы в любом пространстве
+        pagesSearch: Просматривать и искать страницы в любом пространстве
+        read: Доступ к любому пространству
+        update: Обновить любое пространство
+      type:
+        label: Пространства
+    noRole: Роль не выбрана
+    notAllowed: Нет прав для установки разрешений
+    page:
+      operations:
+        delete: Удалить любую страницу
+        read: Просматривать любую страницу
+        update: Обновить любую страницу
+      type:
+        label: Страницы
+    record:
+      operations:
+        delete: Удалить любую запись
+        read: Просматривать любую запись
+        update: Обновить любую запись
+      type:
+        label: Записи
+    submit: Сохранить
+    tip1: Кликните по ячейке разрешения/роли, чтобы разрешить операцию
+    tip2: Используйте Alt-Клик для явного запрета операции
+    title: Список правил
+  title: Разрешения Compose

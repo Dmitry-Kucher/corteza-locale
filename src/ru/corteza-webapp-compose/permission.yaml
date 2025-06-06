@@ -1,0 +1,132 @@
+---
+composeChart:
+  all: все диаграммы
+  operations:
+    delete:
+      description: 'По умолчанию: запретить'
+      specific: Удалить диаграмму "{{target}}"
+      title: Удалить любую диаграмму
+    read:
+      description: 'По умолчанию: запретить'
+      specific: Просмотреть диаграмму "{{target}}"
+      title: Просмотреть любую диаграмму
+    update:
+      description: 'По умолчанию: запретить'
+      specific: Обновить диаграмму "{{target}}"
+      title: Обновить любую диаграмму
+  specific: диаграмма "{{target}}"
+composeModule:
+  all: все модули
+  operations:
+    delete:
+      description: 'По умолчанию: запретить'
+      specific: Удалить модуль "{{target}}"
+      title: Удалить любой модуль
+    read:
+      description: 'По умолчанию: запретить'
+      specific: Просмотреть модуль "{{target}}"
+      title: Просмотреть любой модуль
+    recordCreate:
+      description: 'По умолчанию: запретить'
+      specific: Создать запись модуля "{{target}}"
+      title: Создать запись любого модуля
+    recordsSearch:
+      description: 'По умолчанию: запретить'
+      specific: Список и поиск записей модуля "{{target}}"
+      title: Список и поиск записей любого модуля
+    update:
+      description: 'По умолчанию: запретить'
+      specific: Обновить модуль "{{target}}"
+      title: Обновить любой модуль
+  specific: модуль "{{target}}"
+composeModuleField:
+  all: все поля модулей
+  operations:
+    recordValueRead:
+      description: 'По умолчанию: запретить'
+      specific: 'Просмотреть поля записи "{{target}}" '
+      title: Просмотреть поля записей любого модуля
+    recordValueUpdate:
+      description: 'По умолчанию: запретить'
+      specific: 'Обновить поля записи "{{target}}" '
+      title: Обновить поля записей любого модуля
+  specific: поле "{{target}}"
+composeNamespace:
+  all: все пространства имен
+  operations:
+    chartCreate:
+      description: ""
+      specific: Создать диаграммы в пространстве имен "{{target}}"
+      title: Создать диаграммы в любом пространстве имен
+    chartsSearch:
+      description: ""
+      specific: Список и поиск диаграмм в пространстве имен "{{target}}"
+      title: Список и поиск диаграмм в любом пространстве имен
+    delete:
+      description: ""
+      specific: Удалить пространство имен "{{target}}"
+      title: Удалить любое пространство имен
+    manage:
+      description: Разрешить доступ к административным страницам пространства имен
+      specific: Управлять пространством имен "{{target}}"
+      title: Управлять любым пространством имен
+    moduleCreate:
+      description: ""
+      specific: Создать модули в пространстве имен "{{target}}"
+      title: Создать модули в любом пространстве имен
+    modulesSearch:
+      description: ""
+      specific: Список и поиск модулей в пространстве имен "{{target}}"
+      title: Список и поиск модулей в любом пространстве имен
+    pageCreate:
+      description: ""
+      specific: Создать страницы в пространстве имен "{{target}}"
+      title: Создать страницы в любом пространстве имен
+    pagesSearch:
+      description: ""
+      specific: Список и поиск страниц в пространстве имен "{{target}}"
+      title: Список и поиск страниц в любом пространстве имен
+    read:
+      description: ""
+      specific: Просмотреть пространство имен "{{target}}"
+      title: Просмотреть любое пространство имен
+    update:
+      description: ""
+      specific: Обновить пространство имен "{{target}}"
+      title: Обновить любое пространство имен
+  specific: пространство имен "{{target}}"
+composePage:
+  all: все страницы
+  operations:
+    delete:
+      description: 'По умолчанию: запретить'
+      specific: Удалить страницу "{{target}}"
+      title: Удалить любую страницу
+    read:
+      description: 'По умолчанию: запретить'
+      specific: Просмотреть страницу "{{target}}"
+      title: Просмотреть любую страницу
+    update:
+      description: 'По умолчанию: запретить'
+      specific: Обновить страницу "{{target}}"
+      title: Обновить любую страницу
+  specific: страница "{{target}}"
+composeRecord:
+  all: все записи
+  operations:
+    delete:
+      description: 'По умолчанию: запретить'
+      specific: Удалить запись
+      title: Удалить записи любого модуля
+    read:
+      description: 'По умолчанию: запретить'
+      specific: Просмотреть запись
+      title: Просмотреть записи любого модуля
+    update:
+      description: 'По умолчанию: запретить'
+      specific: Обновить запись
+      title: Обновить записи любого модуля
+  specific: запись
+resetBack: Сбросить обратно к "{{current}}"
+saveChanges: Сохранить изменения
+setFor: Установить права для {{target}}

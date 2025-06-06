@@ -1,0 +1,13 @@
+---
+errors:
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания auth-клиентов
+  notAllowedToDelete: нет прав для удаления этого auth-клиента
+  notAllowedToRead: нет прав для просмотра этого auth-клиента
+  notAllowedToSearch: нет прав для поиска или просмотра auth-клиентов
+  notAllowedToUndelete: нет прав для восстановления этого auth-клиента
+  notAllowedToUpdate: нет прав для изменения этого auth-клиента
+  notFound: auth-клиент не найден
+  unableToChangeDefaultClientHandle: невозможно изменить идентификатор клиента по умолчанию
+  unableToDeleteDefaultClient: невозможно удалить клиента по умолчанию
+  unableToDisableDefaultClient: невозможно отключить клиента по умолчанию

@@ -1,0 +1,169 @@
+---
+defaultFieldValue: Значение поля по умолчанию
+defaultValue: Значение по умолчанию
+kind:
+  bool:
+    checkedValueLabel: Значение при выборе
+    checkedValuePlaceholder: Значение для отмеченного состояния
+    label: Флажок (Да/Нет)
+    uncheckedValueLabel: Значение при снятии
+    uncheckedValuePlaceholder: Значение для неотмеченного состояния
+  dateTime:
+    dateOnly: Только дата
+    futureValuesOnly: Только будущие значения
+    label: Дата и время
+    outputFormat: 'Формат вывода:'
+    outputFormatFootnote: Смотрите {{0}} для вариантов форматирования
+    pastValuesOnly: Только прошлые значения
+    relativeOutput: 'Вывод относительного значения (например: 3 дня назад)'
+    timeOnly: Только время
+    warning:
+      futureValuesOnly: Будут сохранены только даты в будущем
+      pastValuesOnly: Будут сохранены только даты в прошлом
+  email:
+    label: Email
+    preventToLink: Не превращать email в ссылку
+  file:
+    label: Файл
+    view:
+      gallery: Галерея изображений
+      grid: Сетка
+      list: Список
+      maxSizeLabel: Максимальный размер файла
+      mimetypesFootnote: 'MIME-типы, разделённые запятыми. Пример: "text/plain,text/csv"'
+      mimetypesLabel: Разрешённые типы файлов
+      modeFootnote: Как файлы отображаются в блоках записей
+      modeLabel: Режим просмотра
+      showName: Скрыть имя файла
+      single: Одно изображение
+  number:
+    exampleFormat: Формат
+    exampleInput: Ввод
+    exampleResult: Результат
+    examplesLabel: 'Примеры формата:'
+    formatLabel: Формат
+    formatPlaceholder: Формат
+    label: Число
+    precisionLabel: Точность
+    precisionPlaceholder: Точность
+    prefixLabel: Префикс
+    prefixPlaceholder: Префикс
+    suffixLabel: Суффикс
+    suffixPlaceholder: Суффикс
+  record:
+    currentUnnamedModule: (Текущий модуль без названия)
+    label: Запись
+    moduleLabel: Имя модуля
+    modulePlaceholder: Выберите модуль
+    prefilterFootnote: Поддерживается упрощённый синтаксис SQL-условий (WHERE ...). Переменные вроде {{0}}, {{1}} и {{2}} будут подставлены (если доступны)
+    prefilterLabel: Предварительный фильтр записей
+    prefilterPlaceholder: field1 = 1 AND field2 = 232
+    queryFieldsLabel: Поля для поиска
+    recordFieldLabel: Метка записи из поля
+    recordFieldPlaceholder: Выберите поле
+    suggestionPlaceholder: Начните ввод для поиска записей
+  select:
+    label: Список
+    optionAdd: Добавить
+    optionLabelPlaceholder: Подпись
+    optionNotSelected: Нет выбранных опций
+    optionRemove: Удалить
+    optionType:
+      default: Один ввод
+      each: Ввод для каждого значения
+      label: Тип ввода для нескольких значений
+      multiple: Множественный выбор
+    optionValuePlaceholder: Значение
+    optionsLabel: Опции для выбора
+    placeholder: Выберите опцию, кликнув здесь
+  string:
+    label: Строка
+    multiLine: Многострочный ввод
+    richText: Использовать редактор форматированного текста
+  url:
+    label: URL
+    preventToLink: Не превращать URL в ссылку
+    sshOnly: Только URL с HTTPS
+    trimHash: 'Удалить "#" из URL'
+    trimQuestionMark: Удалить "?" из URL
+    trimToDomain: Удалить URL до домена
+  user:
+    label: Пользователь
+    na: Н/Д
+    presetWithCurrentUser: Установить текущего пользователя
+    suggestionPlaceholder: Начните ввод для поиска пользователей по email или имени
+    roles:
+      label: Роли пользователя
+      placeholder: Фильтровать по ролям пользователя
+noPermission: Нет доступа для чтения значения поля
+options:
+  description:
+    label:
+      default: Описание
+      edit: Описание редактирования
+      view: Описание просмотра
+    placeholder:
+      default: Текст описания...
+      edit: Описание при редактировании поля...
+      view: Описание при просмотре поля...
+    same: Показывать одно и то же описание при просмотре и редактировании
+  hint:
+    label:
+      default: Подсказка
+      edit: Подсказка редактирования
+      view: Подсказка просмотра
+    placeholder:
+      default: Текст подсказки...
+      edit: Подсказка при редактировании поля...
+      view: Подсказка при просмотре поля...
+    same: Показывать одну и ту же подсказку при просмотре и редактировании
+  multiDelimiter:
+    comma: Разделённые запятыми
+    custom: Использовать пользовательский разделитель
+    customLabel: Или использовать пользовательский разделитель
+    customPlaceholder: Введите пользовательский разделитель
+    label: Разделитель для нескольких значений
+    newline: Каждое значение в новой строке
+sanitizers:
+  add: + Добавить
+  description: Удалить пробелы из текста или выполнить другие виды манипуляций с значением перед проверкой
+  examples: Примеры
+  expression:
+    placeholder: trim(value)
+  label: Очистка значения
+selector:
+  available: Доступные столбцы
+  footnote: Добавьте поля, перетаскивая или двойным кликом на них. Выбранные поля также можно изменить порядок
+  selectAll: Выберите все
+  selected: Выбранные столбцы
+  systemField: (системное поле)
+  unselectAll: Снять выбор со всех
+system:
+  id: ID записи
+  moduleID: ID модуля
+  namespaceID: ID пространства имён
+  revision: Редакция записи
+  meta: Метаданные
+  recordID: ID записи
+  createdAt: Создано
+  createdBy: Создано пользователем
+  deletedAt: Удалено
+  deletedBy: Удалено пользователем
+  ownedBy: Владелец
+  updatedAt: Обновлено
+  updatedBy: Обновлено пользователем
+validators:
+  description: Набор выражений и ошибок, проверяющих корректность введённого значения.
+  disableBuiltIn: Отключить встроенные валидаторы
+  error:
+    placeholder: Текст, отображаемый при истинности выражения
+  expression:
+    placeholder: Выражение для проверки
+  label: Валидаторы
+  new: Новый валидатор
+  remove: Удалить валидатор
+  title: Валидаторы поля
+valueExpr:
+  description: Вставьте формулу или выражение, вычисляющее числовые значения или объединяющее и манипулирующее текстовыми значениями
+  label: Выражение значения поля
+  placeholder: ((floor(numField1) + numField2) / 10) + 0.5

@@ -1,0 +1,13 @@
+---
+errors:
+  alreadyExists: маршрут с этим endpoint уже существует
+  existsEndpoint: маршрут с этим endpoint уже существует
+  invalidEndpoint: неверный endpoint
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания маршрута
+  notAllowedToDelete: нет прав для удаления этого маршрута
+  notAllowedToExec: нет прав для выполнения этого маршрута
+  notAllowedToRead: нет прав для просмотра этого маршрута
+  notAllowedToUndelete: нет прав для восстановления этого маршрута
+  notAllowedToUpdate: нет прав для изменения этого маршрута
+  notFound: маршрут не найден

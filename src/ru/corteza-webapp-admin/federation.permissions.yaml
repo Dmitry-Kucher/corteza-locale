@@ -1,0 +1,43 @@
+---
+list:
+  rules:
+    add: Добавить роль
+    addRole: Добавить новую роль
+    component:
+      operations:
+        grant: Назначить разрешения на сервис федерации
+        nodeCreate: Создать узлы
+        nodesSearch: Просматривать или создавать узлы
+        pair: Связать узлы
+        settingsManage: Управлять всеми настройками
+        settingsRead: Доступ ко всем настройкам
+      type:
+        label: Сервис федерации
+    exposedModule:
+      operations:
+        manage: Управлять любым модулем
+      type:
+        label: Модули
+    loading: Загрузка разрешений
+    noRole: Роль не выбрана
+    node:
+      operations:
+        delete: Удалить любой узел
+        manage: Управлять любым узлом
+        moduleCreate: Создать модули
+        pair: Связать узлы
+        read: Доступ к любому узлу
+        update: Обновить любой узел
+      type:
+        label: Узлы
+    notAllowed: Нет прав для установки разрешений
+    sharedModule:
+      operations:
+        map: Сопоставить любой модуль
+      type:
+        label: Модули
+    submit: Сохранить
+    tip1: Кликните по ячейке разрешения/роли, чтобы разрешить операцию
+    tip2: Используйте Alt-Клик для явного запрета операции
+    title: Список правил
+  title: Разрешения федерации

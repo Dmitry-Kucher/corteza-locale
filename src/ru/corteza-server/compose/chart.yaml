@@ -1,0 +1,17 @@
+---
+errors:
+  handleNotUnique: идентификатор не уникален
+  invalidHandle: неверный идентификатор
+  invalidID: неверный ID
+  invalidNamespaceID: неверный или отсутствует ID пространства
+  moduleNotFound: модуль не существует
+  namespaceNotFound: пространство не существует
+  notAllowedToCreate: нет прав для создания диаграмм
+  notAllowedToDelete: нет прав для удаления этой диаграммы
+  notAllowedToRead: нет прав для просмотра этой диаграммы
+  notAllowedToReadNamespace: нет прав для просмотра этого пространства
+  notAllowedToSearch: нет прав для поиска или просмотра диаграмм
+  notAllowedToUndelete: нет прав для восстановления этой диаграммы
+  notAllowedToUpdate: нет прав для изменения этой диаграммы
+  notFound: диаграмма не существует
+  staleData: устаревшие данные

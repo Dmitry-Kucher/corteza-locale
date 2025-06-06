@@ -1,0 +1,14 @@
+---
+general:
+  error: Ошибка
+  success: Успех
+  warning: Предупреждение
+report:
+  createFailed: Не удалось создать отчёт
+  created: Отчёт создан
+  delete: Отчёт удалён
+  deleteFailed: Не удалось удалить отчёт
+  fetchFailed: Не удалось получить отчёт
+  listFetchFailed: Не удалось получить список отчётов
+  updateFailed: Не удалось обновить отчёт
+  updated: Отчёт обновлён

@@ -1,0 +1,19 @@
+---
+template:
+  title: Ваша сессия
+  list:
+    current: Текущая сессия
+    authorized-on: Авторизован
+    same-machine: Этот компьютер
+    ip-address: IP-адрес
+    same-browser: Этот браузер
+    browser: Браузер
+    expires: Истекает
+    expired: Истёк
+    today: Сегодня
+    tomorrow: Через 1 день
+    soon: Через {{days}} дней
+  delete-all: Выйти везде
+alerts:
+  session-deleted: Сессия удалена
+  delete-sessions-but-current: Все сессии, кроме текущей, удалены

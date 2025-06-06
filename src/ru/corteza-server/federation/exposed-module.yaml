@@ -1,0 +1,12 @@
+---
+errors:
+  composeModuleNotFound: модуль Compose не найден
+  composeNamespaceNotFound: пространство Compose не найдено
+  invalidID: неверный ID
+  nodeNotFound: узел не существует
+  notAllowedToCreate: нет прав для создания модулей
+  notAllowedToManage: нет прав для управления этим модулем
+  notFound: модуль не существует
+  notUnique: узел не уникален
+  requestParametersInvalid: неверные параметры запроса
+  staleData: устаревшие данные

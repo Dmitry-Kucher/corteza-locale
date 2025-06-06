@@ -1,0 +1,104 @@
+---
+automation:
+  scriptFailed: Не удалось выполнить автоматизацию
+chart:
+  createFailed: Не удалось создать график
+  deleteFailed: Не удалось удалить этот график
+  deleted: График удален
+  invalidConfig:
+    missingDimensionsField: Поле размеров не определено
+    missingDimensionsModifier: Модификатор размеров не определён
+    missingMetricsAggregate: Агрегат метрик не определён
+    missingMetricsField: Поле метрик не определено
+    missingMetricsType: Тип графика метрик не определён
+    missingModuleID: Модуль не определён
+    missingReports: Отчеты не определены
+  loadFailed: Не удалось загрузить график
+  optionsBuildFailed: Не удалось построить параметры графика
+  saveFailed: Не удалось сохранить этот график
+  saved: График сохранен
+  unsupportedRenderer: Неподдерживаемый рендерер
+color:
+  RGBA:
+    invalid: Недопустимый формат цвета RGBA
+field:
+  missingRequired: Отсутствует значение обязательного поля
+  unknownFieldKind: 'Ошибка: Неизвестный тип поля "{{kind}}", не найден компонент отображения.'
+  unsupportedKind: Неподдерживаемый тип поля {{kind}}
+field-datetime:
+  valueNotFuture: Прошедшее значение в поле только будущего
+  valueNotPast: Будущее значение в поле только прошлого
+general:
+  composeAccessNotAllowed: Доступ к Compose не разрешен
+  error: Ошибка
+  success: Успех
+  warning: Предупреждение
+import:
+  failed: Импорт не удался
+  readingError: Ошибка чтения файла
+  successful: Импорт успешен
+  typeMissmatch: 'Ошибка импорта: попытка импортировать объект типа "{{type1}}" в список объектов типа "{{type2}}"'
+module:
+  createFailed: Не удалось создать модуль
+  deleteFailed: Не удалось удалить этот модуль
+  deleted: Модуль удален
+  saveFailed: Не удалось сохранить этот модуль
+  saved: Модуль сохранен
+namespace:
+  application:
+    createFailed: Не удалось создать приложение пространства имен
+    fetchFailed: Не удалось получить приложение пространства имен
+    saveFailed: Не удалось сохранить приложение пространства имен
+  assetUploadFailed: Не удалось загрузить вложенные ресурсы
+  createFailed: Не удалось создать пространство имен
+  deleteFailed: Не удалось удалить это пространство имен
+  disabled: Пространство имен отключено - перенаправление
+  saveFailed: Не удалось сохранить это пространство имен
+  saved: Пространство имен сохранено
+page:
+  createFailed: Не удалось создать страницу
+  deleteFailed: Не удалось удалить эту страницу
+  loadFailed: Не удалось загрузить дерево страниц
+  noPages: Нет страниц
+  pageMoveFailed: Не удалось переместить эту страницу
+  reordered: Страница переупорядочена
+  saveFailed: Не удалось сохранить эту страницу
+  saveFailedRequired: Не удалось сохранить эту страницу, все обязательные поля модуля должны присутствовать
+  saved: Страница сохранена
+record:
+  createFailed: Не удалось создать запись
+  deleteFailed: Не удалось удалить запись
+  deleteBulkFailed: Не удалось удалить выбранные записи
+  deleteBulkSuccess: Успешно удалены выбранные записи
+  invalidOwnerVar: Нельзя использовать переменную ${ownerID} в нестраничных записях
+  invalidRecordVar: Нельзя использовать переменную ${record...} в нестраничных записях
+  listLoadFailed: Не удалось загрузить список записей
+  loadFailed: Не удалось загрузить запись
+  moduleMismatch: Модуль несовместим, несоответствие модуля
+  moduleNotDefined: Модуль записи не определен
+  moduleOrPageNotSet: 'Ошибка блока RecordList: модуль или страница не заданы'
+  unexpectedInput: Непредвиденный ввод для свойства values, должно быть массивом с парами объектов name-value
+  unexpectedValue: Непредвиденное значение для модуля записи ({{type}})
+  updateFailed: Не удалось обновить запись
+  validationErrors: проверьте сообщения об ошибках в форме
+list:
+  empty: Нет уведомлений
+  markAllRead: Отметить все как прочитанные
+  markRead: Отметить как прочитанное
+  markUnread: Отметить как непрочитанное
+  notifications: Уведомления
+  unread: Непрочитанные
+  viewAll: Смотреть все
+item:
+  dismiss: Отклонить
+  open: Открыть
+  snooze: Отложить
+  view: Просмотреть
+settings:
+  channels: Каналы уведомлений
+  email: Email
+  inApp: В приложении
+  label: Настройки уведомлений
+  save: Сохранить настройки
+  sms: SMS
+  webPush: Push-уведомления

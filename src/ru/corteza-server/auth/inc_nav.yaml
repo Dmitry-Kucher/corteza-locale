@@ -1,0 +1,8 @@
+---
+template:
+  authorize-client: Завершить авторизацию для
+  class:
+    your-profile: Ваш профиль
+    security: Безопасность
+    login-session: Сеансы входа
+    authorized-clients: Авторизованные клиенты

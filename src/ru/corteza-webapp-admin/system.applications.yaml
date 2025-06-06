@@ -1,0 +1,59 @@
+---
+editor:
+  info:
+    createdAt: Создано
+    delete: Удалить
+    deletedAt: Удалено
+    enabled: Включено
+    id: ID
+    name: Имя
+    title: Основная информация
+    undelete: Восстановить
+    updatedAt: Обновлено
+  new: Новый
+  permissions: Разрешения
+  title:
+    create: Создать приложение
+    edit: Редактировать приложение
+  unify:
+    config:
+      description: Конфигурация приложения (JSON)
+      label: Конфигурация
+    listed: В списке
+    logo:
+      description: Логотип, используемый в селекторе приложений
+      label: Логотип
+      placeholder: Выберите логотип или перетащите его сюда...
+    name:
+      description: Имя, используемое в селекторе приложений
+      label: Имя
+    pinned: Закреплено
+    title: Селектор приложений Unify
+    url:
+      description: URL приложения
+      label: URL
+list:
+  columns:
+    actions: ""
+    createdAt: Создано
+    enabled: Включено
+    name: Имя
+  filterForm:
+    deleted:
+      label: удалённые приложения
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    inclusive:
+      label: Включая
+    query:
+      label: Фильтр списка приложений
+      placeholder: Фильтровать приложения по имени
+  loading: Загрузка приложений
+  new: Новый
+  numFound: '{{count}} приложение найдено'
+  numFound_plural: '{{count}} приложений найдено'
+  permissions: Разрешения
+  title: Приложения
+  yaml: YAML

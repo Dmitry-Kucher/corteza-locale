@@ -1,0 +1,7 @@
+---
+jitsi:
+  create: Создать
+  defaultLocalDisplayName: Аноним
+  defaultRemoteDisplayName: Другой пользователь Corteza
+  roomName: Название комнаты
+  toStart: Чтобы начать видеозвонок, создайте новую комнату

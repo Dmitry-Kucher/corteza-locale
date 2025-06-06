@@ -1,0 +1,23 @@
+---
+adminPanel: Администрирование
+automation: Автоматизация
+chart: Диаграммы
+configuration: Конфигурация
+editPage: Редактировать страницу
+help:
+  documentation: Документация
+  feedback: Отправить отзыв
+  forum: Помощь
+  version: 'Версия:'
+module: Модули
+more: Еще
+namespace: Пространства имён
+noPageTitle: Нет названия страницы
+page: Страницы
+publicPages: Публичные страницы
+userSettings:
+  changePassword: Сменить пароль
+  loggedInAs: Вы вошли как {{user}}
+  logout: Выйти
+  profile: Профиль
+viewPage: Просмотреть страницу

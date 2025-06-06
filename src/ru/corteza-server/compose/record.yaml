@@ -1,0 +1,25 @@
+---
+errors:
+  fieldNotFound: поле {field} не найдено
+  importSessionAlreadActive: сессия импорта уже активна
+  invalidID: неверный ID
+  invalidModuleID: неверный или отсутствует ID модуля
+  invalidNamespaceID: неверный или отсутствует ID пространства
+  invalidReferenceFormat: неверный формат ссылки
+  invalidValueStructure: более одного значения для однополейного поля {field}
+  moduleNotFoundModule: модуль не найден
+  namespaceNotFound: пространство не найдено
+  notAllowedToChangeFieldValue: нет прав для изменения значения поля {field}
+  notAllowedToCreate: нет прав для создания записей
+  notAllowedToDelete: нет прав для удаления этой записи
+  notAllowedToListRecords: нет прав для просмотра записей
+  notAllowedToRead: нет прав для просмотра этой записи
+  notAllowedToReadModule: нет прав для просмотра модуля
+  notAllowedToReadNamespace: нет прав для просмотра этого пространства
+  notAllowedToSearch: нет прав для поиска или просмотра записей
+  notAllowedToUndelete: нет прав для восстановления этой записи
+  notAllowedToUpdate: нет прав для изменения этой записи
+  notFound: запись не найдена
+  staleData: устаревшие данные
+  unknownBulkOperation: неизвестная массовая операция {bulkOperation}
+  valueInput: неверный ввод значения записи

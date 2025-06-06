@@ -1,0 +1,69 @@
+---
+allRecords:
+  create:
+    title: Создать запись для модуля "{{name}}"
+  edit:
+    title: Редактировать запись для модуля "{{name}}"
+  label: Все записи
+  list:
+    title: Все записи для модуля "{{name}}"
+  selectFields:
+    title: Настроить столбцы
+  view:
+    title: Просмотр записи для модуля "{{name}}"
+createLabel: Новый модуль
+edit:
+  create: Создать модуль
+  edit: Редактировать модуль
+  federationSettings:
+    downstream:
+      allFields: Все поля
+      description: 'Сопоставьте федеративные поля с существующими:'
+      title: Сопоставление
+    errorFetchingData: Ошибка при получении данных с сервера
+    general:
+      receive: Получать новые записи из другой организации (входящий поток)
+      send: Отправлять новые записи в федеративную сеть (исходящий поток)
+      title: Общие
+    noNodes: Нет доступных федеративных серверов
+    noPermission: Нет прав для управления опубликованным модулем
+    pickModule: Выберите федеративный модуль
+    pickModuleField: Выберите поле модуля
+    pickServer: Выберите федеративный сервер
+    specificTitle: Настройки федерации ({{handle}})
+    title: Настройки федерации
+    upstream:
+      allFields: Все поля
+      description: Выберите поля для публикации в выбранной сети
+      title: Публикация
+  fieldPermissions: Права на поля
+  manageRecordFields: Управление полями записей
+  moduleFieldSettings: Настройки полей модуля
+  moduleInfo: Информация о модуле
+  newField: Добавить новое поле
+  recordPermissions: Права на записи
+  reorderFields: Изменить порядок полей
+  specificFieldSettings: Настройки поля ({{name}})
+  steps:
+    recordList: Страница со списком записей
+    recordPage: Страница записи
+  systemFields: 'Системные поля:'
+  tooltip:
+    attributes: Укажите, может ли поле содержать несколько значений, обязательно ли оно или содержит чувствительные данные
+    name: Должно содержать только a-z/A-Z, 0-9 или подчёркивание
+    private: Чувствительные данные
+    required: Обязательное поле
+    title: Имя, отображаемое в форме ввода/списках данных
+federated: Федеративный
+forModule:
+  recordList: Список записей для модуля
+  recordListPage: Страница со списком записей для модуля
+  recordPage: Страница записи для модуля
+import: Импорт модуля
+newLabel: Имя модуля *
+newPlaceholder: Имя, используемое в списке модулей
+recordPage:
+  create: Создать страницу записи
+  edit: Конструктор страниц
+searchPlaceholder: Введите здесь для поиска по всем модулям в этом пространстве имён
+title: Список модулей

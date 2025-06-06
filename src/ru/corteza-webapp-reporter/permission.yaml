@@ -1,0 +1,24 @@
+---
+report:
+  all: все отчёты
+  specific: отчёт "{{target}}"
+resetBack: Сбросить обратно к "{{current}}"
+saveChanges: Сохранить изменения
+setFor: Установить права для {{target}}
+system-report:
+  delete:
+    description: ""
+    specific: Удалить отчёт "{{target}}"
+    title: Удалить любой отчёт
+  read:
+    description: ""
+    specific: Просмотреть отчёт "{{target}}"
+    title: Просмотреть любой отчёт
+  run:
+    description: ""
+    specific: Запустить отчёт "{{target}}"
+    title: Запустить любой отчёт
+  update:
+    description: ""
+    specific: Обновить отчёт "{{target}}"
+    title: Обновить любой отчёт

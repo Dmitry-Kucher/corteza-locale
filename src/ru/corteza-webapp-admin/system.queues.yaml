@@ -1,0 +1,41 @@
+---
+editor:
+  info:
+    consumer: Получатель
+    createdAt: Создано
+    delete: Удалить
+    deletedAt: Удалено
+    dispatch_events: Отправлять события
+    dispatch_events_desc: Отправка событий уведомляет eventbus об изменениях сообщений очереди (новые, обработанные и т.д.)
+    name: Имя очереди
+    poll_delay: Задержка опроса
+    poll_delay_empty: 'Задержка опроса не используется; чтобы включить, используйте формат длительности (например: 1h / 1m15s / 1h90s)'
+    poll_delay_set: Задержка опроса будет применяться; если пусто — не применяется.
+    title: Основная информация
+    undelete: Восстановить
+    updatedAt: Обновлено
+  new: Новый
+  title:
+    edit: Редактировать очередь
+    new: Добавить очередь
+list:
+  columns:
+    actions: Действия
+    consumer: Получатель
+    createdAt: Создано
+    queue: Очередь
+  filterForm:
+    deleted:
+      label: удалённые очереди
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    handle:
+      label: Фильтр списка очередей
+      placeholder: Фильтровать очереди по имени
+    inclusive:
+      label: Включая
+  loading: Загрузка очередей сообщений
+  new: Новый
+  title: Очереди сообщений

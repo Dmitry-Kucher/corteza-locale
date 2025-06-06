@@ -1,0 +1,12 @@
+---
+errors:
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания отчётов
+  notAllowedToDelete: нет прав для удаления этого отчёта
+  notAllowedToListReports: нет прав для просмотра отчётов
+  notAllowedToRead: нет прав для просмотра этого отчёта
+  notAllowedToRun: нет прав для запуска этого отчёта
+  notAllowedToSearch: нет прав для поиска или просмотра отчётов
+  notAllowedToUndelete: нет прав для восстановления этого отчёта
+  notAllowedToUpdate: нет прав для изменения этого отчёта
+  notFound: отчёт не найден

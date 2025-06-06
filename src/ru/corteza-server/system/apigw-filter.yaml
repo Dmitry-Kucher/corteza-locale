@@ -1,0 +1,10 @@
+---
+errors:
+  invalidID: неверный ID
+  invalidRoute: неверный маршрут
+  notAllowedToCreate: нет прав для создания фильтра
+  notAllowedToDelete: нет прав для удаления этого фильтра
+  notAllowedToRead: нет прав для просмотра этого фильтра
+  notAllowedToUndelete: нет прав для восстановления этого фильтра
+  notAllowedToUpdate: нет прав для изменения этого фильтра
+  notFound: фильтр не найден

@@ -1,0 +1,87 @@
+---
+editor:
+  info:
+    add: Добавить
+    api: Разрешить клиенту доступ к API Corteza от имени пользователя
+    choose-date: Выберите дату
+    createdAt: Создано
+    delete: Удалить
+    deletedAt: Удалено
+    enabled:
+      disabledFootnote: Невозможно отключить клиента по умолчанию
+      label: Включено
+    expiresAt:
+      description: Если не задано, клиент не имеет срока действия
+      label: Действителен до
+    grant:
+      authorization_code: Используется для аутентификации пользователей (grant type = authorization_code)
+      client_credentials: Используется для аутентификации машин (grant type = client_credentials)
+    handle:
+      disabledFootnote: Невозможно изменить идентификатор клиента по умолчанию
+      label: Идентификатор
+    name: Имя
+    no-time: Время не выбрано
+    profile: Разрешить клиенту доступ к профилю пользователя
+    redirectURI: URI перенаправления
+    remove: Удалить
+    secret: Секрет
+    security:
+      prohibitedRoles:
+        description: Роли из этого списка будут удалены из контекста безопасности при авторизации клиента
+        label: Запрещённые роли
+      forcedRoles:
+        description: Роли из этого списка всегда будут добавлены в контекст безопасности при авторизации клиента
+        label: Принудительные роли
+      impersonateUser:
+        description: При аутентификации по client credentials действовать от имени указанного пользователя
+        label: Имя пользователя для имитации
+      permittedRoles:
+        description: Только эти роли будут добавлены в контекст безопасности при авторизации клиента
+        label: Разрешённые роли
+    title: Основная информация
+    trusted:
+      description: Если клиент доверенный, пользователи не увидят шаг авторизации
+      label: Доверенный
+    undelete: Восстановить
+    unnamed: Безымянная роль
+    updatedAt: Обновлено
+    uri: URI
+    validFrom:
+      description: Если не задано, клиент действителен до истечения срока
+      label: Действует с
+    generateCurl: Сгенерировать cURL
+    hideCurl: Скрыть cURL
+    cUrl: Сгенерированный cURL
+    testCurl: Тест авторизации
+  new: Новый
+  permissions: Разрешения
+  title:
+    create: Создать клиента
+    edit: Редактировать клиента
+list:
+  columns:
+    actions: ""
+    createdAt: Создано
+    enabled: Включено
+    handle: Идентификатор
+    meta:
+      name: Имя
+  filterForm:
+    deleted:
+      label: удалённые клиенты
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    inclusive:
+      label: Включая
+    query:
+      label: Фильтр списка клиентов
+      placeholder: Фильтровать клиентов
+  loading: Загрузка клиентов
+  new: Новый
+  numFound: '{{count}} клиентов найдено'
+  numFound_plural: '{{count}} клиентов найдено'
+  permissions: Разрешения
+  title: Клиенты аутентификации
+  yaml: YAML

@@ -1,0 +1,22 @@
+---
+template:
+  title: Вход
+  form:
+    email:
+      label: Эл. почта
+      placeholder: email@domain.ltd
+    password:
+      label: Пароль
+      placeholder: пароль
+    button:
+      login-and-remember: Войти и запомнить меня
+      login: Войти
+      continue: Продолжить
+  links:
+    request-password-reset: Забыли пароль?
+    signup: Создать новый аккаунт
+    external:
+      login-with: Войти через {{idp}}
+alerts:
+  logged-in: Вы успешно вошли в систему.
+  local-disabled: Локальные аккаунты отключены

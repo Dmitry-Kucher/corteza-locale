@@ -1,0 +1,71 @@
+---
+editor:
+  content:
+    editor:
+      unsupported: Неподдерживаемый редактор
+    partial: Частичный шаблон
+    preview:
+      html: Просмотр HTML
+      pdf: Просмотр PDF
+      title: Просмотр результата
+    title: Содержимое шаблона
+    toolbox:
+      partials: Части
+      samples:
+        defaultHTML: Стандартный HTML
+        label: Примеры
+      snippets:
+        funcCall: Вызов функции
+        interpolate: Вставить значение
+        iterator: Итерация по набору
+        label: Сниппеты
+      title: Панель инструментов
+  info:
+    contentType:
+      text_html: HTML
+      text_plain: Обычный текст
+    createdAt: Создано
+    delete: Удалить
+    deletedAt: Удалено
+    handle: Идентификатор
+    meta:
+      description: Описание
+      short: Краткое имя
+    partial: Частичный шаблон
+    partialDescription: Частичные шаблоны могут использоваться внутри других шаблонов, таких как шапки и подвал. Частичные шаблоны не могут использоваться самостоятельно.
+    title: Основная информация
+    type: Тип шаблона
+    undelete: Восстановить
+    updatedAt: Обновлено
+  new: Новый
+  permissions: Разрешения
+  title:
+    create: Создать шаблон
+    edit: Редактировать шаблон
+list:
+  columns:
+    actions: ""
+    createdAt: Создано
+    handle: Идентификатор
+    language: Язык
+    meta:
+      short: Краткое имя
+  filterForm:
+    deleted:
+      label: удалённые шаблоны
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    handle:
+      label: Фильтр списка шаблонов
+      placeholder: Фильтровать шаблоны по идентификатору
+    inclusive:
+      label: Включая
+  loading: Загрузка шаблонов
+  new: Новый
+  numFound: '{{count}} шаблон найден'
+  numFound_plural: '{{count}} шаблонов найдено'
+  permissions: Разрешения
+  title: Шаблоны
+  yaml: YAML

@@ -1,0 +1,17 @@
+---
+namespaceList: Список пространств имен
+noPages: Нет страниц
+pickNamespace: Выберите пространство имен
+searchPlaceholder: Поиск страниц...
+
+menu:
+  dashboard: Дашборд
+  modules: Модули
+  pages: Страницы
+  charts: Диаграммы
+  records: Записи
+  settings: Настройки
+  help: Помощь
+  notifications: Уведомления
+  profile: Профиль
+  logout: Выйти

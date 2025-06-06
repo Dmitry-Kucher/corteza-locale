@@ -1,0 +1,21 @@
+---
+errors:
+  emailNotUnique: email не уникален
+  handleNotUnique: идентификатор не уникален
+  invalidEmail: Некорректный email! {{resource}}
+  invalidHandle: неверный идентификатор
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания пользователей
+  notAllowedToCreateSystem: нет прав для создания системных пользователей
+  notAllowedToDelete: нет прав для удаления этого пользователя
+  notAllowedToListUsers: нет прав для просмотра пользователей
+  notAllowedToRead: нет прав для просмотра этого пользователя
+  notAllowedToSearch: нет прав для поиска или просмотра пользователей
+  notAllowedToSuspend: нет прав для приостановки этого пользователя
+  notAllowedToUndelete: нет прав для восстановления этого пользователя
+  notAllowedToUnsuspend: нет прав для восстановления этого пользователя
+  notAllowedToUpdate: нет прав для изменения этого пользователя
+  notAllowedToUpdateSystem: нет прав для изменения системных пользователей
+  notFound: пользователь не найден
+  passwordNotSecure: указанный пароль ненадёжен; используйте более длинный пароль со спецсимволами
+  usernameNotUnique: имя пользователя не уникально

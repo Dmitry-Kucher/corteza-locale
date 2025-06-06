@@ -1,0 +1,16 @@
+---
+errors:
+  handleNotUnique: идентификатор роли не уникален
+  invalidHandle: неверный идентификатор
+  invalidID: неверный ID
+  nameNotUnique: имя роли не уникально
+  notAllowedToArchive: нет прав для архивирования этой роли
+  notAllowedToCreate: нет прав для создания ролей
+  notAllowedToDelete: нет прав для удаления этой роли
+  notAllowedToManageMembers: нет прав для управления участниками роли
+  notAllowedToRead: нет прав для просмотра этой роли
+  notAllowedToSearch: нет прав для поиска или просмотра ролей
+  notAllowedToUnarchive: нет прав для разархивирования этой роли
+  notAllowedToUndelete: нет прав для восстановления этой роли
+  notAllowedToUpdate: нет прав для изменения этой роли
+  notFound: роль не найдена

@@ -1,0 +1,19 @@
+---
+applications:
+  applications: Приложение(я)
+  deleted: Удалено
+  title: Активные приложения
+  total: Всего
+roles:
+  archived: Архивировано
+  deleted: Удалено
+  roles: Роль(и)
+  title: Активные роли
+  total: Всего
+title: Дашборд
+users:
+  deleted: Удалён
+  suspended: Заблокирован
+  title: Активные пользователи
+  total: Всего
+  users: Пользователь(и)

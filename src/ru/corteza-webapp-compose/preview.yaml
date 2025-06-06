@@ -1,0 +1,12 @@
+ru:
+  clickToRetry: Нажмите, чтобы повторить
+  downloadForAll: Скачайте, чтобы увидеть все страницы
+  empty: Нет данных для предпросмотра
+  error: Ошибка предпросмотра
+  firstPagePreview: Предпросмотр первой страницы
+  loading: Загрузка предпросмотра...
+  noData: Нет данных для отображения
+  noPages: Этот документ пуст
+  notConfigured: Не настроено для предпросмотра
+  pageLoadFailed: Загрузка страницы не удалась
+  pageLoading: '$t(preview.pdf.loading)'

@@ -1,0 +1,12 @@
+---
+editor:
+  basic:
+    attachments:
+      max-size: Максимальный размер (МБ)
+      page: Вложения страницы
+      record: Вложения записи
+      type:
+        description: 'MIME-типы, разделённые запятой. Пример: "text/plain,text/csv"'
+        whitelist: Белый список типов файлов
+    title: Основные
+  title: Настройки Compose

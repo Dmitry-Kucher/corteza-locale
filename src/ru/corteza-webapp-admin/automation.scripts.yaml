@@ -1,0 +1,17 @@
+---
+list:
+  columns:
+    updatedAt: Последнее обновление
+  filter:
+    absoluteTime: Показать абсолютное время
+    incScriptsWithErrors: Ошибки ({{ count }})
+    incScriptsWithIterator: Итератор ({{ count }})
+    incScriptsWithSecurity: Безопасность ({{ count }})
+    incScriptsWithTriggers: Триггеры ({{ count }})
+    searchQuery: Поисковый запрос
+  flags:
+    iterator: Итератор
+    security: Безопасность
+    triggers: Триггеры
+  labelMissing: <метка отсутствует>
+  title: Скрипты Corredor

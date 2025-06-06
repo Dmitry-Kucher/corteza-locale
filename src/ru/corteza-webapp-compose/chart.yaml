@@ -1,0 +1,97 @@
+---
+colorLabel: '{{count}} цветов'
+colorScheme: Цветовая схема
+edit:
+  dimension:
+    calculateLabelCount: Рассчитать, сколько подписей может быть показано
+    defaultValueFootnote: Использовать это значение для отсутствующих значений измерения
+    defaultValueLabel: Значение по умолчанию
+    fieldLabel: Поле
+    fieldPlaceholder: Выберите поле измерения
+    function:
+      date: ДАТА
+      label: Функция
+      month: МЕСЯЦ
+      none: (без группировки / корзин)
+      placeholder: Выберите модификатор измерения (размер корзины)
+      quarter: КВАРТАЛ
+      week: НЕДЕЛЯ
+      year: ГОД
+    gaugeSteps: Шаги
+    label: Измерения (дата/время и списки)
+    skipMissingValues: Пропускать отсутствующие значения
+  filter:
+    customize: Настроить фильтр
+    label: Фильтры
+    noFilter: (без фильтра)
+    recordsCreatedLastMonth: Записи, созданные в прошлом месяце
+    recordsCreatedLastQuarter: Записи, созданные в прошлом квартале
+    recordsCreatedLastYear: Записи, созданные в прошлом году
+    recordsCreatedThisMonth: Записи, созданные в этом месяце
+    recordsCreatedThisQuarter: Записи, созданные в этом квартале
+    recordsCreatedThisYear: Записи, созданные в этом году
+  loadData: Загрузить данные
+  metric:
+    add: Добавить метрику
+    fieldLabel: Поле
+    fieldPlaceholder: Выберите поле метрики
+    fillArea: Закрашивать область под линией
+    fixTooltips: Всегда показывать подсказки
+    function:
+      avg: СРЕДНЕЕ
+      label: Функция
+      max: МАКС
+      min: МИН
+      placeholder: Выберите функцию агрегации метрики
+      std: STD
+      sum: СУММА
+    fx:
+      description: n — текущее значение набора данных, m — предыдущее значение
+      label: Функция постобработки
+    gaugeColor: Цвет
+    label: Метрика
+    labelColor: Цвет подписи
+    labelLabel: Подпись
+    labelPlaceholder: Всего
+    legend:
+      bottom: Внизу
+      left: Слева
+      positionPlaceholder: Положение легенды
+      right: Справа
+      top: Вверху
+    lineTension:
+      curvy: Большие кривые
+      label: Напряжение линии
+      medium: Средние кривые
+      placeholder: Напряжение линии
+      slight: Малые кривые
+      straight: Прямые линии
+    output:
+      bar: Столбчатая диаграмма
+      doughnut: Кольцевая диаграмма
+      label: Тип вывода
+      line: Линейная диаграмма
+      pie: Круговая диаграмма
+      placeholder: Выберите тип вывода метрики
+    relative: Показывать относительное значение
+    relativePrecision: 'Точность:'
+    title: Метрики (числовые поля)
+  modulePick: Выберите модуль
+  title: Конструктор диаграмм
+  unconfiguredReport: Не настроенный отчёт
+  yAxis:
+    axisOnRight: Разместить ось справа
+    axisScaleFromZero: Всегда начинать ось с нуля
+    label: Ось Y
+    labelLabel: Подпись оси
+    labelPlaceholder: Подпись оси
+    logarithmicScale: Логарифмическая шкала
+    maxLabel: Максимальное значение
+    maxPlaceholder: Максимальное значение
+    minLabel: Минимальное значение
+    minPlaceholder: Минимальное значение
+import: 'Импортировать диаграмму(ы):'
+newLabel: 'Создать новую диаграмму:'
+newPlaceholder: Название диаграммы
+searchPlaceholder: Введите текст для поиска диаграмм в этом пространстве
+title: Список диаграмм

@@ -1,0 +1,17 @@
+---
+errors:
+  disabled: рабочий процесс или триггер отключён
+  handleNotUnique: идентификатор рабочего процесса не уникален
+  invalidHandle: неверный идентификатор
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания рабочих процессов
+  notAllowedToDelete: нет прав для удаления этого рабочего процесса
+  notAllowedToExecute: нет прав для выполнения этого рабочего процесса
+  notAllowedToExecuteCorredorStep: нет прав для запуска функции corredorExec, corredor отключён
+  notAllowedToRead: нет прав для просмотра этого рабочего процесса
+  notAllowedToSearch: нет прав для поиска или просмотра рабочих процессов
+  notAllowedToUndelete: нет прав для восстановления этого рабочего процесса
+  notAllowedToUpdate: нет прав для изменения этого рабочего процесса
+  notFound: рабочий процесс не найден
+  staleData: устаревшие данные
+  unknownWorkflowStep: неизвестный шаг рабочего процесса

@@ -1,0 +1,11 @@
+---
+errors:
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания триггеров
+  notAllowedToDelete: нет прав для удаления этого триггера
+  notAllowedToRead: нет прав для просмотра этого триггера
+  notAllowedToSearch: нет прав для поиска или просмотра триггеров
+  notAllowedToUndelete: нет прав для восстановления этого триггера
+  notAllowedToUpdate: нет прав для изменения этого триггера
+  notFound: триггер не найден
+  staleData: устаревшие данные

@@ -1,0 +1,69 @@
+---
+list:
+  title: 'API шлюз'
+  new: 'Новый'
+  permissions: 'Разрешения'
+  yaml: 'YAML'
+  loading: 'Загрузка маршрутов'
+  numFound: '{{count}} маршрут найден'
+  numFound_plural: '{{count}} маршрутов найдено'
+  filterForm:
+    query:
+      label: 'Фильтр списка API шлюза'
+      placeholder: 'Фильтровать маршруты по имени'
+    excluded:
+      label: 'Без'
+    inclusive:
+      label: 'Включая'
+    exclusive:
+      label: 'Только'
+    deleted:
+      label: 'Удалённые маршруты'
+  columns:
+    endpoint: 'Эндпоинт'
+    createdAt: 'Создан'
+    enabled: 'Включено'
+    actions: ''
+editor:
+  title: 'Редактировать маршрут'
+  new: 'Новый'
+  permissions: 'Разрешения'
+  info:
+    title: 'Основная информация'
+    id: 'ID'
+    endpoint: 'Эндпоинт'
+    method: 'Метод'
+    enabled: 'Включено'
+    delete: 'Удалить'
+    undelete: 'Восстановить'
+    deletedAt: 'Удалён'
+    updatedAt: 'Обновлён'
+    createdAt: 'Создан'
+    validEndpoint: 'Недопустимый формат эндпоинта'
+  filters:
+    title: 'Список фильтров'
+    modal:
+      title: 'Проверка параметров запроса'
+      ok: 'Сохранить и закрыть'
+      statusActive: 'Активен'
+      statusDisabled: 'Отключён'
+    step_title:
+      prefilter: 'Префильтрация'
+      processer: 'Обработка'
+      postfilter: 'Постфильтрация'
+    list:
+      remove: 'Удалить'
+      filters: 'Фильтры'
+      status: 'Статус'
+      actions: 'Действия'
+      active: 'Активен'
+      noFiltersMsg: 'Пожалуйста, добавьте фильтр!'
+    labels:
+      expr: 'Выражение'
+      location: 'Местоположение'
+      workflow: 'Рабочий процесс'
+      status: 'HTTP Статус'
+    add: 'Добавить'
+    addFilter: 'Добавить фильтр'
+    params: 'Параметры'
+    filterListEmpty: 'Список фильтров пуст!'

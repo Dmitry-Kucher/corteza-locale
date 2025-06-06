@@ -1,0 +1,15 @@
+---
+template:
+  title: Авторизация
+  form:
+    greeting-paragraph: Здравствуйте
+    question-for-client: хочет выполнять действия на этом сервере Corteza от вашего имени.
+    buttons:
+      allow: Разрешить
+      deny: Отклонить
+  links:
+    mistake: Если это ошибка, пожалуйста, <a href="{{link}}">выйдите</a>.
+  errors:
+    invalid-user: Нельзя продолжить с неавторизованной почтой, посетите <a href="{{link}}">ваш профиль</a> и решите проблему.
+alerts:
+  denied: невозможно авторизовать {{client}}, нет разрешений.

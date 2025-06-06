@@ -1,0 +1,114 @@
+---
+list:
+  rules:
+    add: Добавить роль
+    addRole: Добавить новую роль
+    application:
+      operations:
+        delete: Удалить любое приложение
+        read: Просматривать любое приложение
+        update: Обновить любое приложение
+      type:
+        label: Приложения
+    authClient:
+      operations:
+        authorize: Авторизовать любой клиент
+        delete: Удалить любой клиент
+        read: Просматривать любой клиент
+        update: Обновить любой клиент
+      type:
+        label: Клиенты авторизации
+    component:
+      operations:
+        actionLogRead: Доступ к журналу действий
+        applicationCreate: Создать новое приложение
+        applicationFlagGlobal: Закрепить приложение для всех
+        applicationFlagSelf: Закрепить приложение для себя
+        applicationsSearch: Просматривать и искать приложения
+        authClientCreate: Создать новый клиент авторизации
+        authClientsSearch: Просматривать и искать клиентов авторизации
+        apigwRouteCreate: Создать новый маршрут
+        apigwRoutesSearch: Просматривать и искать маршруты
+        apigwFilterCreate: Создать новый фильтр
+        apigwFiltersSearch: Просматривать и искать фильтры
+        grant: Назначить разрешения на системный сервис
+        queueCreate: Создать новую очередь сообщений
+        queuesSearch: Просматривать и искать очереди сообщений
+        reminderAssign: Разрешить назначение напоминаний
+        roleCreate: Создать новую роль
+        rolesSearch: Просматривать и искать роли
+        settingsManage: Управлять всеми настройками
+        settingsRead: Доступ ко всем настройкам
+        templateCreate: Создать новый шаблон
+        templatesSearch: Просматривать и искать шаблоны
+        userCreate: Создать нового пользователя
+        usersSearch: Просматривать и искать пользователей
+      type:
+        label: Системный сервис
+    loading: Загрузка разрешений
+    noRole: Роль не выбрана
+    notAllowed: Нет прав для установки разрешений
+    queue:
+      operations:
+        delete: Удалить любую очередь
+        queueRead: Читать сообщения из очереди
+        queueWrite: Записать сообщения в очередь
+        read: Просматривать любую очередь
+        update: Обновить любую очередь
+      type:
+        label: Очереди сообщений
+    role:
+      operations:
+        delete: Удалить любую роль
+        membersManage: Управлять участниками любой роли
+        read: Просматривать любую роль
+        update: Обновить любую роль
+      type:
+        label: Роли
+    submit: Сохранить
+    apigwRoute:
+      type:
+        label: 'Маршруты API шлюза'
+      operations:
+        read: 'Просматривать любой маршрут'
+        update: 'Обновить любой маршрут'
+        delete: 'Удалить любой маршрут'
+    apigwFilter:
+      type:
+        label: 'Фильтры API шлюза'
+      operations:
+        read: 'Просматривать любые фильтры'
+        update: 'Обновить любые фильтры'
+        delete: 'Удалить любые фильтры'
+    template:
+      operations:
+        delete: Удалить любой шаблон
+        read: Просматривать любой шаблон
+        render: Выполнять любой шаблон
+        update: Обновить любой шаблон
+      type:
+        label: Шаблоны
+    tip1: Нажмите на ячейку разрешения/роли, чтобы разрешить конкретную операцию
+    tip2: Используйте Alt-Click, чтобы установить явное запрещение операции
+    title: Список правил
+    user:
+      operations:
+        delete: Удалить любого пользователя
+        emailUnmask: Показать подробную информацию о почте
+        impersonate: Выполнять любого пользователя
+        nameUnmask: Показать подробную информацию о имени
+        read: Просматривать любого пользователя
+        suspend: Заблокировать любого пользователя
+        unsuspend: Разблокировать любого пользователя
+        update: Обновить любого пользователя
+      type:
+        label: Пользователи
+    report:
+      operations:
+        read: Просматривать любой отчет
+        update: Обновить любой отчет
+        delete: Удалить любой отчет
+        run: Выполнить любой отчет
+      type:
+        label: Отчеты
+  title: Разрешения системы

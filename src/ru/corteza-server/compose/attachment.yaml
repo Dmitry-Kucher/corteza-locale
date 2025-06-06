@@ -1,0 +1,27 @@
+---
+errors:
+  failedToExtractMimeType: не удалось определить MIME-тип
+  failedToProcessImage: не удалось обработать изображение
+  failedToStoreFile: не удалось сохранить файл
+  invalidID: неверный ID
+  invalidModuleID: неверный ID модуля
+  invalidNamespaceID: неверный ID пространства
+  invalidPageID: неверный ID страницы
+  invalidRecordID: неверный ID записи
+  moduleNotFound: модуль не найден
+  namespaceNotFound: пространство не найдено
+  notAllowedToCreate: нет прав для создания вложений
+  notAllowedToCreateEmptyAttachment: нет прав для создания пустых вложений
+  notAllowedToCreateRecords: нет прав для создания записей
+  notAllowedToListAttachments: нет прав для просмотра вложений
+  notAllowedToRead: нет прав для просмотра этого модуля
+  notAllowedToReadNamespace: нет прав для просмотра этого пространства
+  notAllowedToReadPage: нет прав для просмотра этой страницы
+  notAllowedToReadRecord: нет прав для просмотра этой записи
+  notAllowedToSearch: нет прав для поиска или просмотра модулей
+  notAllowedToUpdateNamespace: нет прав для изменения этого пространства
+  notAllowedToUpdatePage: нет прав для изменения этой страницы
+  notAllowedToUpdateRecord: нет прав для изменения этой записи
+  notFound: вложение не найдено
+  pageNotFound: страница не найдена
+  recordNotFound: запись не найдена

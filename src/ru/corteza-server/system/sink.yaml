@@ -1,0 +1,18 @@
+---
+errors:
+  badSinkParamEncoding: некорректное кодирование параметров sink
+  contentLengthExceedsMaxAllowedSize: размер содержимого превышает допустимый лимит
+  failedToCreateEvent: не удалось создать событие sink из запроса
+  failedToProcess: не удалось обработать запрос
+  failedToRespond: не удалось отправить ответ на запрос
+  failedToSign: 'не удалось подписать параметры запроса: {err}'
+  invalidContentType: неверный заголовок content-type
+  invalidHttpMethod: неверный HTTP-метод
+  invalidPath: неверный путь
+  invalidSignature: неверная подпись
+  invalidSignatureParam: неверный параметр подписи sink
+  invalidSinkRequestUrlParams: неверные параметры url запроса sink
+  misplacedSignature: подпись не на месте
+  missingSignature: отсутствует параметр подписи sink
+  processingError: ошибка обработки запроса sink
+  signatureExpired: срок действия подписи истёк

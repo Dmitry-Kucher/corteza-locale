@@ -1,0 +1,17 @@
+---
+errors:
+  handleNotUnique: идентификатор не уникален
+  invalidHandle: неверный идентификатор
+  invalidID: неверный ID
+  notAllowedToCreate: нет прав для создания пространств
+  notAllowedToDelete: нет прав для удаления этого пространства
+  notAllowedToRead: нет прав для просмотра этого пространства
+  notAllowedToSearch: нет прав для поиска или просмотра пространств
+  notAllowedToUndelete: нет прав для восстановления этого пространства
+  notAllowedToUpdate: нет прав для изменения этого пространства
+  notFound: пространство не существует
+  staleData: устаревшие данные
+  unsupportedExportFormat: неподдерживаемый формат экспорта
+  unsupportedImportFormat: неподдерживаемый формат импорта
+  importMissingNamespace: источник импорта не содержит определения пространства
+  cloneMultiple: нет прав для клонирования нескольких пространств одновременно

@@ -1,0 +1,102 @@
+---
+editor:
+  info:
+    confirmEmail: Подтвердить адрес электронной почты
+    createdAt: Создано
+    delete: Удалить
+    deletedAt: Удалено
+    email: Email
+    handle: Идентификатор
+    name: Полное имя
+    revokeAllSession: Отозвать все активные сессии
+    suspend: Заблокировать
+    suspendedAt: Заблокирован
+    title: Основная информация
+    undelete: Восстановить
+    unsuspend: Разблокировать
+    updatedAt: Обновлено
+  mfa:
+    TOTP:
+      disabled:
+        text: У пользователя не настроена защита TOTP.
+      enabled:
+        text: У пользователя настроена защита TOTP через мобильное приложение.
+      remove:
+        label: Удалить
+    emailOTP:
+      disable:
+        label: Отключить
+      disabled:
+        text: |-
+          Email OTP защита отключена для этого пользователя.
+          Письмо с кодом безопасности при каждом входе отправляться не будет.
+      enable:
+        label: Включить
+      enabled:
+        text: |-
+          Email OTP защита включена для этого пользователя.
+          Пользователь будет получать письмо с кодом безопасности при каждом входе.
+    title: Многофакторная аутентификация
+  new: Новый
+  notifications:
+    membershipOK: Членство успешно обновлено
+    passwordOK: Пароль успешно изменён
+    title: Пользователь обновлён
+    userInfoOK: Информация о пользователе успешно обновлена
+  password:
+    confirm: Подтвердите пароль
+    length: Пароль должен быть не менее {{length}} символов!
+    missmatch: Пароли должны совпадать!
+    new: Новый пароль
+    title: Пароль
+    removePassword: Удалить пароль
+  permissions: Разрешения
+  roles:
+    add: Добавить
+    count: ролей
+    remove: Удалить
+    title: Членство в ролях
+    unnamed: Безымянная роль
+  title:
+    create: Создать пользователя
+    edit: Редактировать пользователя
+list:
+  columns:
+    actions: ""
+    createdAt: Создано
+    email: Email
+    enabled: Включено
+    handle: Идентификатор
+    name: Имя
+  filterForm:
+    deleted:
+      label: удалённые пользователи
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    inclusive:
+      label: Включая
+    query:
+      label: Фильтр списка пользователей
+      placeholder: Фильтровать пользователей по имени
+    suspended:
+      label: заблокированные пользователи
+  loading: Загрузка пользователей
+  new: Новый
+  numFound: '{{count}} пользователь найден'
+  numFound_plural: '{{count}} пользователей найдено'
+  permissions: Разрешения
+  title: Пользователи
+  yaml: YAML
+export:
+  buttonLabel: Экспорт
+  title: Экспорт пользователей
+  inclRoleMembership: Включить членство в ролях
+  inclRoles: Включить роли
+  membershipRequiredLabel: Роли можно экспортировать только при включенном членстве в ролях
+  export: Экспорт
+import:
+  buttonLabel: Импорт
+  title: Импорт пользователей
+  uploadFilePlaceholder: Нажмите или перетащите файлы сюда для импорта

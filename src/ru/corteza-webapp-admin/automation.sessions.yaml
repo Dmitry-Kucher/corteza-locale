@@ -1,0 +1,52 @@
+---
+editor:
+  info:
+    completedAt: Завершено
+    createdAt: Создано
+    createdByUserID: Создал - ID
+    createdByUserName: Создал - Имя
+    delete: Удалить
+    deletedAt: Удалено
+    error: Ошибка
+    eventType: Тип события
+    id: ID
+    resourceType: Тип ресурса
+    status: Статус
+    title: Основная информация
+    workflowID: WorkflowID
+  title: Сессия
+list:
+  columns:
+    actions: ""
+    createdAt: Создано
+    eventType: Тип события
+    sessionID: SessionID
+    status: Статус
+    workflowID: WorkflowID
+  filterForm:
+    all:
+      label: Все
+    completed:
+      label: Завершённые
+    excluded:
+      label: Без
+    exclusive:
+      label: Только
+    failed:
+      label: Ошибочные
+    inProgress:
+      label: завершённые сессии
+    inclusive:
+      label: Включая
+    prompted:
+      label: Запрошенные
+    sessions:
+      label: сессии
+    started:
+      label: Начато
+    suspended:
+      label: Приостановленные
+  loading: Загрузка сессий
+  numFound: '{{count}} сессия найдена'
+  numFound_plural: '{{count}} сессий найдено'
+  title: Сессии
