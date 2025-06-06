@@ -12,10 +12,20 @@ template:
     handle:
       label: Никнейм
       placeholder: Краткое имя, никнейм или псевдоним
+    avatar:
+      label: Аватар
+      delete: Удалить
+      upload: Загрузить аватар
+    avatar-initial:
+      label: Инициалы на аватаре
+      color: Цвет текста аватара
+      background-color: Цвет фона аватара
     preferred-language:
       label: Предпочтительный язык
     buttons:
       submit: Обновить профиль
 alerts:
-  profile-updated: Профиль успешно обновлён.
+  profile-updated: Профиль успешно обновлён
   profile-update-fail: Не удалось обновить профиль из-за ошибок ввода
+  profile-avatar-uploaded: Аватар профиля успешно загружен
+  profile-avatar-deleted: Аватар профиля успешно удалён
